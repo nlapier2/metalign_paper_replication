@@ -1,0 +1,11 @@
+Loading database information... done.
+300969 sequences (67.15 Mbp) processed in 5.044s (3580.4 Kseq/m, 798.87 Mbp/m).
+  290351 sequences classified (96.47%)
+  10618 sequences unclassified (3.53%)
+time result
+cmd:kraken2 --db /local2/nlapier2/metalign/tools/kraken2/full_database/ fastq_version.fq --report timing/results/kraken2_report_fastq_version.txt --threads 4
+real 231.27s
+user 12.42s 
+sys  89.71s 
+memory:42250712KB 
+cpu 44%

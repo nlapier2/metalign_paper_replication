@@ -1,0 +1,8 @@
+Help message for read_fastx.py
+time result
+cmd:python /local2/nlapier2/metalign/tools/biobakery-metaphlan2-0c3ed7b7718b/metaphlan2.py challenge_high/RH_S005__insert_270.fq --bowtie2out timing/results/bowtie2_metaphlan2_RH_S005.bz2 --nproc 4 --input_type fastq
+real 6537.57s
+user 17079.90s 
+sys  10270.91s 
+memory:1293120KB 
+cpu 418%

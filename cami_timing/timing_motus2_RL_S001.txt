@@ -1,0 +1,20 @@
+[main]  MAP_TAX -----------
+[main] Number of detected lanes: 1
+[main] Run bwa on lane 1
+[W::main] Warning: file challenge_low/RL_S001__insert_270.fq. The length of the first 2500 reads is 151. It is suggested to quality control the reads before profiling
+ [map_db](map single reads) 5213.62 sec
+[main] Total time map_tax: 5214.07 sec
+[main]  CALC_MGC -----------
+[main] Minimum alignment length: 75 (average read length: 151)
+ [calc_mgc](parse 1 sam/bam file) 163.85 sec
+ [calc_mgc](get mgc abundances) 0.02 sec
+[main] Total time calc_mgc: 193.41 sec
+[main]  CALC_MOTU -----------
+Command exited with non-zero status 1
+time result
+cmd:motus profile -C precision -s challenge_low/RL_S001__insert_270.fq -o timing/results/motus2_default_RL_S001.txt -t 4
+real 5408.99s
+user 20769.56s 
+sys  489.44s 
+memory:2214864KB 
+cpu 393%

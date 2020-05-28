@@ -1,0 +1,1016 @@
+time result
+cmd:./run_bracken_all.sh
+real 29.38s
+user 20.21s
+sys  1.16s
+memory:35620KB
+cpu 72%
+
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RL_S001.txt -o timing/results/bracken_domain_level_RL_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l D -t 0
+PROGRAM START TIME: 04-15-2020 14:51:16
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RL_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 99796358
+	  >> Total reads kept at domains level (reads > threshold): 38200928
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 60043
+	  >> Reads not distributed (eg. no domains above threshold): 2847
+	  >> Unclassified reads: 61532540
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_domain_level_RL_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:16
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RL_S001.txt -o timing/results/bracken_phylum_level_RL_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l P -t 0
+PROGRAM START TIME: 04-15-2020 14:51:16
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RL_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of phylums in sample: 45 
+	  >> Number of phylums with reads > threshold: 45 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 99796358
+	  >> Total reads kept at phylums level (reads > threshold): 37570953
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 689926
+	  >> Reads not distributed (eg. no phylums above threshold): 2939
+	  >> Unclassified reads: 61532540
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_phylum_level_RL_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:17
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RL_S001.txt -o timing/results/bracken_class_level_RL_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l C -t 0
+PROGRAM START TIME: 04-15-2020 14:51:17
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RL_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of classes in sample: 86 
+	  >> Number of classes with reads > threshold: 86 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 99796358
+	  >> Total reads kept at classes level (reads > threshold): 36926609
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 1334267
+	  >> Reads not distributed (eg. no classes above threshold): 2942
+	  >> Unclassified reads: 61532540
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_class_level_RL_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:17
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RL_S001.txt -o timing/results/bracken_order_level_RL_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l O -t 0
+PROGRAM START TIME: 04-15-2020 14:51:17
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RL_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of orders in sample: 191 
+	  >> Number of orders with reads > threshold: 191 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 99796358
+	  >> Total reads kept at orders level (reads > threshold): 36053652
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 2207204
+	  >> Reads not distributed (eg. no orders above threshold): 2962
+	  >> Unclassified reads: 61532540
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_order_level_RL_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:18
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RL_S001.txt -o timing/results/bracken_family_level_RL_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l F -t 0
+PROGRAM START TIME: 04-15-2020 14:51:18
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RL_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of families in sample: 488 
+	  >> Number of families with reads > threshold: 488 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 99796358
+	  >> Total reads kept at families level (reads > threshold): 30722528
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 7538074
+	  >> Reads not distributed (eg. no families above threshold): 3216
+	  >> Unclassified reads: 61532540
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_family_level_RL_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:18
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RL_S001.txt -o timing/results/bracken_genus_level_RL_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l G -t 0
+PROGRAM START TIME: 04-15-2020 14:51:18
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RL_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of genuses in sample: 1868 
+	  >> Number of genuses with reads > threshold: 1868 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 99796358
+	  >> Total reads kept at genuses level (reads > threshold): 34469857
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 3790545
+	  >> Reads not distributed (eg. no genuses above threshold): 3416
+	  >> Unclassified reads: 61532540
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_genus_level_RL_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:19
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RL_S001.txt -o timing/results/bracken_species_level_RL_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l S -t 0
+PROGRAM START TIME: 04-15-2020 14:51:19
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RL_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 6723 
+	  >> Number of species with reads > threshold: 6723 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 99796358
+	  >> Total reads kept at species level (reads > threshold): 24825540
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 13434246
+	  >> Reads not distributed (eg. no species above threshold): 4032
+	  >> Unclassified reads: 61532540
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_species_level_RL_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:19
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S001.txt -o timing/results/bracken_domain_level_RM2_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l D -t 0
+PROGRAM START TIME: 04-15-2020 14:51:19
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 99837678
+	  >> Total reads kept at domains level (reads > threshold): 64160980
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 95353
+	  >> Reads not distributed (eg. no domains above threshold): 629
+	  >> Unclassified reads: 35580716
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_domain_level_RM2_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:20
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S001.txt -o timing/results/bracken_phylum_level_RM2_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l P -t 0
+PROGRAM START TIME: 04-15-2020 14:51:20
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of phylums in sample: 45 
+	  >> Number of phylums with reads > threshold: 45 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 99837678
+	  >> Total reads kept at phylums level (reads > threshold): 63435015
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 820984
+	  >> Reads not distributed (eg. no phylums above threshold): 963
+	  >> Unclassified reads: 35580716
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_phylum_level_RM2_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:20
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S001.txt -o timing/results/bracken_class_level_RM2_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l C -t 0
+PROGRAM START TIME: 04-15-2020 14:51:20
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of classes in sample: 86 
+	  >> Number of classes with reads > threshold: 86 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 99837678
+	  >> Total reads kept at classes level (reads > threshold): 62708617
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 1547373
+	  >> Reads not distributed (eg. no classes above threshold): 972
+	  >> Unclassified reads: 35580716
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_class_level_RM2_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:21
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S001.txt -o timing/results/bracken_order_level_RM2_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l O -t 0
+PROGRAM START TIME: 04-15-2020 14:51:21
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of orders in sample: 191 
+	  >> Number of orders with reads > threshold: 191 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 99837678
+	  >> Total reads kept at orders level (reads > threshold): 61468348
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 2787739
+	  >> Reads not distributed (eg. no orders above threshold): 875
+	  >> Unclassified reads: 35580716
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_order_level_RM2_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:21
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S001.txt -o timing/results/bracken_family_level_RM2_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l F -t 0
+PROGRAM START TIME: 04-15-2020 14:51:21
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of families in sample: 481 
+	  >> Number of families with reads > threshold: 481 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 99837678
+	  >> Total reads kept at families level (reads > threshold): 58279994
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 5976100
+	  >> Reads not distributed (eg. no families above threshold): 868
+	  >> Unclassified reads: 35580716
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_family_level_RM2_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:22
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S001.txt -o timing/results/bracken_genus_level_RM2_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l G -t 0
+PROGRAM START TIME: 04-15-2020 14:51:22
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of genuses in sample: 1814 
+	  >> Number of genuses with reads > threshold: 1814 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 99837678
+	  >> Total reads kept at genuses level (reads > threshold): 58966705
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 5289369
+	  >> Reads not distributed (eg. no genuses above threshold): 888
+	  >> Unclassified reads: 35580716
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_genus_level_RM2_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:22
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S001.txt -o timing/results/bracken_species_level_RM2_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l S -t 0
+PROGRAM START TIME: 04-15-2020 14:51:22
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 6457 
+	  >> Number of species with reads > threshold: 6457 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 99837678
+	  >> Total reads kept at species level (reads > threshold): 54174168
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 10076455
+	  >> Reads not distributed (eg. no species above threshold): 6339
+	  >> Unclassified reads: 35580716
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_species_level_RM2_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:23
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S002.txt -o timing/results/bracken_domain_level_RM2_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l D -t 0
+PROGRAM START TIME: 04-15-2020 14:51:23
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 99787568
+	  >> Total reads kept at domains level (reads > threshold): 58864394
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 70018
+	  >> Reads not distributed (eg. no domains above threshold): 315
+	  >> Unclassified reads: 40852841
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_domain_level_RM2_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:23
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S002.txt -o timing/results/bracken_phylum_level_RM2_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l P -t 0
+PROGRAM START TIME: 04-15-2020 14:51:23
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of phylums in sample: 45 
+	  >> Number of phylums with reads > threshold: 45 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 99787568
+	  >> Total reads kept at phylums level (reads > threshold): 58322428
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 610756
+	  >> Reads not distributed (eg. no phylums above threshold): 1543
+	  >> Unclassified reads: 40852841
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_phylum_level_RM2_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:24
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S002.txt -o timing/results/bracken_class_level_RM2_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l C -t 0
+PROGRAM START TIME: 04-15-2020 14:51:24
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of classes in sample: 87 
+	  >> Number of classes with reads > threshold: 87 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 99787568
+	  >> Total reads kept at classes level (reads > threshold): 57894896
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 1038285
+	  >> Reads not distributed (eg. no classes above threshold): 1546
+	  >> Unclassified reads: 40852841
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_class_level_RM2_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:24
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S002.txt -o timing/results/bracken_order_level_RM2_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l O -t 0
+PROGRAM START TIME: 04-15-2020 14:51:24
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of orders in sample: 192 
+	  >> Number of orders with reads > threshold: 192 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 99787568
+	  >> Total reads kept at orders level (reads > threshold): 56924933
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 2008310
+	  >> Reads not distributed (eg. no orders above threshold): 1484
+	  >> Unclassified reads: 40852841
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_order_level_RM2_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:25
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S002.txt -o timing/results/bracken_family_level_RM2_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l F -t 0
+PROGRAM START TIME: 04-15-2020 14:51:25
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of families in sample: 485 
+	  >> Number of families with reads > threshold: 485 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 99787568
+	  >> Total reads kept at families level (reads > threshold): 55735133
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 3199063
+	  >> Reads not distributed (eg. no families above threshold): 531
+	  >> Unclassified reads: 40852841
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_family_level_RM2_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:25
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S002.txt -o timing/results/bracken_genus_level_RM2_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l G -t 0
+PROGRAM START TIME: 04-15-2020 14:51:25
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of genuses in sample: 1862 
+	  >> Number of genuses with reads > threshold: 1862 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 99787568
+	  >> Total reads kept at genuses level (reads > threshold): 54802553
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 4131600
+	  >> Reads not distributed (eg. no genuses above threshold): 574
+	  >> Unclassified reads: 40852841
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_genus_level_RM2_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:26
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RM2_S002.txt -o timing/results/bracken_species_level_RM2_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l S -t 0
+PROGRAM START TIME: 04-15-2020 14:51:26
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RM2_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 6649 
+	  >> Number of species with reads > threshold: 6649 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 99787568
+	  >> Total reads kept at species level (reads > threshold): 50385312
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 8540689
+	  >> Reads not distributed (eg. no species above threshold): 8726
+	  >> Unclassified reads: 40852841
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_species_level_RM2_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:26
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S001.txt -o timing/results/bracken_domain_level_RH_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l D -t 0
+PROGRAM START TIME: 04-15-2020 14:51:27
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 99811870
+	  >> Total reads kept at domains level (reads > threshold): 49568657
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 74126
+	  >> Reads not distributed (eg. no domains above threshold): 2022
+	  >> Unclassified reads: 50167065
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_domain_level_RH_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:27
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S001.txt -o timing/results/bracken_phylum_level_RH_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l P -t 0
+PROGRAM START TIME: 04-15-2020 14:51:27
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of phylums in sample: 45 
+	  >> Number of phylums with reads > threshold: 45 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 99811870
+	  >> Total reads kept at phylums level (reads > threshold): 48883036
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 759592
+	  >> Reads not distributed (eg. no phylums above threshold): 2177
+	  >> Unclassified reads: 50167065
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_phylum_level_RH_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:27
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S001.txt -o timing/results/bracken_class_level_RH_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l C -t 0
+PROGRAM START TIME: 04-15-2020 14:51:27
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of classes in sample: 87 
+	  >> Number of classes with reads > threshold: 87 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 99811870
+	  >> Total reads kept at classes level (reads > threshold): 48205883
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 1436734
+	  >> Reads not distributed (eg. no classes above threshold): 2188
+	  >> Unclassified reads: 50167065
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_class_level_RH_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:28
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S001.txt -o timing/results/bracken_order_level_RH_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l O -t 0
+PROGRAM START TIME: 04-15-2020 14:51:28
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of orders in sample: 193 
+	  >> Number of orders with reads > threshold: 193 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 99811870
+	  >> Total reads kept at orders level (reads > threshold): 47066563
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 2575991
+	  >> Reads not distributed (eg. no orders above threshold): 2251
+	  >> Unclassified reads: 50167065
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_order_level_RH_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:28
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S001.txt -o timing/results/bracken_family_level_RH_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l F -t 0
+PROGRAM START TIME: 04-15-2020 14:51:28
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of families in sample: 501 
+	  >> Number of families with reads > threshold: 501 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 99811870
+	  >> Total reads kept at families level (reads > threshold): 45817290
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 3825090
+	  >> Reads not distributed (eg. no families above threshold): 2425
+	  >> Unclassified reads: 50167065
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_family_level_RH_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:29
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S001.txt -o timing/results/bracken_genus_level_RH_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l G -t 0
+PROGRAM START TIME: 04-15-2020 14:51:29
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of genuses in sample: 1930 
+	  >> Number of genuses with reads > threshold: 1930 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 99811870
+	  >> Total reads kept at genuses level (reads > threshold): 44307683
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 5334899
+	  >> Reads not distributed (eg. no genuses above threshold): 2223
+	  >> Unclassified reads: 50167065
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_genus_level_RH_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:29
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S001.txt -o timing/results/bracken_species_level_RH_S001.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l S -t 0
+PROGRAM START TIME: 04-15-2020 14:51:29
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S001.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 7100 
+	  >> Number of species with reads > threshold: 7100 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 99811870
+	  >> Total reads kept at species level (reads > threshold): 37898317
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 11736691
+	  >> Reads not distributed (eg. no species above threshold): 9797
+	  >> Unclassified reads: 50167065
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_species_level_RH_S001.txt
+PROGRAM END TIME: 04-15-2020 14:51:30
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S002.txt -o timing/results/bracken_domain_level_RH_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l D -t 0
+PROGRAM START TIME: 04-15-2020 14:51:30
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 99808454
+	  >> Total reads kept at domains level (reads > threshold): 49678076
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 68873
+	  >> Reads not distributed (eg. no domains above threshold): 1506
+	  >> Unclassified reads: 50059999
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_domain_level_RH_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:30
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S002.txt -o timing/results/bracken_phylum_level_RH_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l P -t 0
+PROGRAM START TIME: 04-15-2020 14:51:31
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of phylums in sample: 45 
+	  >> Number of phylums with reads > threshold: 45 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 99808454
+	  >> Total reads kept at phylums level (reads > threshold): 49007925
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 738886
+	  >> Reads not distributed (eg. no phylums above threshold): 1644
+	  >> Unclassified reads: 50059999
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_phylum_level_RH_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:31
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S002.txt -o timing/results/bracken_class_level_RH_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l C -t 0
+PROGRAM START TIME: 04-15-2020 14:51:31
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of classes in sample: 85 
+	  >> Number of classes with reads > threshold: 85 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 99808454
+	  >> Total reads kept at classes level (reads > threshold): 48325255
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 1421553
+	  >> Reads not distributed (eg. no classes above threshold): 1647
+	  >> Unclassified reads: 50059999
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_class_level_RH_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:31
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S002.txt -o timing/results/bracken_order_level_RH_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l O -t 0
+PROGRAM START TIME: 04-15-2020 14:51:32
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of orders in sample: 191 
+	  >> Number of orders with reads > threshold: 191 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 99808454
+	  >> Total reads kept at orders level (reads > threshold): 47225937
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 2520834
+	  >> Reads not distributed (eg. no orders above threshold): 1684
+	  >> Unclassified reads: 50059999
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_order_level_RH_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:32
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S002.txt -o timing/results/bracken_family_level_RH_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l F -t 0
+PROGRAM START TIME: 04-15-2020 14:51:32
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of families in sample: 494 
+	  >> Number of families with reads > threshold: 494 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 99808454
+	  >> Total reads kept at families level (reads > threshold): 45961777
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 3784859
+	  >> Reads not distributed (eg. no families above threshold): 1819
+	  >> Unclassified reads: 50059999
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_family_level_RH_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:32
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S002.txt -o timing/results/bracken_genus_level_RH_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l G -t 0
+PROGRAM START TIME: 04-15-2020 14:51:33
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of genuses in sample: 1909 
+	  >> Number of genuses with reads > threshold: 1909 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 99808454
+	  >> Total reads kept at genuses level (reads > threshold): 44546328
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 5200435
+	  >> Reads not distributed (eg. no genuses above threshold): 1692
+	  >> Unclassified reads: 50059999
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_genus_level_RH_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:33
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S002.txt -o timing/results/bracken_species_level_RH_S002.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l S -t 0
+PROGRAM START TIME: 04-15-2020 14:51:33
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S002.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 7102 
+	  >> Number of species with reads > threshold: 7102 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 99808454
+	  >> Total reads kept at species level (reads > threshold): 38166363
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 11573436
+	  >> Reads not distributed (eg. no species above threshold): 8656
+	  >> Unclassified reads: 50059999
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_species_level_RH_S002.txt
+PROGRAM END TIME: 04-15-2020 14:51:34
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S003.txt -o timing/results/bracken_domain_level_RH_S003.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l D -t 0
+PROGRAM START TIME: 04-15-2020 14:51:34
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S003.txt)
+    >>> Threshold: 0 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 99809214
+	  >> Total reads kept at domains level (reads > threshold): 48502651
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 64535
+	  >> Reads not distributed (eg. no domains above threshold): 902
+	  >> Unclassified reads: 51241126
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_domain_level_RH_S003.txt
+PROGRAM END TIME: 04-15-2020 14:51:34
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S003.txt -o timing/results/bracken_phylum_level_RH_S003.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l P -t 0
+PROGRAM START TIME: 04-15-2020 14:51:34
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S003.txt)
+    >>> Threshold: 0 
+    >>> Number of phylums in sample: 45 
+	  >> Number of phylums with reads > threshold: 45 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 99809214
+	  >> Total reads kept at phylums level (reads > threshold): 47826086
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 740967
+	  >> Reads not distributed (eg. no phylums above threshold): 1035
+	  >> Unclassified reads: 51241126
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_phylum_level_RH_S003.txt
+PROGRAM END TIME: 04-15-2020 14:51:35
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S003.txt -o timing/results/bracken_class_level_RH_S003.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l C -t 0
+PROGRAM START TIME: 04-15-2020 14:51:35
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S003.txt)
+    >>> Threshold: 0 
+    >>> Number of classes in sample: 86 
+	  >> Number of classes with reads > threshold: 86 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 99809214
+	  >> Total reads kept at classes level (reads > threshold): 47146235
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 1420816
+	  >> Reads not distributed (eg. no classes above threshold): 1037
+	  >> Unclassified reads: 51241126
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_class_level_RH_S003.txt
+PROGRAM END TIME: 04-15-2020 14:51:35
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S003.txt -o timing/results/bracken_order_level_RH_S003.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l O -t 0
+PROGRAM START TIME: 04-15-2020 14:51:35
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S003.txt)
+    >>> Threshold: 0 
+    >>> Number of orders in sample: 192 
+	  >> Number of orders with reads > threshold: 192 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 99809214
+	  >> Total reads kept at orders level (reads > threshold): 46048011
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 2518927
+	  >> Reads not distributed (eg. no orders above threshold): 1150
+	  >> Unclassified reads: 51241126
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_order_level_RH_S003.txt
+PROGRAM END TIME: 04-15-2020 14:51:36
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S003.txt -o timing/results/bracken_family_level_RH_S003.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l F -t 0
+PROGRAM START TIME: 04-15-2020 14:51:36
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S003.txt)
+    >>> Threshold: 0 
+    >>> Number of families in sample: 493 
+	  >> Number of families with reads > threshold: 493 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 99809214
+	  >> Total reads kept at families level (reads > threshold): 44881339
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 3685432
+	  >> Reads not distributed (eg. no families above threshold): 1317
+	  >> Unclassified reads: 51241126
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_family_level_RH_S003.txt
+PROGRAM END TIME: 04-15-2020 14:51:36
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S003.txt -o timing/results/bracken_genus_level_RH_S003.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l G -t 0
+PROGRAM START TIME: 04-15-2020 14:51:36
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S003.txt)
+    >>> Threshold: 0 
+    >>> Number of genuses in sample: 1925 
+	  >> Number of genuses with reads > threshold: 1925 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 99809214
+	  >> Total reads kept at genuses level (reads > threshold): 43309291
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 5257678
+	  >> Reads not distributed (eg. no genuses above threshold): 1119
+	  >> Unclassified reads: 51241126
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_genus_level_RH_S003.txt
+PROGRAM END TIME: 04-15-2020 14:51:37
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S003.txt -o timing/results/bracken_species_level_RH_S003.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l S -t 0
+PROGRAM START TIME: 04-15-2020 14:51:37
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S003.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 7194 
+	  >> Number of species with reads > threshold: 7194 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 99809214
+	  >> Total reads kept at species level (reads > threshold): 37302112
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 11264744
+	  >> Reads not distributed (eg. no species above threshold): 1232
+	  >> Unclassified reads: 51241126
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_species_level_RH_S003.txt
+PROGRAM END TIME: 04-15-2020 14:51:37
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S004.txt -o timing/results/bracken_domain_level_RH_S004.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l D -t 0
+PROGRAM START TIME: 04-15-2020 14:51:38
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S004.txt)
+    >>> Threshold: 0 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 99805006
+	  >> Total reads kept at domains level (reads > threshold): 48816588
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 59630
+	  >> Reads not distributed (eg. no domains above threshold): 652
+	  >> Unclassified reads: 50928136
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_domain_level_RH_S004.txt
+PROGRAM END TIME: 04-15-2020 14:51:38
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S004.txt -o timing/results/bracken_phylum_level_RH_S004.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l P -t 0
+PROGRAM START TIME: 04-15-2020 14:51:38
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S004.txt)
+    >>> Threshold: 0 
+    >>> Number of phylums in sample: 45 
+	  >> Number of phylums with reads > threshold: 45 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 99805006
+	  >> Total reads kept at phylums level (reads > threshold): 48140221
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 735867
+	  >> Reads not distributed (eg. no phylums above threshold): 782
+	  >> Unclassified reads: 50928136
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_phylum_level_RH_S004.txt
+PROGRAM END TIME: 04-15-2020 14:51:39
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S004.txt -o timing/results/bracken_class_level_RH_S004.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l C -t 0
+PROGRAM START TIME: 04-15-2020 14:51:39
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S004.txt)
+    >>> Threshold: 0 
+    >>> Number of classes in sample: 88 
+	  >> Number of classes with reads > threshold: 88 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 99805006
+	  >> Total reads kept at classes level (reads > threshold): 47448134
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 1427953
+	  >> Reads not distributed (eg. no classes above threshold): 783
+	  >> Unclassified reads: 50928136
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_class_level_RH_S004.txt
+PROGRAM END TIME: 04-15-2020 14:51:39
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S004.txt -o timing/results/bracken_order_level_RH_S004.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l O -t 0
+PROGRAM START TIME: 04-15-2020 14:51:39
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S004.txt)
+    >>> Threshold: 0 
+    >>> Number of orders in sample: 194 
+	  >> Number of orders with reads > threshold: 194 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 99805006
+	  >> Total reads kept at orders level (reads > threshold): 46340418
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 2535782
+	  >> Reads not distributed (eg. no orders above threshold): 670
+	  >> Unclassified reads: 50928136
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_order_level_RH_S004.txt
+PROGRAM END TIME: 04-15-2020 14:51:39
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S004.txt -o timing/results/bracken_family_level_RH_S004.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l F -t 0
+PROGRAM START TIME: 04-15-2020 14:51:40
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S004.txt)
+    >>> Threshold: 0 
+    >>> Number of families in sample: 498 
+	  >> Number of families with reads > threshold: 498 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 99805006
+	  >> Total reads kept at families level (reads > threshold): 45176287
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 3699737
+	  >> Reads not distributed (eg. no families above threshold): 846
+	  >> Unclassified reads: 50928136
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_family_level_RH_S004.txt
+PROGRAM END TIME: 04-15-2020 14:51:40
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S004.txt -o timing/results/bracken_genus_level_RH_S004.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l G -t 0
+PROGRAM START TIME: 04-15-2020 14:51:40
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S004.txt)
+    >>> Threshold: 0 
+    >>> Number of genuses in sample: 1932 
+	  >> Number of genuses with reads > threshold: 1932 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 99805006
+	  >> Total reads kept at genuses level (reads > threshold): 43472698
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 5403299
+	  >> Reads not distributed (eg. no genuses above threshold): 873
+	  >> Unclassified reads: 50928136
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_genus_level_RH_S004.txt
+PROGRAM END TIME: 04-15-2020 14:51:41
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S004.txt -o timing/results/bracken_species_level_RH_S004.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l S -t 0
+PROGRAM START TIME: 04-15-2020 14:51:41
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S004.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 7154 
+	  >> Number of species with reads > threshold: 7154 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 99805006
+	  >> Total reads kept at species level (reads > threshold): 37559607
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 11308468
+	  >> Reads not distributed (eg. no species above threshold): 8795
+	  >> Unclassified reads: 50928136
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_species_level_RH_S004.txt
+PROGRAM END TIME: 04-15-2020 14:51:41
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S005.txt -o timing/results/bracken_domain_level_RH_S005.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l D -t 0
+PROGRAM START TIME: 04-15-2020 14:51:42
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S005.txt)
+    >>> Threshold: 0 
+    >>> Number of domains in sample: 4 
+	  >> Number of domains with reads > threshold: 4 
+	  >> Number of domains with reads < threshold: 0 
+    >>> Total reads in sample: 99803592
+	  >> Total reads kept at domains level (reads > threshold): 50566299
+	  >> Total reads discarded (domains reads < threshold): 0
+	  >> Reads distributed: 57785
+	  >> Reads not distributed (eg. no domains above threshold): 486
+	  >> Unclassified reads: 49179022
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_domain_level_RH_S005.txt
+PROGRAM END TIME: 04-15-2020 14:51:42
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S005.txt -o timing/results/bracken_phylum_level_RH_S005.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l P -t 0
+PROGRAM START TIME: 04-15-2020 14:51:42
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S005.txt)
+    >>> Threshold: 0 
+    >>> Number of phylums in sample: 45 
+	  >> Number of phylums with reads > threshold: 45 
+	  >> Number of phylums with reads < threshold: 0 
+    >>> Total reads in sample: 99803592
+	  >> Total reads kept at phylums level (reads > threshold): 49901895
+	  >> Total reads discarded (phylums reads < threshold): 0
+	  >> Reads distributed: 722051
+	  >> Reads not distributed (eg. no phylums above threshold): 624
+	  >> Unclassified reads: 49179022
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_phylum_level_RH_S005.txt
+PROGRAM END TIME: 04-15-2020 14:51:42
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S005.txt -o timing/results/bracken_class_level_RH_S005.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l C -t 0
+PROGRAM START TIME: 04-15-2020 14:51:42
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S005.txt)
+    >>> Threshold: 0 
+    >>> Number of classes in sample: 86 
+	  >> Number of classes with reads > threshold: 86 
+	  >> Number of classes with reads < threshold: 0 
+    >>> Total reads in sample: 99803592
+	  >> Total reads kept at classes level (reads > threshold): 49221295
+	  >> Total reads discarded (classes reads < threshold): 0
+	  >> Reads distributed: 1402650
+	  >> Reads not distributed (eg. no classes above threshold): 625
+	  >> Unclassified reads: 49179022
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_class_level_RH_S005.txt
+PROGRAM END TIME: 04-15-2020 14:51:43
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S005.txt -o timing/results/bracken_order_level_RH_S005.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l O -t 0
+PROGRAM START TIME: 04-15-2020 14:51:43
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S005.txt)
+    >>> Threshold: 0 
+    >>> Number of orders in sample: 192 
+	  >> Number of orders with reads > threshold: 192 
+	  >> Number of orders with reads < threshold: 0 
+    >>> Total reads in sample: 99803592
+	  >> Total reads kept at orders level (reads > threshold): 48135078
+	  >> Total reads discarded (orders reads < threshold): 0
+	  >> Reads distributed: 2488986
+	  >> Reads not distributed (eg. no orders above threshold): 506
+	  >> Unclassified reads: 49179022
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_order_level_RH_S005.txt
+PROGRAM END TIME: 04-15-2020 14:51:43
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S005.txt -o timing/results/bracken_family_level_RH_S005.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l F -t 0
+PROGRAM START TIME: 04-15-2020 14:51:43
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S005.txt)
+    >>> Threshold: 0 
+    >>> Number of families in sample: 496 
+	  >> Number of families with reads > threshold: 496 
+	  >> Number of families with reads < threshold: 0 
+    >>> Total reads in sample: 99803592
+	  >> Total reads kept at families level (reads > threshold): 47034476
+	  >> Total reads discarded (families reads < threshold): 0
+	  >> Reads distributed: 3589443
+	  >> Reads not distributed (eg. no families above threshold): 651
+	  >> Unclassified reads: 49179022
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_family_level_RH_S005.txt
+PROGRAM END TIME: 04-15-2020 14:51:44
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S005.txt -o timing/results/bracken_genus_level_RH_S005.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l G -t 0
+PROGRAM START TIME: 04-15-2020 14:51:44
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S005.txt)
+    >>> Threshold: 0 
+    >>> Number of genuses in sample: 1917 
+	  >> Number of genuses with reads > threshold: 1917 
+	  >> Number of genuses with reads < threshold: 0 
+    >>> Total reads in sample: 99803592
+	  >> Total reads kept at genuses level (reads > threshold): 45379002
+	  >> Total reads discarded (genuses reads < threshold): 0
+	  >> Reads distributed: 5244896
+	  >> Reads not distributed (eg. no genuses above threshold): 672
+	  >> Unclassified reads: 49179022
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_genus_level_RH_S005.txt
+PROGRAM END TIME: 04-15-2020 14:51:44
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i timing/results/kraken2_report_RH_S005.txt -o timing/results/bracken_species_level_RH_S005.txt -k /local2/nlapier2/metalign/tools/kraken2/full_database/database100mers.kmer_distrib -l S -t 0
+PROGRAM START TIME: 04-15-2020 14:51:44
+BRACKEN SUMMARY (Kraken report: timing/results/kraken2_report_RH_S005.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 7114 
+	  >> Number of species with reads > threshold: 7114 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 99803592
+	  >> Total reads kept at species level (reads > threshold): 38845615
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 11771108
+	  >> Reads not distributed (eg. no species above threshold): 7847
+	  >> Unclassified reads: 49179022
+BRACKEN OUTPUT PRODUCED: timing/results/bracken_species_level_RH_S005.txt
+PROGRAM END TIME: 04-15-2020 14:51:45
+  Bracken complete.

@@ -1,0 +1,42 @@
+# Taxonomic profile for the file: timing/results/metaphlan2_results_RL_S001.txt
+@Version:0.9.1
+@SampleID:CAMI_low_S001
+@Ranks: superkingdom|phylum|class|order|family|genus|species|strain
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	100.000000
+1224	phylum	2|1224	Bacteria|Proteobacteria	88.145270
+1239	phylum	2|1239	Bacteria|Firmicutes	11.099980
+976	phylum	2|976	Bacteria|Bacteroidetes	0.754750
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	46.976290
+28211	class	2|1224|28211	Bacteria|Proteobacteria|Alphaproteobacteria	24.563000
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	11.099980
+28221	class	2|1224|28221	Bacteria|Proteobacteria|Deltaproteobacteria	9.803120
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	6.802850
+117743	class	2|976|117743	Bacteria|Bacteroidetes|Flavobacteriia	0.754750
+72274	order	2|1224|1236|72274	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales	43.918890
+204455	order	2|1224|28211|204455	Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales	24.563000
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	11.099980
+213118	order	2|1224|28221|213118	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfobacterales	9.803120
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	6.802850
+135614	order	2|1224|1236|135614	Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales	3.057400
+200644	order	2|976|117743|200644	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales	0.754750
+135621	family	2|1224|1236|72274|135621	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	43.918890
+31989	family	2|1224|28211|204455|31989	Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae	24.563000
+213119	family	2|1224|28221|213118|213119	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfobacterales|Desulfobacteraceae	9.803120
+75682	family	2|1224|28216|80840|75682	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Oxalobacteraceae	6.802850
+32033	family	2|1224|1236|135614|32033	Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae	3.057400
+49546	family	2|976|117743|200644|49546	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae	0.754750
+286	genus	2|1224|1236|72274|135621|286	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	43.918890
+249411	genus	2759|6656|50557|7524|30190|249411	Eukaryota|Arthropoda|Insecta|Hemiptera|Pseudococcidae|Paracoccus	24.563000
+33986	genus	2|1239|91061|1385||33986	Bacteria|Firmicutes|Bacilli|Bacillales||Exiguobacterium	11.099980
+218207	genus	2|1224|28221|213118|213119|218207	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfobacterales|Desulfobacteraceae|Desulfatibacillum	9.803120
+29580	genus	2|1224|28216|80840|75682|29580	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Janthinobacterium	5.934020
+2370	genus	2|1224|1236|135614|32033|2370	Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Xylella	2.942070
+149698	genus	2|1224|28216|80840|75682|149698	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Oxalobacteraceae|Massilia	0.868830
+363408	genus	2|976|117743|200644|49546|363408	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Nonlabens	0.754750
+75309	genus	2|1224|1236|135614|1775411|75309	Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Rhodanobacteraceae|Rhodanobacter	0.115330
+287	species	2|1224|1236|72274|135621|286|287	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|Pseudomonas_aeruginosa	43.918890
+266	species	2|1224|28211|204455|31989|265|266	Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae|Paracoccus|Paracoccus_denitrificans	24.563000
+259354	species	2|1224|28221|213118|213119|218207|259354	Bacteria|Proteobacteria|Deltaproteobacteria|Desulfobacterales|Desulfobacteraceae|Desulfatibacillum|Desulfatibacillum_alkenivorans	9.803120
+2371	species	2|1224|1236|135614|32033|2370|2371	Bacteria|Proteobacteria|Gammaproteobacteria|Xanthomonadales|Xanthomonadaceae|Xylella|Xylella_fastidiosa	2.942070
+328515	species	2|976|117743|200644|49546|363408|328515	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Nonlabens|Nonlabens_dokdonensis	0.754750

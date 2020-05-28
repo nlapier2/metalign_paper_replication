@@ -1,0 +1,8 @@
+(base) -bash-4.2$ ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" ./meganize.sh 
+time result
+cmd:./meganize.sh
+real 83781.10s
+user 241950.15s 
+sys  48732.67s 
+memory:40362844KB 
+cpu 346%

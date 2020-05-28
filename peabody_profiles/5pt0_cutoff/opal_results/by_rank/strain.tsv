@@ -1,0 +1,8 @@
+tool	sample	Weighted UniFrac error	Unweighted UniFrac error	L1 norm error	Completeness (recall)	Purity (precision)	F1 score	True positives	False positives	False negatives	Taxon counts	Jaccard index	Shannon diversity	Shannon equitability	Bray-Curtis distance
+Metalign	peabody	4.293911626248262	55.31293843672157	2.0000000000000004	0.0	0.0	na	0.0	9.0	11.0	9.0	0.0	2.1699511069848	0.9875873087199469	1.0
+Bracken+Kraken2	peabody	3.1398885442891427	50.98380233408595	na	0.0	0.0	na	0.0	0.0	11.0	0.0	0.0	na	na	na
+CLARK	peabody	4.32541733858603	59.222551124475125	na	0.0	0.0	na	0.0	0.0	11.0	0.0	0.0	na	na	na
+GOTTCHA	peabody	6.0368280755664765	68.48608746439018	na	0.0	0.0	na	0.0	0.0	11.0	0.0	0.0	na	na	na
+MEGAN+DIAMOND	peabody	9.749341599450705	75.37738091418922	2.0000000000000004	0.0	0.0	na	0.0	4.0	11.0	4.0	0.0	1.0893314677523727	0.785786553205322	1.0
+MetaPhlAn2	peabody	5.079488668172348	66.71302542141817	na	0.0	0.0	na	0.0	0.0	11.0	0.0	0.0	na	na	na
+mOTUs2	peabody	5.187955478044651	80.07970277328796	na	0.0	0.0	na	0.0	0.0	11.0	0.0	0.0	na	na	na

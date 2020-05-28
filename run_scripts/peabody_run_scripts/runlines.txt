@@ -1,0 +1,20 @@
+# Peabody2015 mock community run lines
+
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" diamond blastx --query fastq_version.fq --db /local2/nlapier2/metalign/tools/MEGAN6/nr --daa timing/results/peabody_fastq_version.daa --threads 4 ; } 2> timing/timing_diamond.txt
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" daa-meganizer -i timing/results/peabody_fastq_version.daa -mdb /local2/nlapier2/metalign/tools/MEGAN6/megan-map-Oct2019.db ; } 2> timing/timing_meganize.txt
+daa2info -i timing/results/peabody_fastq_version.daa -o timing/results/peabody_fastq_version.info -c2c Taxonomy
+
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" metalign.py fastq_version.fq /local2/nlapier2/metalign/Metalign/data/ --output timing/results/metalign_profile_fastq_version.tsv --threads 4 ; } 2> timing/timing_metalign.txt
+
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" python /local2/nlapier2/metalign/tools/biobakery-metaphlan2-0c3ed7b7718b/metaphlan2.py fastq_version.fq --bowtie2out timing/results/bowtie2_metaphlan2_fastq_version.bz2 --nproc 4 --input_type fastq > timing/results/metaphlan2_results_fastq_version.txt ; } 2> timing/timing_metaphlan_fastq_version.txt
+
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" motus profile -C precision -s fastq_version.fq -o timing/results/motus2_default_fastq_version.txt -t 4 ; } 2> timing/timing_motus2_fastq_version.txt
+
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" /local2/nlapier2/metalign/tools/GOTTCHA-60051da/bin/gottcha.pl --threads 4 --outdir /local2/nlapier2/metalign/mock_community_peabody2015/timing/results/ --input fastq_version.fq --database /local2/nlapier2/metalign/tools/GOTTCHA-60051da/database/GOTTCHA_BACTERIA_c4937_k24_u30_xHUMAN3x.species --bwaOpt "-k 30 -T 0 -B 100 -O 100 -E 100" ; } 2> timing/timing_gottcha_fastq_version.txt
+
+/local2/nlapier2/metalign/tools/CLARKSCV1.2.6.1/set_targets.sh /local2/nlapier2/metalign/tools/CLARKSCV1.2.6.1/FULL_DB bacteria viruses plasmid plastid protozoa fungi human
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" /local2/nlapier2/metalign/tools/CLARKSCV1.2.6.1/classify_metagenome.sh -n 4 -O fastq_version.fq -R timing/results/clark_assignments_fastq_version.csv ; } 2> timing/timing_clark_fastq_version.txt
+/local2/nlapier2/metalign/tools/CLARKSCV1.2.6.1/estimate_abundance.sh -F timing/results/clark_assignments_fastq_version.csv.csv > timing/results/clark_abundances_fastq_version.txt
+
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" kraken2 --db /local2/nlapier2/metalign/tools/kraken2/full_database/ fastq_version.fq --report timing/results/kraken2_report_fastq_version.txt --threads 4 > timing/results/stdout_kraken2_fastq_version.txt ; } 2> timing/timing_kraken2_fastq_version.txt
+./run_bracken_all_levels.sh

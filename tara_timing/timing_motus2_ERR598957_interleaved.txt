@@ -1,0 +1,19 @@
+[main]  MAP_TAX -----------
+[main] Number of detected lanes: 1
+[main] Run bwa on lane 1
+ [map_db](map single reads) 13631.85 sec
+[main] Total time map_tax: 13632.14 sec
+[main]  CALC_MGC -----------
+[main] Minimum alignment length: 75 (average read length: 92)
+ [calc_mgc](parse 1 sam/bam file) 102.90 sec
+ [calc_mgc](get mgc abundances) 1.47 sec
+[main] Total time calc_mgc: 123.03 sec
+[main]  CALC_MOTU -----------
+Command exited with non-zero status 1
+time result
+cmd:motus profile -C precision -s prokaryotes_PRJEB1787/ERR598957_interleaved.fastq -o timing/results/motus2_default_ERR598957_interleaved.txt -t 4
+real 13756.11s
+user 54007.64s 
+sys  1689.93s 
+memory:2218760KB 
+cpu 404%

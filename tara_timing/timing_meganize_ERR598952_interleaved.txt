@@ -1,0 +1,60 @@
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Java version: 11
+Functional classifications to use: EGGNOG, INTERPRO2GO, SEED
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Loading eggnog.map:    30,875
+Loading eggnog.tre:    30,986
+Loading interpro2go.map:    13,501
+Loading interpro2go.tre:    29,204
+Loading seed.map:    13,662
+Loading seed.tre:    21,085
+Meganizing: timing/results/ERR598952_TEMP.daa
+Meganizing init
+Annotating DAA file using FAST mode (accession database and first accession per line)
+Annotating references
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (1113.1s)
+Writing
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (14.3s)
+100% (0.2s)
+Binning reads Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm for binning: Taxonomy
+Using Best-Hit algorithm for binning: SEED
+Using Best-Hit algorithm for binning: EGGNOG
+Using Best-Hit algorithm for binning: INTERPRO2GO
+Binning reads...
+100% (5.3s)
+Binning reads Analyzing alignments
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (4985.0s)
+Total reads:       24,533,126
+With hits:          24,533,126 
+Alignments:        362,953,879
+Assig. Taxonomy:    20,841,133
+Assig. SEED:         5,593,151
+Assig. EGGNOG:       6,246,686
+Assig. INTERPRO2GO: 10,503,585
+MinSupport set to: 12266
+100% (0.0s)
+Binning reads Applying min-support & disabled filter to Taxonomy...
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (1.6s)
+Min-supp. changes:      22,026
+100% (8084.0s)
+Binning reads Writing classification tables
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (72.1s)
+Binning reads Syncing
+100% (1.3s)
+Class. Taxonomy:           197
+Class. SEED:             3,957
+Class. EGGNOG:           5,173
+Class. INTERPRO2GO:      9,446
+Total time:  14325s
+Peak memory: 13.6 of 33.6G
+time result
+cmd:daa-meganizer -i timing/results/ERR598952_TEMP.daa -mdb /local2/nlapier2/metalign/tools/MEGAN6/megan-map-Oct2019.db
+real 14334.87s
+user 6304.65s 
+sys  1340.61s 
+memory:20921288KB 
+cpu 53%

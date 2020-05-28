@@ -1,0 +1,36 @@
+# Taxonomic Profiling Output
+# git tag version 2.5.1 |  motus version 2.5.1 | map_tax 2.5.1 | gene database: nr2.5.1 | calc_mgc 2.5.1 -y insert.scaled_counts -l 75 | calc_motu 2.5.1 -k mOTU -C precision -g 3 | taxonomy: ref_mOTU_2.5.1 meta_mOTU_2.5.1
+# call: python /home/nlapier2/miniconda3/bin/../share/motus-2.5.1//motus profile -C precision -s fastq_version.fq -o timing/results/motus2_default_fastq_version.txt -t 4
+
+@SampleID:peabody
+@Version:0.9.3
+@Ranks:superkingdom|phylum|class|order|family|genus|species|strain
+@TaxonomyID: Jan 08 2019
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
+2	superkingdom	2	Bacteria	100.0
+1224	phylum	2|1224	Bacteria|Proteobacteria	64.97019819336258
+1239	phylum	2|1239	Bacteria|Firmicutes	18.530031653055012
+201174	phylum	2|201174	Bacteria|Actinobacteria	16.499770153582407
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	40.221046211354135
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	19.728431817682395
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	17.566866402449698
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	7.861259256892689
+28211	class	2|1224|28211	Bacteria|Proteobacteria|Alphaproteobacteria	14.622396311621086
+72274	order	2|1224|1236|72274	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales	42.92621145423407
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	14.329570358505016
+85011	order	2|201174|1760|85011	Bacteria|Actinobacteria|Actinobacteria|Streptomycetales	6.3837332335807435
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	8.389987554890341
+204455	order	2|1224|28211|204455	Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales	15.605861487090506
+85013	order	2|201174|1760|85013	Bacteria|Actinobacteria|Actinobacteria|Frankiales	12.364635911699331
+135621	family	2|1224|1236|72274|135621	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	50.10621708548372
+2062	family	2|201174|1760|85011|2062	Bacteria|Actinobacteria|Actinobacteria|Streptomycetales|Streptomycetaceae	7.4515013643502765
+119060	family	2|1224|28216|80840|119060	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae	9.793329612095935
+31989	family	2|1224|28211|204455|31989	Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae	18.216158775433193
+74712	family	2|201174|1760|85013|74712	Bacteria|Actinobacteria|Actinobacteria|Frankiales|Frankiaceae	14.432793162636884
+286	genus	2|1224|1236|72274|135621|286	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	54.14049695473157
+32008	genus	2|1224|28216|80840|119060|32008	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Burkholderia	8.29422359939874
+1060	genus	2|1224|28211|204455|31989|1060	Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae|Rhodobacter	19.682824728629708
+1854	genus	2|201174|1760|85013|74712|1854	Bacteria|Actinobacteria|Actinobacteria|Frankiales|Frankiaceae|Frankia	15.594843109726437
+1061	species	2|1224|28211|204455|31989|1060|1061	Bacteria|Proteobacteria|Alphaproteobacteria|Rhodobacterales|Rhodobacteraceae|Rhodobacter|Rhodobacter capsulatus	52.39632186682384
+106370	species	2|201174|1760|85013|74712|1854|106370	Bacteria|Actinobacteria|Actinobacteria|Frankiales|Frankiaceae|Frankia|Frankia casuarinae	41.51398136728378
+134537	species	2|1224|28216|80840|119060|1822464|134537	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Burkholderiaceae|Paraburkholderia|Paraburkholderia fungorum	6.089696765892382

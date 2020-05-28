@@ -1,0 +1,22 @@
+@SampleID:peabody
+@Version:CLARK
+@Ranks: superkingdom|phylum|class|order|family|genus|species|strain
+
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE	_CAMI_genomeID	_CAMI_OTU
+2	superkingdom	2	Bacteria	85.86000
+1224	phylum	2|1224	Bacteria|Proteobacteria	65.23000
+1239	phylum	2|1239	Bacteria|Firmicutes	20.63000
+201174	class	2|201174	Bacteria|Actinobacteria	14.14000
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	57.22000
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	20.63000
+72274	order	2|1224|1236|72274	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales	35.32000
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	20.63000
+135621	family	2|1224|1236|72274|135621	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	35.32000
+543	family	2|1224|1236|91347|543	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae	21.91000
+186817	family	2|1239|91061|1385|186817	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae	20.63000
+286	genus	2|1224|1236|72274|135621|286	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	35.32000
+561	genus	2|1224|1236|91347|543|561	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia	21.91000
+55087	genus	2759|6656|50557|7020|55086|55087	Eukaryota|Arthropoda|Insecta|Phasmatodea|Bacillidae|Bacillus	20.63000
+562	species	2|1224|1236|91347|543|561|562	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacterales|Enterobacteriaceae|Escherichia|Escherichia coli	21.91000
+287	species	2|1224|1236|72274|135621|286|136841	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|Pseudomonas aeruginosa group	21.88000
+1390	species	2|1239|91061|1385|186817|1386|653685	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae|Bacillus|Bacillus subtilis group	12.35000

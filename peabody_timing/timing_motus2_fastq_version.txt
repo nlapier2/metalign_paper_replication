@@ -1,0 +1,19 @@
+[main]  MAP_TAX -----------
+[main] Number of detected lanes: 1
+[main] Run bwa on lane 1
+ [map_db](map single reads) 42.44 sec
+[main] Total time map_tax: 42.46 sec
+[main]  CALC_MGC -----------
+[main] Minimum alignment length: 75 (average read length: 220)
+ [calc_mgc](parse 1 sam/bam file) 6.07 sec
+ [calc_mgc](get mgc abundances) 0.00 sec
+[main] Total time calc_mgc: 6.65 sec
+[main]  CALC_MOTU -----------
+Command exited with non-zero status 1
+time result
+cmd:motus profile -C precision -s fastq_version.fq -o timing/results/motus2_default_fastq_version.txt -t 4
+real 50.26s
+user 125.41s 
+sys  14.19s 
+memory:2106148KB 
+cpu 277%

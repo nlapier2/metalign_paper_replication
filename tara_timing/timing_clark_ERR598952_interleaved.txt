@@ -1,0 +1,11 @@
+CLARK version 1.2.6.1 (UCR CS&E. Copyright 2013-2019 Rachid Ounit, rouni001@cs.ucr.edu) 
+Loading database [/local2/nlapier2/metalign/tools/CLARKSCV1.2.6.1/FULL_DB/bacteria_viruses_plasmid_plastid_protozoa_fungi_human_0/db_central_k31_t17480_s1610612741_m0.tsk.*] ...
+Loading done (database size: 141383 MB read, with sampling factor 2)
+Mode: Default,	Processing file: prokaryotes_PRJEB1787/ERR598952_interleaved.fastq,	 using 4 CPU.
+time result
+cmd:/local2/nlapier2/metalign/tools/CLARKSCV1.2.6.1/classify_metagenome.sh -n 4 -O prokaryotes_PRJEB1787/ERR598952_interleaved.fastq -R timing/results/clark_assignments_ERR598952_interleaved.csv
+real 687.81s
+user 1352.42s 
+sys  323.72s 
+memory:137433328KB 
+cpu 243%

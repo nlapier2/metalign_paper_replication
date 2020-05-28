@@ -1,0 +1,7 @@
+time result
+cmd:/local2/nlapier2/metalign/tools/GOTTCHA-60051da/bin/gottcha.pl --threads 4 --outdir /local2/nlapier2/metalign/tara_oceans/timing/results/ --input prokaryotes_PRJEB1787/ERR598957_interleaved.fastq --database /local2/nlapier2/metalign/tools/GOTTCHA-60051da/database/GOTTCHA_BACTERIA_c4937_k24_u30_xHUMAN3x.species --bwaOpt -p -k 30 -T 0 -B 100 -O 100 -E 100
+real 25445.27s
+user 45431.99s 
+sys  3233.64s 
+memory:10615212KB 
+cpu 191%

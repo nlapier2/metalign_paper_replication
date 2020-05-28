@@ -1,0 +1,11 @@
+Loading database information... done.
+41755516 sequences (4157.86 Mbp) processed in 153.432s (16328.6 Kseq/m, 1625.94 Mbp/m).
+  6968577 sequences classified (16.69%)
+  34786939 sequences unclassified (83.31%)
+time result
+cmd:kraken2 --db ../tools/kraken2/full_database/ prokaryotes_PRJEB1787/ERR598952_interleaved.fastq --report timing/results/kraken2_report_ERR598952_interleaved.txt --threads 4
+real 185.75s
+user 472.81s 
+sys  113.85s 
+memory:42416764KB 
+cpu 315%

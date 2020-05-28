@@ -1,0 +1,7 @@
+time result
+cmd:/local2/nlapier2/metalign/tools/GOTTCHA-60051da/bin/gottcha.pl --threads 4 --outdir /local2/nlapier2/metalign/mock_community_peabody2015/timing/results/ --input fastq_version.fq --database /local2/nlapier2/metalign/tools/GOTTCHA-60051da/database/GOTTCHA_BACTERIA_c4937_k24_u30_xHUMAN3x.species --bwaOpt -k 30 -T 0 -B 100 -O 100 -E 100
+real 172.27s
+user 179.99s 
+sys  42.98s 
+memory:10526840KB 
+cpu 129%

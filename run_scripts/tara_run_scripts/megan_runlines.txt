@@ -1,0 +1,6 @@
+{ ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" /local2/nlapier2/metalign/tools/MEGAN6/diamond blastx --query prokaryotes_PRJEB1787/ERR598952_interleaved.fastq --db /local2/nlapier2/metalign/tools/MEGAN6/nr --daa timing/results/ERR598952_TEMP.daa --threads 4  ; } 2> timing/results/timing_megan_diamond_ERR598952_interleaved.txt
+
+date ; { ~/bin/time -f "time result\ncmd:%C\nreal %es\nuser %Us \nsys  %Ss \nmemory:%MKB \ncpu %P" daa-meganizer -i timing/results/ERR598952_TEMP.daa -mdb /local2/nlapier2/metalign/tools/MEGAN6/megan-map-Oct2019.db ; } 2> timing/timing_meganize_ERR598952_interleaved.txt
+
+daa2info -i timing/results/ERR598952_TEMP.daa -o timing/results/ERR598952.info -c2c Taxonomy
+#

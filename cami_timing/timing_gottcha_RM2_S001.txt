@@ -1,0 +1,7 @@
+time result
+cmd:/local2/nlapier2/metalign/tools/GOTTCHA-60051da/bin/gottcha.pl --threads 4 --outdir /local2/nlapier2/metalign/cami/1cami/timing/results/ --input challenge_med/RM2_S001__insert_270.fq --database /local2/nlapier2/metalign/tools/GOTTCHA-60051da/database/GOTTCHA_BACTERIA_c4937_k24_u30_xHUMAN3x.species --bwaOpt -p -k 30 -T 0 -B 100 -O 100 -E 100
+real 3972.86s
+user 6887.88s 
+sys  452.79s 
+memory:10524100KB 
+cpu 184%

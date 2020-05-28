@@ -1,0 +1,11 @@
+CLARK version 1.2.6.1 (UCR CS&E. Copyright 2013-2019 Rachid Ounit, rouni001@cs.ucr.edu) 
+Loading database [/local2/nlapier2/metalign/tools/CLARKSCV1.2.6.1/FULL_DB/bacteria_viruses_plasmid_plastid_protozoa_fungi_human_0/db_central_k31_t17480_s1610612741_m0.tsk.*] ...
+Loading done (database size: 141383 MB read, with sampling factor 2)
+Mode: Default,	Processing file: challenge_high/RH_S002__insert_270.fq,	 using 4 CPU.
+time result
+cmd:/local2/nlapier2/metalign/tools/CLARKSCV1.2.6.1/classify_metagenome.sh -n 4 -O challenge_high/RH_S002__insert_270.fq -R timing/results/clark_assignments_RH_S002.csv
+real 3339.61s
+user 5250.56s 
+sys  886.04s 
+memory:147209040KB 
+cpu 183%

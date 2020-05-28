@@ -1,0 +1,20 @@
+@SampleID:peabody
+@Version:Kraken2_plus_Bracken
+@Ranks: superkingdom|phylum|class|order|family|genus|species|strain
+
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE	_CAMI_genomeID	_CAMI_OTU
+2	superkingdom	2	Bacteria	99.85800
+1224	phylum	2|1224	Bacteria|Proteobacteria	64.63400
+201174	phylum	2|201174	Bacteria|Actinobacteria	23.46200
+1239	phylum	2|1239	Bacteria|Firmicutes	11.71500
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	48.32800
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	23.45900
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	11.71300
+72274	order	2|1224|1236|72274	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales	36.67800
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	11.71200
+135621	family	2|1224|1236|72274|135621	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	36.67800
+186817	family	2|1239|91061|1385|186817	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae	11.70600
+286	genus	2|1224|1236|72274|135621|286	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	36.67400
+1386	genus	2|1239|91061|1385|186817|1386	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae|Bacillus	11.70600
+380021	species	2|1224|1236|72274|135621|286|136843	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|Pseudomonas fluorescens group	11.84000
+287	species	2|1224|1236|72274|135621|286|136841	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|Pseudomonas aeruginosa group	23.67500

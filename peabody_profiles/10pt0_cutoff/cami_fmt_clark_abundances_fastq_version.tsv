@@ -1,0 +1,14 @@
+@SampleID:peabody
+@Version:CLARK
+@Ranks: superkingdom|phylum|class|order|family|genus|species|strain
+
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE	_CAMI_genomeID	_CAMI_OTU
+2	superkingdom	2	Bacteria	59.49428
+1224	phylum	2|1224	Bacteria|Proteobacteria	33.94484
+201174	phylum	2|201174	Bacteria|Actinobacteria	18.52193
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	21.64107
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	18.51961
+72274	order	2|1224|1236|72274	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales	18.91248
+135621	family	2|1224|1236|72274|135621	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	18.91149
+286	genus	2|1224|1236|72274|135621|286	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	18.90351
+380021	species	2|1224|1236|72274|135621|286|136843	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|Pseudomonas fluorescens group	10.71170

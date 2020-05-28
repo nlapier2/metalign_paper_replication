@@ -1,0 +1,11 @@
+Loading database information... done.
+99803592 sequences (14970.54 Mbp) processed in 595.773s (10051.2 Kseq/m, 1507.68 Mbp/m).
+  50624570 sequences classified (50.72%)
+  49179022 sequences unclassified (49.28%)
+time result
+cmd:kraken2 --db /local2/nlapier2/metalign/tools/kraken2/full_database/ challenge_high/RH_S005__insert_270.fq --report timing/results/kraken2_report_RH_S005.txt --threads 4
+real 663.22s
+user 1904.45s 
+sys  328.41s 
+memory:43203812KB 
+cpu 336%

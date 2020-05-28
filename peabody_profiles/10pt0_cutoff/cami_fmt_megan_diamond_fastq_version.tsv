@@ -1,0 +1,20 @@
+@SampleID:peabody
+@Version:CLARK
+@Ranks: superkingdom|phylum|class|order|family|genus|species|strain
+
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE	_CAMI_genomeID	_CAMI_OTU
+2	superkingdom	2	Bacteria	100.00000
+1224	phylum	2|1224	Bacteria|Proteobacteria	80.68945
+201174	phylum	2|201174	Bacteria|Actinobacteria	12.35162
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	10.94428
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	60.05499
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	12.57702
+72274	order	2|1224|1236|72274	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales	44.43666
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	11.41682
+186817	family	2|1239|91061|1385|186817	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae	10.30794
+135621	family	2|1224|1236|72274|135621	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	37.57729
+286	genus	2|1224|1236|72274|135621|286	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	43.03259
+1386	genus	2|1239|91061|1385|186817|1386	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae|Bacillus	11.74988
+287	species	2|1224|1236|72274|135621|286|136841	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|Pseudomonas aeruginosa group	25.29790
+2632575	strain	2|201174|1760|85013|74712|1854||2632575	Bacteria|Actinobacteria|Actinobacteria|Frankiales|Frankiaceae|Frankia||unclassified Frankia	12.09546
+1783272	strain	2|||||||1783272	Bacteria|||||||Terrabacteria group	35.83764

@@ -1,0 +1,8 @@
+Help message for read_fastx.py
+time result
+cmd:python ../tools/biobakery-metaphlan2-0c3ed7b7718b/metaphlan2.py prokaryotes_PRJEB1787/ERR598957_interleaved.fastq --bowtie2out timing/results/bowtie2_metaphlan2_ERR598957_interleaved.bz2 --nproc 4 --input_type fastq
+real 19293.36s
+user 49479.17s 
+sys  31628.86s 
+memory:1508576KB 
+cpu 420%

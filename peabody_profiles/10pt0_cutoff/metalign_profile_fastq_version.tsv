@@ -1,0 +1,20 @@
+@SampleID:peabody
+@Version:Metalign-v0.2
+@Ranks: superkingdom|phylum|class|order|family|genus|species|strain
+
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE	_CAMI_genomeID	_CAMI_OTU
+2	superkingdom	2	Bacteria	99.65874
+1224	phylum	2|1224	Bacteria|Proteobacteria	63.13435
+201174	phylum	2|201174	Bacteria|Actinobacteria	24.18509
+1239	phylum	2|1239	Bacteria|Firmicutes	12.3393
+1236	class	2|1224|1236	Bacteria|Proteobacteria|Gammaproteobacteria	47.41848
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	24.18509
+91061	class	2|1239|91061	Bacteria|Firmicutes|Bacilli	12.3393
+72274	order	2|1224|1236|72274	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales	39.94173
+1385	order	2|1239|91061|1385	Bacteria|Firmicutes|Bacilli|Bacillales	12.11411
+135621	family	2|1224|1236|72274|135621	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae	39.5434
+186817	family	2|1239|91061|1385|186817	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae	12.11411
+286	genus	2|1224|1236|72274|135621|286	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas	39.5434
+1386	genus	2|1239|91061|1385|186817|1386	Bacteria|Firmicutes|Bacilli|Bacillales|Bacillaceae|Bacillus	12.11411
+380021	species	2|1224|1236|72274|135621|286|380021	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|Pseudomonas protegens	12.47133
+380021.0.1	strain	2|1224|1236|72274|135621|286|380021|380021.0.1	Bacteria|Proteobacteria|Gammaproteobacteria|Pseudomonadales|Pseudomonadaceae|Pseudomonas|Pseudomonas protegens|	12.47133	380021.0.1	380021
