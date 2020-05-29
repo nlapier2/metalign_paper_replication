@@ -13,10 +13,5 @@ python3 parse_opal_results.py --opal_results peabody_profiles/*_cutoff/opal_resu
 python3 parse_opal_results.py --opal_results peabody_profiles/*_cutoff/opal_results/ --rank species --output plot_inputs/peabody_species_all_metrics.tsv --f1_output plot_inputs/peabody_species_f1_per_cutoff.tsv
 python3 parse_opal_results.py --opal_results peabody_profiles/*_cutoff/opal_results/ --rank all --output plot_inputs/peabody_all_all_metrics.tsv --f1_output plot_inputs/peabody_all_f1_per_cutoff.tsv
 #
-python3 parse_opal_results.py --opal_results hmp_profiles/*_cutoff/opal_results/ --rank family --output plot_inputs/hmp_family_all_metrics.tsv --f1_output plot_inputs/hmp_family_f1_per_cutoff.tsv
-python3 parse_opal_results.py --opal_results hmp_profiles/*_cutoff/opal_results/ --rank genus --output plot_inputs/hmp_genus_all_metrics.tsv --f1_output plot_inputs/hmp_genus_f1_per_cutoff.tsv
-python3 parse_opal_results.py --opal_results hmp_profiles/*_cutoff/opal_results/ --rank species --output plot_inputs/hmp_species_all_metrics.tsv --f1_output plot_inputs/hmp_species_f1_per_cutoff.tsv
-python3 parse_opal_results.py --opal_results hmp_profiles/*_cutoff/opal_results/ --rank all --output plot_inputs/hmp_all_all_metrics.tsv --f1_output plot_inputs/hmp_all_f1_per_cutoff.tsv
-#
 python parse_timing_memory.py
 #

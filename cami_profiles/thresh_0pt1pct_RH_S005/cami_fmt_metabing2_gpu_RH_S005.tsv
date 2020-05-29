@@ -1,0 +1,46 @@
+@SampleID:CAMI_HIGH_S005
+@Version:CLARK
+@Ranks: superkingdom|phylum|class|order|family|genus|species|strain
+
+@@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE	_CAMI_genomeID	_CAMI_OTU
+2	superkingdom	2	Bacteria	93.83618
+1224	phylum	2|1224	Bacteria|Proteobacteria	50.78515
+201174	phylum	2|201174	Bacteria|Actinobacteria	19.88869
+976	phylum	2|976	Bacteria|Bacteroidetes	23.16234
+28216	class	2|1224|28216	Bacteria|Proteobacteria|Betaproteobacteria	8.96530
+28211	class	2|1224|28211	Bacteria|Proteobacteria|Alphaproteobacteria	41.81985
+1760	class	2|201174|1760	Bacteria|Actinobacteria|Actinobacteria	19.62580
+117743	class	2|976|117743	Bacteria|Bacteroidetes|Flavobacteriia	23.16234
+84992	class	2|201174|84992	Bacteria|Actinobacteria|Acidimicrobiia	0.26289
+80840	order	2|1224|28216|80840	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales	8.96530
+204457	order	2|1224|28211|204457	Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales	40.69768
+85006	order	2|201174|1760|85006	Bacteria|Actinobacteria|Actinobacteria|Micrococcales	19.62580
+200644	order	2|976|117743|200644	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales	23.16234
+204458	order	2|1224|28211|204458	Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales	1.12217
+84993	order	2|201174|84992|84993	Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobiales	0.26289
+41297	family	2|1224|28211|204457|41297	Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae	40.69768
+85023	family	2|201174|1760|85006|85023	Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Microbacteriaceae	19.62580
+49546	family	2|976|117743|200644|49546	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae	23.16234
+76892	family	2|1224|28211|204458|76892	Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceae	1.12217
+84994	family	2|201174|84992|84993|84994	Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobiales|Acidimicrobiaceae	0.26289
+28067	genus	2|1224|28216|80840||28067	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales||Rubrivivax	8.96530
+165697	genus	2|1224|28211|204457|41297|165697	Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingopyxis	30.83133
+33882	genus	2|201174|1760|85006|85023|33882	Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Microbacteriaceae|Microbacterium	19.62580
+237	genus	2|976|117743|200644|49546|237	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Flavobacterium	23.16234
+13687	genus	2|1224|28211|204457|41297|13687	Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingomonas	9.86635
+20	genus	2|1224|28211|204458|76892|20	Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Phenylobacterium	1.12217
+53634	genus	2|201174|84992|84993|84994|53634	Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobiales|Acidimicrobiaceae|Acidimicrobium	0.26289
+28068	species	2|1224|28216|80840||28067|28068	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales||Rubrivivax|Rubrivivax gelatinosus	8.96530
+117207	species	2|1224|28211|204457|41297|165697|117207	Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingopyxis|Sphingopyxis alaskensis	30.83133
+2033	species	2|201174|1760|85006|85023|33882|2033	Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Microbacteriaceae|Microbacterium|Microbacterium testaceum	19.62580
+986	species	2|976|117743|200644|49546|237|986	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Flavobacterium|Flavobacterium johnsoniae	23.16234
+160791	species	2|1224|28211|204457|41297|13687|160791	Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingomonas|Sphingomonas wittichii	9.86635
+284016	species	2|1224|28211|204458|76892|20|284016	Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Phenylobacterium|Phenylobacterium zucineum	1.12217
+53635	species	2|201174|84992|84993|84994|53634|53635	Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobiales|Acidimicrobiaceae|Acidimicrobium|Acidimicrobium ferrooxidans	0.26289
+983917	strain	2|1224|28216|80840||28067|28068|983917	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales||Rubrivivax|Rubrivivax gelatinosus|Rubrivivax gelatinosus IL144	8.96530
+317655	strain	2|1224|28211|204457|41297|165697|117207|317655	Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingopyxis|Sphingopyxis alaskensis|Sphingopyxis alaskensis RB2256	30.83133
+979556	strain	2|201174|1760|85006|85023|33882|2033|979556	Bacteria|Actinobacteria|Actinobacteria|Micrococcales|Microbacteriaceae|Microbacterium|Microbacterium testaceum|Microbacterium testaceum StLB037	19.62580
+376686	strain	2|976|117743|200644|49546|237|986|376686	Bacteria|Bacteroidetes|Flavobacteriia|Flavobacteriales|Flavobacteriaceae|Flavobacterium|Flavobacterium johnsoniae|Flavobacterium johnsoniae UW101	23.16234
+392499	strain	2|1224|28211|204457|41297|13687|160791|392499	Bacteria|Proteobacteria|Alphaproteobacteria|Sphingomonadales|Sphingomonadaceae|Sphingomonas|Sphingomonas wittichii|Sphingomonas wittichii RW1	9.86635
+450851	strain	2|1224|28211|204458|76892|20|284016|450851	Bacteria|Proteobacteria|Alphaproteobacteria|Caulobacterales|Caulobacteraceae|Phenylobacterium|Phenylobacterium zucineum|Phenylobacterium zucineum HLK1	1.12217
+525909	strain	2|201174|84992|84993|84994|53634|53635|525909	Bacteria|Actinobacteria|Acidimicrobiia|Acidimicrobiales|Acidimicrobiaceae|Acidimicrobium|Acidimicrobium ferrooxidans|Acidimicrobium ferrooxidans DSM 10331	0.26289

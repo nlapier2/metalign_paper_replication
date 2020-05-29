@@ -1,0 +1,8 @@
+Command exited with non-zero status 9
+time result
+cmd:./runMetaBinG2 -i /workspace/metalign/cami/1cami/challenge_high/RH_S004__insert_270.fa -o /workspace/metalign/cami/1cami/timing/results/metabing2_gpu_RH_S004.tsv -d db -t 4
+real 6007.30s
+user 19298.96s 
+sys  594.98s 
+memory:1078700KB 
+cpu 331%

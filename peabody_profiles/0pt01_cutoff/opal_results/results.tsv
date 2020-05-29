@@ -9,15 +9,15 @@ Gold standard	strain	Bray-Curtis distance	peabody	0.0
 Gold standard	superkingdom	Bray-Curtis distance	peabody	0.0
 Gold standard	superkingdom	Shannon diversity	peabody	0.0
 Gold standard	superkingdom	Shannon equitability	peabody	0.0
-Gold standard	phylum	Shannon diversity	peabody	0.9596148356708106
-Gold standard	phylum	Shannon equitability	peabody	0.8734790658806383
+Gold standard	phylum	Shannon diversity	peabody	0.9596148356708105
+Gold standard	phylum	Shannon equitability	peabody	0.8734790658806382
 Gold standard	class	Shannon diversity	peabody	1.4241298405939191
 Gold standard	class	Shannon equitability	peabody	0.8848616213098132
 Gold standard	order	Shannon diversity	peabody	1.9072839069017118
 Gold standard	order	Shannon equitability	peabody	0.9172096780181423
 Gold standard	family	Shannon diversity	peabody	1.9072839069017116
 Gold standard	family	Shannon equitability	peabody	0.9172096780181423
-Gold standard	genus	Shannon diversity	peabody	1.9072839069017116
+Gold standard	genus	Shannon diversity	peabody	1.9072839069017118
 Gold standard	genus	Shannon equitability	peabody	0.9172096780181423
 Gold standard	species	Shannon diversity	peabody	2.3693820619323684
 Gold standard	species	Shannon equitability	peabody	0.9881090674853673
@@ -31,14 +31,6 @@ Gold standard	class	Taxon counts	peabody	5.0
 Gold standard	class	Purity (precision)	peabody	1.0
 Gold standard	class	Completeness (recall)	peabody	1.0
 Gold standard	class	True positives	peabody	5.0
-Gold standard	genus	F1 score	peabody	1.0
-Gold standard	genus	False negatives	peabody	0.0
-Gold standard	genus	False positives	peabody	0.0
-Gold standard	genus	Jaccard index	peabody	1.0
-Gold standard	genus	Taxon counts	peabody	8.0
-Gold standard	genus	Purity (precision)	peabody	1.0
-Gold standard	genus	Completeness (recall)	peabody	1.0
-Gold standard	genus	True positives	peabody	8.0
 Gold standard	order	F1 score	peabody	1.0
 Gold standard	order	False negatives	peabody	0.0
 Gold standard	order	False positives	peabody	0.0
@@ -55,14 +47,6 @@ Gold standard	phylum	Taxon counts	peabody	3.0
 Gold standard	phylum	Purity (precision)	peabody	1.0
 Gold standard	phylum	Completeness (recall)	peabody	1.0
 Gold standard	phylum	True positives	peabody	3.0
-Gold standard	strain	F1 score	peabody	1.0
-Gold standard	strain	False negatives	peabody	0.0
-Gold standard	strain	False positives	peabody	0.0
-Gold standard	strain	Jaccard index	peabody	1.0
-Gold standard	strain	Taxon counts	peabody	11.0
-Gold standard	strain	Purity (precision)	peabody	1.0
-Gold standard	strain	Completeness (recall)	peabody	1.0
-Gold standard	strain	True positives	peabody	11.0
 Gold standard	family	F1 score	peabody	1.0
 Gold standard	family	False negatives	peabody	0.0
 Gold standard	family	False positives	peabody	0.0
@@ -71,6 +55,14 @@ Gold standard	family	Taxon counts	peabody	8.0
 Gold standard	family	Purity (precision)	peabody	1.0
 Gold standard	family	Completeness (recall)	peabody	1.0
 Gold standard	family	True positives	peabody	8.0
+Gold standard	strain	F1 score	peabody	1.0
+Gold standard	strain	False negatives	peabody	0.0
+Gold standard	strain	False positives	peabody	0.0
+Gold standard	strain	Jaccard index	peabody	1.0
+Gold standard	strain	Taxon counts	peabody	11.0
+Gold standard	strain	Purity (precision)	peabody	1.0
+Gold standard	strain	Completeness (recall)	peabody	1.0
+Gold standard	strain	True positives	peabody	11.0
 Gold standard	superkingdom	F1 score	peabody	1.0
 Gold standard	superkingdom	False negatives	peabody	0.0
 Gold standard	superkingdom	False positives	peabody	0.0
@@ -87,6 +79,14 @@ Gold standard	species	Taxon counts	peabody	11.0
 Gold standard	species	Purity (precision)	peabody	1.0
 Gold standard	species	Completeness (recall)	peabody	1.0
 Gold standard	species	True positives	peabody	11.0
+Gold standard	genus	F1 score	peabody	1.0
+Gold standard	genus	False negatives	peabody	0.0
+Gold standard	genus	False positives	peabody	0.0
+Gold standard	genus	Jaccard index	peabody	1.0
+Gold standard	genus	Taxon counts	peabody	8.0
+Gold standard	genus	Purity (precision)	peabody	1.0
+Gold standard	genus	Completeness (recall)	peabody	1.0
+Gold standard	genus	True positives	peabody	8.0
 Gold standard	class	L1 norm error	peabody	0.0
 Gold standard	family	L1 norm error	peabody	0.0
 Gold standard	genus	L1 norm error	peabody	0.0
@@ -97,10 +97,10 @@ Gold standard	strain	L1 norm error	peabody	0.0
 Gold standard	superkingdom	L1 norm error	peabody	0.0
 Gold standard	na	Weighted UniFrac error	peabody	0.0
 Gold standard	na	Unweighted UniFrac error	peabody	0.0
-Metalign	class	Bray-Curtis distance	peabody	0.05284014981015689
-Metalign	family	Bray-Curtis distance	peabody	0.07523652290778397
-Metalign	genus	Bray-Curtis distance	peabody	0.08154946514842676
-Metalign	order	Bray-Curtis distance	peabody	0.07286787317969375
+Metalign	class	Bray-Curtis distance	peabody	0.05284014981015688
+Metalign	family	Bray-Curtis distance	peabody	0.07523652290778396
+Metalign	genus	Bray-Curtis distance	peabody	0.08154946514842677
+Metalign	order	Bray-Curtis distance	peabody	0.07286787317969373
 Metalign	phylum	Bray-Curtis distance	peabody	0.0454540365138489
 Metalign	species	Bray-Curtis distance	peabody	0.8164955743539366
 Metalign	strain	Bray-Curtis distance	peabody	1.0
@@ -113,14 +113,14 @@ Metalign	class	Shannon diversity	peabody	1.3610354227046118
 Metalign	class	Shannon equitability	peabody	0.8456588552994836
 Metalign	order	Shannon diversity	peabody	1.858053341047762
 Metalign	order	Shannon equitability	peabody	0.7748684282109589
-Metalign	family	Shannon diversity	peabody	1.8684007071313364
-Metalign	family	Shannon equitability	peabody	0.7518997573976225
-Metalign	genus	Shannon diversity	peabody	1.8570213975957428
-Metalign	genus	Shannon equitability	peabody	0.7473203863630751
-Metalign	species	Shannon diversity	peabody	2.8378625079620705
-Metalign	species	Shannon equitability	peabody	0.7801499080300907
-Metalign	strain	Shannon diversity	peabody	2.837862507962071
-Metalign	strain	Shannon equitability	peabody	0.7801499080300908
+Metalign	family	Shannon diversity	peabody	1.8684007071313367
+Metalign	family	Shannon equitability	peabody	0.7518997573976226
+Metalign	genus	Shannon diversity	peabody	1.8570213975957426
+Metalign	genus	Shannon equitability	peabody	0.747320386363075
+Metalign	species	Shannon diversity	peabody	2.8378625079620714
+Metalign	species	Shannon equitability	peabody	0.7801499080300909
+Metalign	strain	Shannon diversity	peabody	2.8378625079620705
+Metalign	strain	Shannon equitability	peabody	0.7801499080300907
 Metalign	class	F1 score	peabody	1.0
 Metalign	class	False negatives	peabody	0.0
 Metalign	class	False positives	peabody	0.0
@@ -129,14 +129,6 @@ Metalign	class	Taxon counts	peabody	5.0
 Metalign	class	Purity (precision)	peabody	1.0
 Metalign	class	Completeness (recall)	peabody	1.0
 Metalign	class	True positives	peabody	5.0
-Metalign	genus	F1 score	peabody	0.8
-Metalign	genus	False negatives	peabody	0.0
-Metalign	genus	False positives	peabody	4.0
-Metalign	genus	Jaccard index	peabody	0.6666666666666666
-Metalign	genus	Taxon counts	peabody	12.0
-Metalign	genus	Purity (precision)	peabody	0.6666666666666666
-Metalign	genus	Completeness (recall)	peabody	1.0
-Metalign	genus	True positives	peabody	8.0
 Metalign	order	F1 score	peabody	0.8421052631578948
 Metalign	order	False negatives	peabody	0.0
 Metalign	order	False positives	peabody	3.0
@@ -153,13 +145,6 @@ Metalign	phylum	Taxon counts	peabody	3.0
 Metalign	phylum	Purity (precision)	peabody	1.0
 Metalign	phylum	Completeness (recall)	peabody	1.0
 Metalign	phylum	True positives	peabody	3.0
-Metalign	strain	False negatives	peabody	11.0
-Metalign	strain	False positives	peabody	38.0
-Metalign	strain	Jaccard index	peabody	0.0
-Metalign	strain	Taxon counts	peabody	38.0
-Metalign	strain	Purity (precision)	peabody	0.0
-Metalign	strain	Completeness (recall)	peabody	0.0
-Metalign	strain	True positives	peabody	0.0
 Metalign	family	F1 score	peabody	0.8
 Metalign	family	False negatives	peabody	0.0
 Metalign	family	False positives	peabody	4.0
@@ -168,6 +153,13 @@ Metalign	family	Taxon counts	peabody	12.0
 Metalign	family	Purity (precision)	peabody	0.6666666666666666
 Metalign	family	Completeness (recall)	peabody	1.0
 Metalign	family	True positives	peabody	8.0
+Metalign	strain	False negatives	peabody	11.0
+Metalign	strain	False positives	peabody	38.0
+Metalign	strain	Jaccard index	peabody	0.0
+Metalign	strain	Taxon counts	peabody	38.0
+Metalign	strain	Purity (precision)	peabody	0.0
+Metalign	strain	Completeness (recall)	peabody	0.0
+Metalign	strain	True positives	peabody	0.0
 Metalign	superkingdom	F1 score	peabody	1.0
 Metalign	superkingdom	False negatives	peabody	0.0
 Metalign	superkingdom	False positives	peabody	0.0
@@ -184,37 +176,45 @@ Metalign	species	Taxon counts	peabody	38.0
 Metalign	species	Purity (precision)	peabody	0.07894736842105263
 Metalign	species	Completeness (recall)	peabody	0.2727272727272727
 Metalign	species	True positives	peabody	3.0
-Metalign	class	L1 norm error	peabody	0.10568029962031376
-Metalign	family	L1 norm error	peabody	0.15047304581556795
-Metalign	genus	L1 norm error	peabody	0.1630989302968535
-Metalign	order	L1 norm error	peabody	0.14573574635938746
+Metalign	genus	F1 score	peabody	0.8
+Metalign	genus	False negatives	peabody	0.0
+Metalign	genus	False positives	peabody	4.0
+Metalign	genus	Jaccard index	peabody	0.6666666666666666
+Metalign	genus	Taxon counts	peabody	12.0
+Metalign	genus	Purity (precision)	peabody	0.6666666666666666
+Metalign	genus	Completeness (recall)	peabody	1.0
+Metalign	genus	True positives	peabody	8.0
+Metalign	class	L1 norm error	peabody	0.10568029962031375
+Metalign	family	L1 norm error	peabody	0.15047304581556792
+Metalign	genus	L1 norm error	peabody	0.16309893029685354
+Metalign	order	L1 norm error	peabody	0.14573574635938744
 Metalign	phylum	L1 norm error	peabody	0.0909080730276978
-Metalign	species	L1 norm error	peabody	1.6329911487078734
-Metalign	strain	L1 norm error	peabody	1.9999999999999993
+Metalign	species	L1 norm error	peabody	1.632991148707873
+Metalign	strain	L1 norm error	peabody	2.0
 Metalign	superkingdom	L1 norm error	peabody	0.0
-Metalign	na	Weighted UniFrac error	peabody	4.304105658274862
+Metalign	na	Weighted UniFrac error	peabody	4.304105658274857
 Metalign	na	Unweighted UniFrac error	peabody	311.38585959105495
 Bracken+Kraken2	class	Bray-Curtis distance	peabody	0.07412558027853365
-Bracken+Kraken2	family	Bray-Curtis distance	peabody	0.08145832920000201
+Bracken+Kraken2	family	Bray-Curtis distance	peabody	0.08145832920000198
 Bracken+Kraken2	genus	Bray-Curtis distance	peabody	0.09059235957457556
 Bracken+Kraken2	order	Bray-Curtis distance	peabody	0.08158135446900196
-Bracken+Kraken2	phylum	Bray-Curtis distance	peabody	0.0647911373311994
+Bracken+Kraken2	phylum	Bray-Curtis distance	peabody	0.06479113733119939
 Bracken+Kraken2	species	Bray-Curtis distance	peabody	0.7675342758123037
 Bracken+Kraken2	superkingdom	Bray-Curtis distance	peabody	0.0013201320132013327
 Bracken+Kraken2	superkingdom	Shannon diversity	peabody	0.010071766575217148
 Bracken+Kraken2	superkingdom	Shannon equitability	peabody	0.014530487691056998
-Bracken+Kraken2	phylum	Shannon diversity	peabody	0.8844850419894668
-Bracken+Kraken2	phylum	Shannon equitability	peabody	0.49364050095994755
+Bracken+Kraken2	phylum	Shannon diversity	peabody	0.8844850419894666
+Bracken+Kraken2	phylum	Shannon equitability	peabody	0.4936405009599475
 Bracken+Kraken2	class	Shannon diversity	peabody	1.3628374228603146
 Bracken+Kraken2	class	Shannon equitability	peabody	0.6553862638328237
 Bracken+Kraken2	order	Shannon diversity	peabody	1.982214686699181
 Bracken+Kraken2	order	Shannon equitability	peabody	0.6083965479742673
-Bracken+Kraken2	family	Shannon diversity	peabody	2.0043017110113728
-Bracken+Kraken2	family	Shannon equitability	peabody	0.5783192277842744
-Bracken+Kraken2	genus	Shannon diversity	peabody	2.072430407111415
-Bracken+Kraken2	genus	Shannon equitability	peabody	0.5476550087595795
-Bracken+Kraken2	species	Shannon diversity	peabody	2.430782265618948
-Bracken+Kraken2	species	Shannon equitability	peabody	0.5913054853868093
+Bracken+Kraken2	family	Shannon diversity	peabody	2.004301711011373
+Bracken+Kraken2	family	Shannon equitability	peabody	0.5783192277842745
+Bracken+Kraken2	genus	Shannon diversity	peabody	2.0724304071114155
+Bracken+Kraken2	genus	Shannon equitability	peabody	0.5476550087595796
+Bracken+Kraken2	species	Shannon diversity	peabody	2.4307822656189475
+Bracken+Kraken2	species	Shannon equitability	peabody	0.5913054853868092
 Bracken+Kraken2	class	F1 score	peabody	0.7692307692307693
 Bracken+Kraken2	class	False negatives	peabody	0.0
 Bracken+Kraken2	class	False positives	peabody	3.0
@@ -223,14 +223,6 @@ Bracken+Kraken2	class	Taxon counts	peabody	8.0
 Bracken+Kraken2	class	Purity (precision)	peabody	0.625
 Bracken+Kraken2	class	Completeness (recall)	peabody	1.0
 Bracken+Kraken2	class	True positives	peabody	5.0
-Bracken+Kraken2	genus	F1 score	peabody	0.3076923076923077
-Bracken+Kraken2	genus	False negatives	peabody	0.0
-Bracken+Kraken2	genus	False positives	peabody	36.0
-Bracken+Kraken2	genus	Jaccard index	peabody	0.18181818181818182
-Bracken+Kraken2	genus	Taxon counts	peabody	44.0
-Bracken+Kraken2	genus	Purity (precision)	peabody	0.18181818181818182
-Bracken+Kraken2	genus	Completeness (recall)	peabody	1.0
-Bracken+Kraken2	genus	True positives	peabody	8.0
 Bracken+Kraken2	order	F1 score	peabody	0.47058823529411764
 Bracken+Kraken2	order	False negatives	peabody	0.0
 Bracken+Kraken2	order	False positives	peabody	18.0
@@ -247,13 +239,6 @@ Bracken+Kraken2	phylum	Taxon counts	peabody	6.0
 Bracken+Kraken2	phylum	Purity (precision)	peabody	0.5
 Bracken+Kraken2	phylum	Completeness (recall)	peabody	1.0
 Bracken+Kraken2	phylum	True positives	peabody	3.0
-Bracken+Kraken2	strain	False negatives	peabody	11.0
-Bracken+Kraken2	strain	False positives	peabody	0.0
-Bracken+Kraken2	strain	Jaccard index	peabody	0.0
-Bracken+Kraken2	strain	Taxon counts	peabody	0.0
-Bracken+Kraken2	strain	Purity (precision)	peabody	0.0
-Bracken+Kraken2	strain	Completeness (recall)	peabody	0.0
-Bracken+Kraken2	strain	True positives	peabody	0.0
 Bracken+Kraken2	family	F1 score	peabody	0.4
 Bracken+Kraken2	family	False negatives	peabody	0.0
 Bracken+Kraken2	family	False positives	peabody	24.0
@@ -262,6 +247,13 @@ Bracken+Kraken2	family	Taxon counts	peabody	32.0
 Bracken+Kraken2	family	Purity (precision)	peabody	0.25
 Bracken+Kraken2	family	Completeness (recall)	peabody	1.0
 Bracken+Kraken2	family	True positives	peabody	8.0
+Bracken+Kraken2	strain	False negatives	peabody	11.0
+Bracken+Kraken2	strain	False positives	peabody	0.0
+Bracken+Kraken2	strain	Jaccard index	peabody	0.0
+Bracken+Kraken2	strain	Taxon counts	peabody	0.0
+Bracken+Kraken2	strain	Purity (precision)	peabody	0.0
+Bracken+Kraken2	strain	Completeness (recall)	peabody	0.0
+Bracken+Kraken2	strain	True positives	peabody	0.0
 Bracken+Kraken2	superkingdom	F1 score	peabody	0.6666666666666666
 Bracken+Kraken2	superkingdom	False negatives	peabody	0.0
 Bracken+Kraken2	superkingdom	False positives	peabody	1.0
@@ -278,36 +270,44 @@ Bracken+Kraken2	species	Taxon counts	peabody	61.0
 Bracken+Kraken2	species	Purity (precision)	peabody	0.04918032786885246
 Bracken+Kraken2	species	Completeness (recall)	peabody	0.2727272727272727
 Bracken+Kraken2	species	True positives	peabody	3.0
+Bracken+Kraken2	genus	F1 score	peabody	0.3076923076923077
+Bracken+Kraken2	genus	False negatives	peabody	0.0
+Bracken+Kraken2	genus	False positives	peabody	36.0
+Bracken+Kraken2	genus	Jaccard index	peabody	0.18181818181818182
+Bracken+Kraken2	genus	Taxon counts	peabody	44.0
+Bracken+Kraken2	genus	Purity (precision)	peabody	0.18181818181818182
+Bracken+Kraken2	genus	Completeness (recall)	peabody	1.0
+Bracken+Kraken2	genus	True positives	peabody	8.0
 Bracken+Kraken2	class	L1 norm error	peabody	0.1482511605570673
-Bracken+Kraken2	family	L1 norm error	peabody	0.16291665840000394
-Bracken+Kraken2	genus	L1 norm error	peabody	0.181184719149151
+Bracken+Kraken2	family	L1 norm error	peabody	0.1629166584000039
+Bracken+Kraken2	genus	L1 norm error	peabody	0.18118471914915105
 Bracken+Kraken2	order	L1 norm error	peabody	0.16316270893800383
 Bracken+Kraken2	phylum	L1 norm error	peabody	0.12958227466239877
-Bracken+Kraken2	species	L1 norm error	peabody	1.5350685516246083
+Bracken+Kraken2	species	L1 norm error	peabody	1.5350685516246079
 Bracken+Kraken2	superkingdom	L1 norm error	peabody	0.002640264026402665
-Bracken+Kraken2	na	Weighted UniFrac error	peabody	3.3328635822772226
-Bracken+Kraken2	na	Unweighted UniFrac error	peabody	708.4087910204262
+Bracken+Kraken2	na	Weighted UniFrac error	peabody	3.3328635822772212
+Bracken+Kraken2	na	Unweighted UniFrac error	peabody	708.4087910204261
 CLARK	class	Bray-Curtis distance	peabody	0.10154255413236357
-CLARK	family	Bray-Curtis distance	peabody	0.1531254729410108
-CLARK	genus	Bray-Curtis distance	peabody	0.1661926253628366
-CLARK	order	Bray-Curtis distance	peabody	0.1539436307092924
+CLARK	family	Bray-Curtis distance	peabody	0.15312547294101084
+CLARK	genus	Bray-Curtis distance	peabody	0.16619262536283663
+CLARK	order	Bray-Curtis distance	peabody	0.15394363070929243
 CLARK	phylum	Bray-Curtis distance	peabody	0.06143384536331391
 CLARK	species	Bray-Curtis distance	peabody	0.8292680159192359
 CLARK	superkingdom	Bray-Curtis distance	peabody	0.0012550143497360193
 CLARK	superkingdom	Shannon diversity	peabody	0.009638485736407274
 CLARK	superkingdom	Shannon equitability	peabody	0.013905395573593783
-CLARK	phylum	Shannon diversity	peabody	0.9353375143502117
-CLARK	phylum	Shannon equitability	peabody	0.8513808956972051
+CLARK	phylum	Shannon diversity	peabody	0.9353375143502116
+CLARK	phylum	Shannon equitability	peabody	0.851380895697205
 CLARK	class	Shannon diversity	peabody	1.4504852718776706
 CLARK	class	Shannon equitability	peabody	0.9012371714817933
-CLARK	order	Shannon diversity	peabody	1.9615676736445118
-CLARK	order	Shannon equitability	peabody	0.678655840130507
-CLARK	family	Shannon diversity	peabody	1.9740739411333348
-CLARK	family	Shannon equitability	peabody	0.682982711736091
+CLARK	order	Shannon diversity	peabody	1.9615676736445116
+CLARK	order	Shannon equitability	peabody	0.6786558401305068
+CLARK	family	Shannon diversity	peabody	1.9740739411333346
+CLARK	family	Shannon equitability	peabody	0.6829827117360909
 CLARK	genus	Shannon diversity	peabody	2.043361854506819
 CLARK	genus	Shannon equitability	peabody	0.6271643061097493
-CLARK	species	Shannon diversity	peabody	2.3182469266529835
-CLARK	species	Shannon equitability	peabody	0.6815972925158676
+CLARK	species	Shannon diversity	peabody	2.3182469266529844
+CLARK	species	Shannon equitability	peabody	0.681597292515868
 CLARK	class	F1 score	peabody	1.0
 CLARK	class	False negatives	peabody	0.0
 CLARK	class	False positives	peabody	0.0
@@ -316,14 +316,6 @@ CLARK	class	Taxon counts	peabody	5.0
 CLARK	class	Purity (precision)	peabody	1.0
 CLARK	class	Completeness (recall)	peabody	1.0
 CLARK	class	True positives	peabody	5.0
-CLARK	genus	F1 score	peabody	0.47058823529411764
-CLARK	genus	False negatives	peabody	0.0
-CLARK	genus	False positives	peabody	18.0
-CLARK	genus	Jaccard index	peabody	0.3076923076923077
-CLARK	genus	Taxon counts	peabody	26.0
-CLARK	genus	Purity (precision)	peabody	0.3076923076923077
-CLARK	genus	Completeness (recall)	peabody	1.0
-CLARK	genus	True positives	peabody	8.0
 CLARK	order	F1 score	peabody	0.6153846153846153
 CLARK	order	False negatives	peabody	0.0
 CLARK	order	False positives	peabody	10.0
@@ -340,13 +332,6 @@ CLARK	phylum	Taxon counts	peabody	3.0
 CLARK	phylum	Purity (precision)	peabody	1.0
 CLARK	phylum	Completeness (recall)	peabody	1.0
 CLARK	phylum	True positives	peabody	3.0
-CLARK	strain	False negatives	peabody	11.0
-CLARK	strain	False positives	peabody	0.0
-CLARK	strain	Jaccard index	peabody	0.0
-CLARK	strain	Taxon counts	peabody	0.0
-CLARK	strain	Purity (precision)	peabody	0.0
-CLARK	strain	Completeness (recall)	peabody	0.0
-CLARK	strain	True positives	peabody	0.0
 CLARK	family	F1 score	peabody	0.6153846153846153
 CLARK	family	False negatives	peabody	0.0
 CLARK	family	False positives	peabody	10.0
@@ -355,6 +340,13 @@ CLARK	family	Taxon counts	peabody	18.0
 CLARK	family	Purity (precision)	peabody	0.4444444444444444
 CLARK	family	Completeness (recall)	peabody	1.0
 CLARK	family	True positives	peabody	8.0
+CLARK	strain	False negatives	peabody	11.0
+CLARK	strain	False positives	peabody	0.0
+CLARK	strain	Jaccard index	peabody	0.0
+CLARK	strain	Taxon counts	peabody	0.0
+CLARK	strain	Purity (precision)	peabody	0.0
+CLARK	strain	Completeness (recall)	peabody	0.0
+CLARK	strain	True positives	peabody	0.0
 CLARK	superkingdom	F1 score	peabody	0.6666666666666666
 CLARK	superkingdom	False negatives	peabody	0.0
 CLARK	superkingdom	False positives	peabody	1.0
@@ -371,21 +363,29 @@ CLARK	species	Taxon counts	peabody	30.0
 CLARK	species	Purity (precision)	peabody	0.1
 CLARK	species	Completeness (recall)	peabody	0.2727272727272727
 CLARK	species	True positives	peabody	3.0
+CLARK	genus	F1 score	peabody	0.47058823529411764
+CLARK	genus	False negatives	peabody	0.0
+CLARK	genus	False positives	peabody	18.0
+CLARK	genus	Jaccard index	peabody	0.3076923076923077
+CLARK	genus	Taxon counts	peabody	26.0
+CLARK	genus	Purity (precision)	peabody	0.3076923076923077
+CLARK	genus	Completeness (recall)	peabody	1.0
+CLARK	genus	True positives	peabody	8.0
 CLARK	class	L1 norm error	peabody	0.20308510826472712
 CLARK	family	L1 norm error	peabody	0.3062509458820215
-CLARK	genus	L1 norm error	peabody	0.33238525072567315
+CLARK	genus	L1 norm error	peabody	0.33238525072567326
 CLARK	order	L1 norm error	peabody	0.3078872614185847
 CLARK	phylum	L1 norm error	peabody	0.12286769072662782
-CLARK	species	L1 norm error	peabody	1.658536031838472
+CLARK	species	L1 norm error	peabody	1.6585360318384716
 CLARK	superkingdom	L1 norm error	peabody	0.0025100286994720385
-CLARK	na	Weighted UniFrac error	peabody	3.937283919060434
-CLARK	na	Unweighted UniFrac error	peabody	353.1328507337121
-GOTTCHA	class	Bray-Curtis distance	peabody	0.3364746191980802
-GOTTCHA	family	Bray-Curtis distance	peabody	0.19511089447108915
-GOTTCHA	genus	Bray-Curtis distance	peabody	0.36177762780443584
+CLARK	na	Weighted UniFrac error	peabody	3.937283919060431
+CLARK	na	Unweighted UniFrac error	peabody	353.13285073371213
+GOTTCHA	class	Bray-Curtis distance	peabody	0.33647461919808025
+GOTTCHA	family	Bray-Curtis distance	peabody	0.19511089447108912
+GOTTCHA	genus	Bray-Curtis distance	peabody	0.3617776278044359
 GOTTCHA	order	Bray-Curtis distance	peabody	0.2358958753573853
 GOTTCHA	phylum	Bray-Curtis distance	peabody	0.25000000000000006
-GOTTCHA	species	Bray-Curtis distance	peabody	0.7802644954979797
+GOTTCHA	species	Bray-Curtis distance	peabody	0.7802644954979799
 GOTTCHA	superkingdom	Bray-Curtis distance	peabody	0.0
 GOTTCHA	superkingdom	Shannon diversity	peabody	0.0
 GOTTCHA	superkingdom	Shannon equitability	peabody	0.0
@@ -397,10 +397,10 @@ GOTTCHA	order	Shannon diversity	peabody	1.4968206266265964
 GOTTCHA	order	Shannon equitability	peabody	0.7692136388482594
 GOTTCHA	family	Shannon diversity	peabody	1.6946436179991091
 GOTTCHA	family	Shannon equitability	peabody	0.8149513145871486
-GOTTCHA	genus	Shannon diversity	peabody	1.694643617999109
-GOTTCHA	genus	Shannon equitability	peabody	0.8149513145871485
-GOTTCHA	species	Shannon diversity	peabody	2.078833089850439
-GOTTCHA	species	Shannon equitability	peabody	0.9028257397199325
+GOTTCHA	genus	Shannon diversity	peabody	1.6946436179991091
+GOTTCHA	genus	Shannon equitability	peabody	0.8149513145871486
+GOTTCHA	species	Shannon diversity	peabody	2.0788330898504395
+GOTTCHA	species	Shannon equitability	peabody	0.9028257397199326
 GOTTCHA	class	F1 score	peabody	0.8000000000000002
 GOTTCHA	class	False negatives	peabody	1.0
 GOTTCHA	class	False positives	peabody	1.0
@@ -409,14 +409,6 @@ GOTTCHA	class	Taxon counts	peabody	5.0
 GOTTCHA	class	Purity (precision)	peabody	0.8
 GOTTCHA	class	Completeness (recall)	peabody	0.8
 GOTTCHA	class	True positives	peabody	4.0
-GOTTCHA	genus	F1 score	peabody	0.875
-GOTTCHA	genus	False negatives	peabody	1.0
-GOTTCHA	genus	False positives	peabody	1.0
-GOTTCHA	genus	Jaccard index	peabody	0.7777777777777778
-GOTTCHA	genus	Taxon counts	peabody	8.0
-GOTTCHA	genus	Purity (precision)	peabody	0.875
-GOTTCHA	genus	Completeness (recall)	peabody	0.875
-GOTTCHA	genus	True positives	peabody	7.0
 GOTTCHA	order	F1 score	peabody	0.9333333333333333
 GOTTCHA	order	False negatives	peabody	1.0
 GOTTCHA	order	False positives	peabody	0.0
@@ -433,13 +425,6 @@ GOTTCHA	phylum	Taxon counts	peabody	2.0
 GOTTCHA	phylum	Purity (precision)	peabody	1.0
 GOTTCHA	phylum	Completeness (recall)	peabody	0.6666666666666666
 GOTTCHA	phylum	True positives	peabody	2.0
-GOTTCHA	strain	False negatives	peabody	11.0
-GOTTCHA	strain	False positives	peabody	0.0
-GOTTCHA	strain	Jaccard index	peabody	0.0
-GOTTCHA	strain	Taxon counts	peabody	0.0
-GOTTCHA	strain	Purity (precision)	peabody	0.0
-GOTTCHA	strain	Completeness (recall)	peabody	0.0
-GOTTCHA	strain	True positives	peabody	0.0
 GOTTCHA	family	F1 score	peabody	1.0
 GOTTCHA	family	False negatives	peabody	0.0
 GOTTCHA	family	False positives	peabody	0.0
@@ -448,6 +433,13 @@ GOTTCHA	family	Taxon counts	peabody	8.0
 GOTTCHA	family	Purity (precision)	peabody	1.0
 GOTTCHA	family	Completeness (recall)	peabody	1.0
 GOTTCHA	family	True positives	peabody	8.0
+GOTTCHA	strain	False negatives	peabody	11.0
+GOTTCHA	strain	False positives	peabody	0.0
+GOTTCHA	strain	Jaccard index	peabody	0.0
+GOTTCHA	strain	Taxon counts	peabody	0.0
+GOTTCHA	strain	Purity (precision)	peabody	0.0
+GOTTCHA	strain	Completeness (recall)	peabody	0.0
+GOTTCHA	strain	True positives	peabody	0.0
 GOTTCHA	superkingdom	F1 score	peabody	1.0
 GOTTCHA	superkingdom	False negatives	peabody	0.0
 GOTTCHA	superkingdom	False positives	peabody	0.0
@@ -464,22 +456,30 @@ GOTTCHA	species	Taxon counts	peabody	10.0
 GOTTCHA	species	Purity (precision)	peabody	0.3
 GOTTCHA	species	Completeness (recall)	peabody	0.2727272727272727
 GOTTCHA	species	True positives	peabody	3.0
-GOTTCHA	class	L1 norm error	peabody	0.6729492383961603
-GOTTCHA	family	L1 norm error	peabody	0.3902217889421782
-GOTTCHA	genus	L1 norm error	peabody	0.7235552556088715
+GOTTCHA	genus	F1 score	peabody	0.875
+GOTTCHA	genus	False negatives	peabody	1.0
+GOTTCHA	genus	False positives	peabody	1.0
+GOTTCHA	genus	Jaccard index	peabody	0.7777777777777778
+GOTTCHA	genus	Taxon counts	peabody	8.0
+GOTTCHA	genus	Purity (precision)	peabody	0.875
+GOTTCHA	genus	Completeness (recall)	peabody	0.875
+GOTTCHA	genus	True positives	peabody	7.0
+GOTTCHA	class	L1 norm error	peabody	0.6729492383961605
+GOTTCHA	family	L1 norm error	peabody	0.39022178894217824
+GOTTCHA	genus	L1 norm error	peabody	0.7235552556088716
 GOTTCHA	order	L1 norm error	peabody	0.4717917507147705
 GOTTCHA	phylum	L1 norm error	peabody	0.5000000000000001
-GOTTCHA	species	L1 norm error	peabody	1.5605289909959597
+GOTTCHA	species	L1 norm error	peabody	1.5605289909959594
 GOTTCHA	superkingdom	L1 norm error	peabody	0.0
-GOTTCHA	na	Weighted UniFrac error	peabody	5.576598054438314
-GOTTCHA	na	Unweighted UniFrac error	peabody	55.81386216283722
+GOTTCHA	na	Weighted UniFrac error	peabody	5.576598054438313
+GOTTCHA	na	Unweighted UniFrac error	peabody	55.813862162837225
 MEGAN+DIAMOND	class	Bray-Curtis distance	peabody	0.20999269999999995
 MEGAN+DIAMOND	family	Bray-Curtis distance	peabody	0.11916581666666333
-MEGAN+DIAMOND	genus	Bray-Curtis distance	peabody	0.16107078333333674
+MEGAN+DIAMOND	genus	Bray-Curtis distance	peabody	0.16107078333333677
 MEGAN+DIAMOND	order	Bray-Curtis distance	peabody	0.18382241666666338
-MEGAN+DIAMOND	phylum	Bray-Curtis distance	peabody	0.2235612806894581
-MEGAN+DIAMOND	species	Bray-Curtis distance	peabody	0.6161383362327013
-MEGAN+DIAMOND	strain	Bray-Curtis distance	peabody	0.909844909015509
+MEGAN+DIAMOND	phylum	Bray-Curtis distance	peabody	0.22356128068945813
+MEGAN+DIAMOND	species	Bray-Curtis distance	peabody	0.6161383362327014
+MEGAN+DIAMOND	strain	Bray-Curtis distance	peabody	0.9098449090155091
 MEGAN+DIAMOND	superkingdom	Bray-Curtis distance	peabody	0.0
 MEGAN+DIAMOND	superkingdom	Shannon diversity	peabody	0.0
 MEGAN+DIAMOND	superkingdom	Shannon equitability	peabody	0.0
@@ -489,14 +489,14 @@ MEGAN+DIAMOND	class	Shannon diversity	peabody	1.219283466701174
 MEGAN+DIAMOND	class	Shannon equitability	peabody	0.7575834129923906
 MEGAN+DIAMOND	order	Shannon diversity	peabody	1.8096337654425851
 MEGAN+DIAMOND	order	Shannon equitability	peabody	0.7859139585975182
-MEGAN+DIAMOND	family	Shannon diversity	peabody	1.9600648824771651
-MEGAN+DIAMOND	family	Shannon equitability	peabody	0.8174105452861364
+MEGAN+DIAMOND	family	Shannon diversity	peabody	1.9600648824771656
+MEGAN+DIAMOND	family	Shannon equitability	peabody	0.8174105452861367
 MEGAN+DIAMOND	genus	Shannon diversity	peabody	1.8537251909672376
 MEGAN+DIAMOND	genus	Shannon equitability	peabody	0.7024194473401181
-MEGAN+DIAMOND	species	Shannon diversity	peabody	2.4062137897623344
-MEGAN+DIAMOND	species	Shannon equitability	peabody	0.7300767263640329
-MEGAN+DIAMOND	strain	Shannon diversity	peabody	2.5212175886360457
-MEGAN+DIAMOND	strain	Shannon equitability	peabody	0.78326028272286
+MEGAN+DIAMOND	species	Shannon diversity	peabody	2.406213789762335
+MEGAN+DIAMOND	species	Shannon equitability	peabody	0.730076726364033
+MEGAN+DIAMOND	strain	Shannon diversity	peabody	2.5212175886360466
+MEGAN+DIAMOND	strain	Shannon equitability	peabody	0.7832602827228602
 MEGAN+DIAMOND	class	F1 score	peabody	1.0
 MEGAN+DIAMOND	class	False negatives	peabody	0.0
 MEGAN+DIAMOND	class	False positives	peabody	0.0
@@ -505,14 +505,6 @@ MEGAN+DIAMOND	class	Taxon counts	peabody	5.0
 MEGAN+DIAMOND	class	Purity (precision)	peabody	1.0
 MEGAN+DIAMOND	class	Completeness (recall)	peabody	1.0
 MEGAN+DIAMOND	class	True positives	peabody	5.0
-MEGAN+DIAMOND	genus	F1 score	peabody	0.7272727272727273
-MEGAN+DIAMOND	genus	False negatives	peabody	0.0
-MEGAN+DIAMOND	genus	False positives	peabody	6.0
-MEGAN+DIAMOND	genus	Jaccard index	peabody	0.5714285714285714
-MEGAN+DIAMOND	genus	Taxon counts	peabody	14.0
-MEGAN+DIAMOND	genus	Purity (precision)	peabody	0.5714285714285714
-MEGAN+DIAMOND	genus	Completeness (recall)	peabody	1.0
-MEGAN+DIAMOND	genus	True positives	peabody	8.0
 MEGAN+DIAMOND	order	F1 score	peabody	0.888888888888889
 MEGAN+DIAMOND	order	False negatives	peabody	0.0
 MEGAN+DIAMOND	order	False positives	peabody	2.0
@@ -529,14 +521,6 @@ MEGAN+DIAMOND	phylum	Taxon counts	peabody	3.0
 MEGAN+DIAMOND	phylum	Purity (precision)	peabody	1.0
 MEGAN+DIAMOND	phylum	Completeness (recall)	peabody	1.0
 MEGAN+DIAMOND	phylum	True positives	peabody	3.0
-MEGAN+DIAMOND	strain	F1 score	peabody	0.2777777777777778
-MEGAN+DIAMOND	strain	False negatives	peabody	6.0
-MEGAN+DIAMOND	strain	False positives	peabody	20.0
-MEGAN+DIAMOND	strain	Jaccard index	peabody	0.16129032258064516
-MEGAN+DIAMOND	strain	Taxon counts	peabody	25.0
-MEGAN+DIAMOND	strain	Purity (precision)	peabody	0.2
-MEGAN+DIAMOND	strain	Completeness (recall)	peabody	0.45454545454545453
-MEGAN+DIAMOND	strain	True positives	peabody	5.0
 MEGAN+DIAMOND	family	F1 score	peabody	0.8421052631578948
 MEGAN+DIAMOND	family	False negatives	peabody	0.0
 MEGAN+DIAMOND	family	False positives	peabody	3.0
@@ -545,6 +529,14 @@ MEGAN+DIAMOND	family	Taxon counts	peabody	11.0
 MEGAN+DIAMOND	family	Purity (precision)	peabody	0.7272727272727273
 MEGAN+DIAMOND	family	Completeness (recall)	peabody	1.0
 MEGAN+DIAMOND	family	True positives	peabody	8.0
+MEGAN+DIAMOND	strain	F1 score	peabody	0.2777777777777778
+MEGAN+DIAMOND	strain	False negatives	peabody	6.0
+MEGAN+DIAMOND	strain	False positives	peabody	20.0
+MEGAN+DIAMOND	strain	Jaccard index	peabody	0.16129032258064516
+MEGAN+DIAMOND	strain	Taxon counts	peabody	25.0
+MEGAN+DIAMOND	strain	Purity (precision)	peabody	0.2
+MEGAN+DIAMOND	strain	Completeness (recall)	peabody	0.45454545454545453
+MEGAN+DIAMOND	strain	True positives	peabody	5.0
 MEGAN+DIAMOND	superkingdom	F1 score	peabody	1.0
 MEGAN+DIAMOND	superkingdom	False negatives	peabody	0.0
 MEGAN+DIAMOND	superkingdom	False positives	peabody	0.0
@@ -561,37 +553,143 @@ MEGAN+DIAMOND	species	Taxon counts	peabody	27.0
 MEGAN+DIAMOND	species	Purity (precision)	peabody	0.3333333333333333
 MEGAN+DIAMOND	species	Completeness (recall)	peabody	0.8181818181818182
 MEGAN+DIAMOND	species	True positives	peabody	9.0
+MEGAN+DIAMOND	genus	F1 score	peabody	0.7272727272727273
+MEGAN+DIAMOND	genus	False negatives	peabody	0.0
+MEGAN+DIAMOND	genus	False positives	peabody	6.0
+MEGAN+DIAMOND	genus	Jaccard index	peabody	0.5714285714285714
+MEGAN+DIAMOND	genus	Taxon counts	peabody	14.0
+MEGAN+DIAMOND	genus	Purity (precision)	peabody	0.5714285714285714
+MEGAN+DIAMOND	genus	Completeness (recall)	peabody	1.0
+MEGAN+DIAMOND	genus	True positives	peabody	8.0
 MEGAN+DIAMOND	class	L1 norm error	peabody	0.4199853999999999
 MEGAN+DIAMOND	family	L1 norm error	peabody	0.23833163333332663
-MEGAN+DIAMOND	genus	L1 norm error	peabody	0.3221415666666735
-MEGAN+DIAMOND	order	L1 norm error	peabody	0.3676448333333267
-MEGAN+DIAMOND	phylum	L1 norm error	peabody	0.4471225613789162
-MEGAN+DIAMOND	species	L1 norm error	peabody	1.2322766724654022
-MEGAN+DIAMOND	strain	L1 norm error	peabody	1.8196898180310175
+MEGAN+DIAMOND	genus	L1 norm error	peabody	0.32214156666667343
+MEGAN+DIAMOND	order	L1 norm error	peabody	0.36764483333332665
+MEGAN+DIAMOND	phylum	L1 norm error	peabody	0.44712256137891626
+MEGAN+DIAMOND	species	L1 norm error	peabody	1.2322766724654024
+MEGAN+DIAMOND	strain	L1 norm error	peabody	1.8196898180310177
 MEGAN+DIAMOND	superkingdom	L1 norm error	peabody	0.0
-MEGAN+DIAMOND	na	Weighted UniFrac error	peabody	7.279542041973711
+MEGAN+DIAMOND	na	Weighted UniFrac error	peabody	7.279542041973709
 MEGAN+DIAMOND	na	Unweighted UniFrac error	peabody	349.8576506869076
+MetaBinG2	class	Bray-Curtis distance	peabody	0.1412944442038855
+MetaBinG2	family	Bray-Curtis distance	peabody	0.2179444282055573
+MetaBinG2	genus	Bray-Curtis distance	peabody	0.2179444282055573
+MetaBinG2	order	Bray-Curtis distance	peabody	0.21794442820555723
+MetaBinG2	phylum	Bray-Curtis distance	peabody	0.12438072922859707
+MetaBinG2	species	Bray-Curtis distance	peabody	0.3502470649752736
+MetaBinG2	strain	Bray-Curtis distance	peabody	0.7417886258211374
+MetaBinG2	superkingdom	Bray-Curtis distance	peabody	0.0
+MetaBinG2	superkingdom	Shannon diversity	peabody	0.0
+MetaBinG2	superkingdom	Shannon equitability	peabody	0.0
+MetaBinG2	phylum	Shannon diversity	peabody	0.8054703352712512
+MetaBinG2	phylum	Shannon equitability	peabody	0.7331706950481631
+MetaBinG2	class	Shannon diversity	peabody	1.274470348629798
+MetaBinG2	class	Shannon equitability	peabody	0.7918729506640612
+MetaBinG2	order	Shannon diversity	peabody	1.6806890934225063
+MetaBinG2	order	Shannon equitability	peabody	0.8637033391487451
+MetaBinG2	family	Shannon diversity	peabody	1.6806890934225065
+MetaBinG2	family	Shannon equitability	peabody	0.8637033391487452
+MetaBinG2	genus	Shannon diversity	peabody	1.6806890934225065
+MetaBinG2	genus	Shannon equitability	peabody	0.8637033391487452
+MetaBinG2	species	Shannon diversity	peabody	1.964907872542911
+MetaBinG2	species	Shannon equitability	peabody	0.9449209478404471
+MetaBinG2	strain	Shannon diversity	peabody	1.9649078725429112
+MetaBinG2	strain	Shannon equitability	peabody	0.9449209478404472
+MetaBinG2	class	F1 score	peabody	1.0
+MetaBinG2	class	False negatives	peabody	0.0
+MetaBinG2	class	False positives	peabody	0.0
+MetaBinG2	class	Jaccard index	peabody	1.0
+MetaBinG2	class	Taxon counts	peabody	5.0
+MetaBinG2	class	Purity (precision)	peabody	1.0
+MetaBinG2	class	Completeness (recall)	peabody	1.0
+MetaBinG2	class	True positives	peabody	5.0
+MetaBinG2	order	F1 score	peabody	0.7999999999999999
+MetaBinG2	order	False negatives	peabody	2.0
+MetaBinG2	order	False positives	peabody	1.0
+MetaBinG2	order	Jaccard index	peabody	0.6666666666666666
+MetaBinG2	order	Taxon counts	peabody	7.0
+MetaBinG2	order	Purity (precision)	peabody	0.8571428571428571
+MetaBinG2	order	Completeness (recall)	peabody	0.75
+MetaBinG2	order	True positives	peabody	6.0
+MetaBinG2	phylum	F1 score	peabody	1.0
+MetaBinG2	phylum	False negatives	peabody	0.0
+MetaBinG2	phylum	False positives	peabody	0.0
+MetaBinG2	phylum	Jaccard index	peabody	1.0
+MetaBinG2	phylum	Taxon counts	peabody	3.0
+MetaBinG2	phylum	Purity (precision)	peabody	1.0
+MetaBinG2	phylum	Completeness (recall)	peabody	1.0
+MetaBinG2	phylum	True positives	peabody	3.0
+MetaBinG2	family	F1 score	peabody	0.7999999999999999
+MetaBinG2	family	False negatives	peabody	2.0
+MetaBinG2	family	False positives	peabody	1.0
+MetaBinG2	family	Jaccard index	peabody	0.6666666666666666
+MetaBinG2	family	Taxon counts	peabody	7.0
+MetaBinG2	family	Purity (precision)	peabody	0.8571428571428571
+MetaBinG2	family	Completeness (recall)	peabody	0.75
+MetaBinG2	family	True positives	peabody	6.0
+MetaBinG2	strain	F1 score	peabody	0.3157894736842105
+MetaBinG2	strain	False negatives	peabody	8.0
+MetaBinG2	strain	False positives	peabody	5.0
+MetaBinG2	strain	Jaccard index	peabody	0.1875
+MetaBinG2	strain	Taxon counts	peabody	8.0
+MetaBinG2	strain	Purity (precision)	peabody	0.375
+MetaBinG2	strain	Completeness (recall)	peabody	0.2727272727272727
+MetaBinG2	strain	True positives	peabody	3.0
+MetaBinG2	superkingdom	F1 score	peabody	1.0
+MetaBinG2	superkingdom	False negatives	peabody	0.0
+MetaBinG2	superkingdom	False positives	peabody	0.0
+MetaBinG2	superkingdom	Jaccard index	peabody	1.0
+MetaBinG2	superkingdom	Taxon counts	peabody	1.0
+MetaBinG2	superkingdom	Purity (precision)	peabody	1.0
+MetaBinG2	superkingdom	Completeness (recall)	peabody	1.0
+MetaBinG2	superkingdom	True positives	peabody	1.0
+MetaBinG2	species	F1 score	peabody	0.7368421052631579
+MetaBinG2	species	False negatives	peabody	4.0
+MetaBinG2	species	False positives	peabody	1.0
+MetaBinG2	species	Jaccard index	peabody	0.5833333333333334
+MetaBinG2	species	Taxon counts	peabody	8.0
+MetaBinG2	species	Purity (precision)	peabody	0.875
+MetaBinG2	species	Completeness (recall)	peabody	0.6363636363636364
+MetaBinG2	species	True positives	peabody	7.0
+MetaBinG2	genus	F1 score	peabody	0.7999999999999999
+MetaBinG2	genus	False negatives	peabody	2.0
+MetaBinG2	genus	False positives	peabody	1.0
+MetaBinG2	genus	Jaccard index	peabody	0.6666666666666666
+MetaBinG2	genus	Taxon counts	peabody	7.0
+MetaBinG2	genus	Purity (precision)	peabody	0.8571428571428571
+MetaBinG2	genus	Completeness (recall)	peabody	0.75
+MetaBinG2	genus	True positives	peabody	6.0
+MetaBinG2	class	L1 norm error	peabody	0.282588888407771
+MetaBinG2	family	L1 norm error	peabody	0.4358888564111144
+MetaBinG2	genus	L1 norm error	peabody	0.43588885641111447
+MetaBinG2	order	L1 norm error	peabody	0.43588885641111447
+MetaBinG2	phylum	L1 norm error	peabody	0.24876145845719413
+MetaBinG2	species	L1 norm error	peabody	0.700494129950547
+MetaBinG2	strain	L1 norm error	peabody	1.483577251642275
+MetaBinG2	superkingdom	L1 norm error	peabody	0.0
+MetaBinG2	na	Weighted UniFrac error	peabody	4.023088297691131
+MetaBinG2	na	Unweighted UniFrac error	peabody	63.71969696136362
 MetaPhlAn2	class	Bray-Curtis distance	peabody	0.26375746214134715
-MetaPhlAn2	family	Bray-Curtis distance	peabody	0.17551915921858433
-MetaPhlAn2	genus	Bray-Curtis distance	peabody	0.2884723130845557
-MetaPhlAn2	order	Bray-Curtis distance	peabody	0.3787892957043747
+MetaPhlAn2	family	Bray-Curtis distance	peabody	0.1755191592185843
+MetaPhlAn2	genus	Bray-Curtis distance	peabody	0.28847231308455573
+MetaPhlAn2	order	Bray-Curtis distance	peabody	0.37878929570437464
 MetaPhlAn2	phylum	Bray-Curtis distance	peabody	0.057574400000000005
-MetaPhlAn2	species	Bray-Curtis distance	peabody	0.7528134159491223
+MetaPhlAn2	species	Bray-Curtis distance	peabody	0.7528134159491222
 MetaPhlAn2	superkingdom	Bray-Curtis distance	peabody	0.0
 MetaPhlAn2	superkingdom	Shannon diversity	peabody	0.0
 MetaPhlAn2	superkingdom	Shannon equitability	peabody	0.0
-MetaPhlAn2	phylum	Shannon diversity	peabody	0.8785832115008465
-MetaPhlAn2	phylum	Shannon equitability	peabody	0.7997209029638536
+MetaPhlAn2	phylum	Shannon diversity	peabody	0.8785832115008466
+MetaPhlAn2	phylum	Shannon equitability	peabody	0.7997209029638537
 MetaPhlAn2	class	Shannon diversity	peabody	1.0566096300053733
 MetaPhlAn2	class	Shannon equitability	peabody	0.7621827366821373
 MetaPhlAn2	order	Shannon diversity	peabody	1.4174197417969956
 MetaPhlAn2	order	Shannon equitability	peabody	0.8806924025129381
 MetaPhlAn2	family	Shannon diversity	peabody	1.8022951544884593
 MetaPhlAn2	family	Shannon equitability	peabody	0.8667207605329029
-MetaPhlAn2	genus	Shannon diversity	peabody	1.7361001587201048
-MetaPhlAn2	genus	Shannon equitability	peabody	0.892178993754123
-MetaPhlAn2	species	Shannon diversity	peabody	2.139198468224871
-MetaPhlAn2	species	Shannon equitability	peabody	0.9735911796591608
+MetaPhlAn2	genus	Shannon diversity	peabody	1.7361001587201046
+MetaPhlAn2	genus	Shannon equitability	peabody	0.8921789937541229
+MetaPhlAn2	species	Shannon diversity	peabody	2.1391984682248713
+MetaPhlAn2	species	Shannon equitability	peabody	0.9735911796591609
 MetaPhlAn2	class	F1 score	peabody	0.888888888888889
 MetaPhlAn2	class	False negatives	peabody	1.0
 MetaPhlAn2	class	False positives	peabody	0.0
@@ -600,14 +698,6 @@ MetaPhlAn2	class	Taxon counts	peabody	4.0
 MetaPhlAn2	class	Purity (precision)	peabody	1.0
 MetaPhlAn2	class	Completeness (recall)	peabody	0.8
 MetaPhlAn2	class	True positives	peabody	4.0
-MetaPhlAn2	genus	F1 score	peabody	0.7999999999999999
-MetaPhlAn2	genus	False negatives	peabody	2.0
-MetaPhlAn2	genus	False positives	peabody	1.0
-MetaPhlAn2	genus	Jaccard index	peabody	0.6666666666666666
-MetaPhlAn2	genus	Taxon counts	peabody	7.0
-MetaPhlAn2	genus	Purity (precision)	peabody	0.8571428571428571
-MetaPhlAn2	genus	Completeness (recall)	peabody	0.75
-MetaPhlAn2	genus	True positives	peabody	6.0
 MetaPhlAn2	order	F1 score	peabody	0.6153846153846154
 MetaPhlAn2	order	False negatives	peabody	4.0
 MetaPhlAn2	order	False positives	peabody	1.0
@@ -624,13 +714,6 @@ MetaPhlAn2	phylum	Taxon counts	peabody	3.0
 MetaPhlAn2	phylum	Purity (precision)	peabody	1.0
 MetaPhlAn2	phylum	Completeness (recall)	peabody	1.0
 MetaPhlAn2	phylum	True positives	peabody	3.0
-MetaPhlAn2	strain	False negatives	peabody	11.0
-MetaPhlAn2	strain	False positives	peabody	0.0
-MetaPhlAn2	strain	Jaccard index	peabody	0.0
-MetaPhlAn2	strain	Taxon counts	peabody	0.0
-MetaPhlAn2	strain	Purity (precision)	peabody	0.0
-MetaPhlAn2	strain	Completeness (recall)	peabody	0.0
-MetaPhlAn2	strain	True positives	peabody	0.0
 MetaPhlAn2	family	F1 score	peabody	0.875
 MetaPhlAn2	family	False negatives	peabody	1.0
 MetaPhlAn2	family	False positives	peabody	1.0
@@ -639,6 +722,13 @@ MetaPhlAn2	family	Taxon counts	peabody	8.0
 MetaPhlAn2	family	Purity (precision)	peabody	0.875
 MetaPhlAn2	family	Completeness (recall)	peabody	0.875
 MetaPhlAn2	family	True positives	peabody	7.0
+MetaPhlAn2	strain	False negatives	peabody	11.0
+MetaPhlAn2	strain	False positives	peabody	0.0
+MetaPhlAn2	strain	Jaccard index	peabody	0.0
+MetaPhlAn2	strain	Taxon counts	peabody	0.0
+MetaPhlAn2	strain	Purity (precision)	peabody	0.0
+MetaPhlAn2	strain	Completeness (recall)	peabody	0.0
+MetaPhlAn2	strain	True positives	peabody	0.0
 MetaPhlAn2	superkingdom	F1 score	peabody	1.0
 MetaPhlAn2	superkingdom	False negatives	peabody	0.0
 MetaPhlAn2	superkingdom	False positives	peabody	0.0
@@ -655,26 +745,34 @@ MetaPhlAn2	species	Taxon counts	peabody	9.0
 MetaPhlAn2	species	Purity (precision)	peabody	0.3333333333333333
 MetaPhlAn2	species	Completeness (recall)	peabody	0.2727272727272727
 MetaPhlAn2	species	True positives	peabody	3.0
+MetaPhlAn2	genus	F1 score	peabody	0.7999999999999999
+MetaPhlAn2	genus	False negatives	peabody	2.0
+MetaPhlAn2	genus	False positives	peabody	1.0
+MetaPhlAn2	genus	Jaccard index	peabody	0.6666666666666666
+MetaPhlAn2	genus	Taxon counts	peabody	7.0
+MetaPhlAn2	genus	Purity (precision)	peabody	0.8571428571428571
+MetaPhlAn2	genus	Completeness (recall)	peabody	0.75
+MetaPhlAn2	genus	True positives	peabody	6.0
 MetaPhlAn2	class	L1 norm error	peabody	0.5275149242826943
 MetaPhlAn2	family	L1 norm error	peabody	0.35103831843716854
 MetaPhlAn2	genus	L1 norm error	peabody	0.5769446261691112
-MetaPhlAn2	order	L1 norm error	peabody	0.7575785914087493
+MetaPhlAn2	order	L1 norm error	peabody	0.7575785914087492
 MetaPhlAn2	phylum	L1 norm error	peabody	0.1151488
 MetaPhlAn2	species	L1 norm error	peabody	1.5056268318982446
 MetaPhlAn2	superkingdom	L1 norm error	peabody	0.0
-MetaPhlAn2	na	Weighted UniFrac error	peabody	5.127342342969902
+MetaPhlAn2	na	Weighted UniFrac error	peabody	5.127342342969901
 MetaPhlAn2	na	Unweighted UniFrac error	peabody	69.67359395935027
-mOTUs2	class	Bray-Curtis distance	peabody	0.09350828129303483
-mOTUs2	family	Bray-Curtis distance	peabody	0.342151669689834
-mOTUs2	genus	Bray-Curtis distance	peabody	0.4170577640060126
+mOTUs2	class	Bray-Curtis distance	peabody	0.09350828129303485
+mOTUs2	family	Bray-Curtis distance	peabody	0.34215166968983407
+mOTUs2	genus	Bray-Curtis distance	peabody	0.4170577640060127
 mOTUs2	order	Bray-Curtis distance	peabody	0.20953364741247918
 mOTUs2	phylum	Bray-Curtis distance	peabody	0.08500229846417592
-mOTUs2	species	Bray-Curtis distance	peabody	0.9166666750000025
+mOTUs2	species	Bray-Curtis distance	peabody	0.9166666750000024
 mOTUs2	superkingdom	Bray-Curtis distance	peabody	0.0
 mOTUs2	superkingdom	Shannon diversity	peabody	0.0
 mOTUs2	superkingdom	Shannon equitability	peabody	0.0
-mOTUs2	phylum	Shannon diversity	peabody	0.889850331762917
-mOTUs2	phylum	Shannon equitability	peabody	0.8099766777975121
+mOTUs2	phylum	Shannon diversity	peabody	0.8898503317629171
+mOTUs2	phylum	Shannon equitability	peabody	0.8099766777975123
 mOTUs2	class	Shannon diversity	peabody	1.4731162221951632
 mOTUs2	class	Shannon equitability	peabody	0.9152985715163344
 mOTUs2	order	Shannon diversity	peabody	1.5733252048911368
@@ -693,14 +791,6 @@ mOTUs2	class	Taxon counts	peabody	5.0
 mOTUs2	class	Purity (precision)	peabody	1.0
 mOTUs2	class	Completeness (recall)	peabody	1.0
 mOTUs2	class	True positives	peabody	5.0
-mOTUs2	genus	F1 score	peabody	0.6153846153846154
-mOTUs2	genus	False negatives	peabody	4.0
-mOTUs2	genus	False positives	peabody	1.0
-mOTUs2	genus	Jaccard index	peabody	0.4444444444444444
-mOTUs2	genus	Taxon counts	peabody	5.0
-mOTUs2	genus	Purity (precision)	peabody	0.8
-mOTUs2	genus	Completeness (recall)	peabody	0.5
-mOTUs2	genus	True positives	peabody	4.0
 mOTUs2	order	F1 score	peabody	0.8571428571428571
 mOTUs2	order	False negatives	peabody	2.0
 mOTUs2	order	False positives	peabody	0.0
@@ -717,13 +807,6 @@ mOTUs2	phylum	Taxon counts	peabody	3.0
 mOTUs2	phylum	Purity (precision)	peabody	1.0
 mOTUs2	phylum	Completeness (recall)	peabody	1.0
 mOTUs2	phylum	True positives	peabody	3.0
-mOTUs2	strain	False negatives	peabody	11.0
-mOTUs2	strain	False positives	peabody	0.0
-mOTUs2	strain	Jaccard index	peabody	0.0
-mOTUs2	strain	Taxon counts	peabody	0.0
-mOTUs2	strain	Purity (precision)	peabody	0.0
-mOTUs2	strain	Completeness (recall)	peabody	0.0
-mOTUs2	strain	True positives	peabody	0.0
 mOTUs2	family	F1 score	peabody	0.7692307692307693
 mOTUs2	family	False negatives	peabody	3.0
 mOTUs2	family	False positives	peabody	0.0
@@ -732,6 +815,13 @@ mOTUs2	family	Taxon counts	peabody	5.0
 mOTUs2	family	Purity (precision)	peabody	1.0
 mOTUs2	family	Completeness (recall)	peabody	0.625
 mOTUs2	family	True positives	peabody	5.0
+mOTUs2	strain	False negatives	peabody	11.0
+mOTUs2	strain	False positives	peabody	0.0
+mOTUs2	strain	Jaccard index	peabody	0.0
+mOTUs2	strain	Taxon counts	peabody	0.0
+mOTUs2	strain	Purity (precision)	peabody	0.0
+mOTUs2	strain	Completeness (recall)	peabody	0.0
+mOTUs2	strain	True positives	peabody	0.0
 mOTUs2	superkingdom	F1 score	peabody	1.0
 mOTUs2	superkingdom	False negatives	peabody	0.0
 mOTUs2	superkingdom	False positives	peabody	0.0
@@ -748,6 +838,14 @@ mOTUs2	species	Taxon counts	peabody	3.0
 mOTUs2	species	Purity (precision)	peabody	0.3333333333333333
 mOTUs2	species	Completeness (recall)	peabody	0.09090909090909091
 mOTUs2	species	True positives	peabody	1.0
+mOTUs2	genus	F1 score	peabody	0.6153846153846154
+mOTUs2	genus	False negatives	peabody	4.0
+mOTUs2	genus	False positives	peabody	1.0
+mOTUs2	genus	Jaccard index	peabody	0.4444444444444444
+mOTUs2	genus	Taxon counts	peabody	5.0
+mOTUs2	genus	Purity (precision)	peabody	0.8
+mOTUs2	genus	Completeness (recall)	peabody	0.5
+mOTUs2	genus	True positives	peabody	4.0
 mOTUs2	class	L1 norm error	peabody	0.18701656258606966
 mOTUs2	family	L1 norm error	peabody	0.6843033393796679
 mOTUs2	genus	L1 norm error	peabody	0.834115528012025
@@ -755,5 +853,5 @@ mOTUs2	order	L1 norm error	peabody	0.41906729482495836
 mOTUs2	phylum	L1 norm error	peabody	0.17000459692835185
 mOTUs2	species	L1 norm error	peabody	1.833333350000005
 mOTUs2	superkingdom	L1 norm error	peabody	0.0
-mOTUs2	na	Weighted UniFrac error	peabody	5.127840671731079
-mOTUs2	na	Unweighted UniFrac error	peabody	79.988506823819
+mOTUs2	na	Weighted UniFrac error	peabody	5.127840671731075
+mOTUs2	na	Unweighted UniFrac error	peabody	79.98850682381897

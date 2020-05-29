@@ -1,0 +1,8 @@
+Command exited with non-zero status 9
+time result
+cmd:./runMetaBinG2 -i /workspace/metalign/peabody2015/mgm4545485.3.050.upload.fna -o /workspace/metalign/peabody2015/timing/results/metabing2_gpu_fasta_version.txt -d db -t 4
+real 36.33s
+user 103.47s 
+sys  3.80s 
+memory:1239172KB 
+cpu 295%

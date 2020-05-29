@@ -1,0 +1,8 @@
+Command exited with non-zero status 9
+time result
+cmd:./runMetaBinG2 -i /workspace/metalign/tara_oceans/prokaryotes_PRJEB1787/ERR598957_interleaved.fasta.single -o /workspace/metalign/tara_oceans/timing/results/metabing2_gpu_ERR598957_interleaved.txt -d db -t 4
+real 20975.79s
+user 64834.90s 
+sys  2216.88s 
+memory:1071228KB 
+cpu 319%

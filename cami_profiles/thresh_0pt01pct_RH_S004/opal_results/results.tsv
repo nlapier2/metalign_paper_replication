@@ -11,34 +11,18 @@ Gold standard	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.06873000877546731
 Gold standard	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.09915644282062162
 Gold standard	phylum	Shannon diversity	CAMI_HIGH_S004	1.338485225191389
 Gold standard	phylum	Shannon equitability	CAMI_HIGH_S004	0.5386460796447149
-Gold standard	class	Shannon diversity	CAMI_HIGH_S004	2.140571182516083
-Gold standard	class	Shannon equitability	CAMI_HIGH_S004	0.7030893108203597
-Gold standard	order	Shannon diversity	CAMI_HIGH_S004	2.7616607787511622
-Gold standard	order	Shannon equitability	CAMI_HIGH_S004	0.7486448969405288
+Gold standard	class	Shannon diversity	CAMI_HIGH_S004	2.140571182516084
+Gold standard	class	Shannon equitability	CAMI_HIGH_S004	0.7030893108203601
+Gold standard	order	Shannon diversity	CAMI_HIGH_S004	2.7616607787511613
+Gold standard	order	Shannon equitability	CAMI_HIGH_S004	0.7486448969405286
 Gold standard	family	Shannon diversity	CAMI_HIGH_S004	3.728430574374636
 Gold standard	family	Shannon equitability	CAMI_HIGH_S004	0.8327339954229356
-Gold standard	genus	Shannon diversity	CAMI_HIGH_S004	4.5608486060051625
-Gold standard	genus	Shannon equitability	CAMI_HIGH_S004	0.8657880429370031
-Gold standard	species	Shannon diversity	CAMI_HIGH_S004	1.975248734598842
-Gold standard	species	Shannon equitability	CAMI_HIGH_S004	0.35958977611537785
-Gold standard	strain	Shannon diversity	CAMI_HIGH_S004	6.595741391941314
-Gold standard	strain	Shannon equitability	CAMI_HIGH_S004	0.9450643498571226
-Gold standard	class	F1 score	CAMI_HIGH_S004	1.0
-Gold standard	class	False negatives	CAMI_HIGH_S004	0.0
-Gold standard	class	False positives	CAMI_HIGH_S004	0.0
-Gold standard	class	Jaccard index	CAMI_HIGH_S004	1.0
-Gold standard	class	Taxon counts	CAMI_HIGH_S004	21.0
-Gold standard	class	Purity (precision)	CAMI_HIGH_S004	1.0
-Gold standard	class	Completeness (recall)	CAMI_HIGH_S004	1.0
-Gold standard	class	True positives	CAMI_HIGH_S004	21.0
-Gold standard	family	F1 score	CAMI_HIGH_S004	1.0
-Gold standard	family	False negatives	CAMI_HIGH_S004	0.0
-Gold standard	family	False positives	CAMI_HIGH_S004	0.0
-Gold standard	family	Jaccard index	CAMI_HIGH_S004	1.0
-Gold standard	family	Taxon counts	CAMI_HIGH_S004	88.0
-Gold standard	family	Purity (precision)	CAMI_HIGH_S004	1.0
-Gold standard	family	Completeness (recall)	CAMI_HIGH_S004	1.0
-Gold standard	family	True positives	CAMI_HIGH_S004	88.0
+Gold standard	genus	Shannon diversity	CAMI_HIGH_S004	4.560848606005164
+Gold standard	genus	Shannon equitability	CAMI_HIGH_S004	0.8657880429370034
+Gold standard	species	Shannon diversity	CAMI_HIGH_S004	1.9752487345988399
+Gold standard	species	Shannon equitability	CAMI_HIGH_S004	0.35958977611537746
+Gold standard	strain	Shannon diversity	CAMI_HIGH_S004	6.595741391941308
+Gold standard	strain	Shannon equitability	CAMI_HIGH_S004	0.9450643498571217
 Gold standard	order	F1 score	CAMI_HIGH_S004	1.0
 Gold standard	order	False negatives	CAMI_HIGH_S004	0.0
 Gold standard	order	False positives	CAMI_HIGH_S004	0.0
@@ -47,22 +31,6 @@ Gold standard	order	Taxon counts	CAMI_HIGH_S004	40.0
 Gold standard	order	Purity (precision)	CAMI_HIGH_S004	1.0
 Gold standard	order	Completeness (recall)	CAMI_HIGH_S004	1.0
 Gold standard	order	True positives	CAMI_HIGH_S004	40.0
-Gold standard	species	F1 score	CAMI_HIGH_S004	1.0
-Gold standard	species	False negatives	CAMI_HIGH_S004	0.0
-Gold standard	species	False positives	CAMI_HIGH_S004	0.0
-Gold standard	species	Jaccard index	CAMI_HIGH_S004	1.0
-Gold standard	species	Taxon counts	CAMI_HIGH_S004	243.0
-Gold standard	species	Purity (precision)	CAMI_HIGH_S004	1.0
-Gold standard	species	Completeness (recall)	CAMI_HIGH_S004	1.0
-Gold standard	species	True positives	CAMI_HIGH_S004	243.0
-Gold standard	phylum	F1 score	CAMI_HIGH_S004	1.0
-Gold standard	phylum	False negatives	CAMI_HIGH_S004	0.0
-Gold standard	phylum	False positives	CAMI_HIGH_S004	0.0
-Gold standard	phylum	Jaccard index	CAMI_HIGH_S004	1.0
-Gold standard	phylum	Taxon counts	CAMI_HIGH_S004	12.0
-Gold standard	phylum	Purity (precision)	CAMI_HIGH_S004	1.0
-Gold standard	phylum	Completeness (recall)	CAMI_HIGH_S004	1.0
-Gold standard	phylum	True positives	CAMI_HIGH_S004	12.0
 Gold standard	strain	F1 score	CAMI_HIGH_S004	1.0
 Gold standard	strain	False negatives	CAMI_HIGH_S004	0.0
 Gold standard	strain	False positives	CAMI_HIGH_S004	0.0
@@ -71,14 +39,30 @@ Gold standard	strain	Taxon counts	CAMI_HIGH_S004	1074.0
 Gold standard	strain	Purity (precision)	CAMI_HIGH_S004	1.0
 Gold standard	strain	Completeness (recall)	CAMI_HIGH_S004	1.0
 Gold standard	strain	True positives	CAMI_HIGH_S004	1074.0
-Gold standard	superkingdom	F1 score	CAMI_HIGH_S004	1.0
-Gold standard	superkingdom	False negatives	CAMI_HIGH_S004	0.0
-Gold standard	superkingdom	False positives	CAMI_HIGH_S004	0.0
-Gold standard	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
-Gold standard	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
-Gold standard	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
-Gold standard	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
-Gold standard	superkingdom	True positives	CAMI_HIGH_S004	2.0
+Gold standard	phylum	F1 score	CAMI_HIGH_S004	1.0
+Gold standard	phylum	False negatives	CAMI_HIGH_S004	0.0
+Gold standard	phylum	False positives	CAMI_HIGH_S004	0.0
+Gold standard	phylum	Jaccard index	CAMI_HIGH_S004	1.0
+Gold standard	phylum	Taxon counts	CAMI_HIGH_S004	12.0
+Gold standard	phylum	Purity (precision)	CAMI_HIGH_S004	1.0
+Gold standard	phylum	Completeness (recall)	CAMI_HIGH_S004	1.0
+Gold standard	phylum	True positives	CAMI_HIGH_S004	12.0
+Gold standard	class	F1 score	CAMI_HIGH_S004	1.0
+Gold standard	class	False negatives	CAMI_HIGH_S004	0.0
+Gold standard	class	False positives	CAMI_HIGH_S004	0.0
+Gold standard	class	Jaccard index	CAMI_HIGH_S004	1.0
+Gold standard	class	Taxon counts	CAMI_HIGH_S004	21.0
+Gold standard	class	Purity (precision)	CAMI_HIGH_S004	1.0
+Gold standard	class	Completeness (recall)	CAMI_HIGH_S004	1.0
+Gold standard	class	True positives	CAMI_HIGH_S004	21.0
+Gold standard	species	F1 score	CAMI_HIGH_S004	1.0
+Gold standard	species	False negatives	CAMI_HIGH_S004	0.0
+Gold standard	species	False positives	CAMI_HIGH_S004	0.0
+Gold standard	species	Jaccard index	CAMI_HIGH_S004	1.0
+Gold standard	species	Taxon counts	CAMI_HIGH_S004	243.0
+Gold standard	species	Purity (precision)	CAMI_HIGH_S004	1.0
+Gold standard	species	Completeness (recall)	CAMI_HIGH_S004	1.0
+Gold standard	species	True positives	CAMI_HIGH_S004	243.0
 Gold standard	genus	F1 score	CAMI_HIGH_S004	1.0
 Gold standard	genus	False negatives	CAMI_HIGH_S004	0.0
 Gold standard	genus	False positives	CAMI_HIGH_S004	0.0
@@ -87,6 +71,22 @@ Gold standard	genus	Taxon counts	CAMI_HIGH_S004	194.0
 Gold standard	genus	Purity (precision)	CAMI_HIGH_S004	1.0
 Gold standard	genus	Completeness (recall)	CAMI_HIGH_S004	1.0
 Gold standard	genus	True positives	CAMI_HIGH_S004	194.0
+Gold standard	family	F1 score	CAMI_HIGH_S004	1.0
+Gold standard	family	False negatives	CAMI_HIGH_S004	0.0
+Gold standard	family	False positives	CAMI_HIGH_S004	0.0
+Gold standard	family	Jaccard index	CAMI_HIGH_S004	1.0
+Gold standard	family	Taxon counts	CAMI_HIGH_S004	88.0
+Gold standard	family	Purity (precision)	CAMI_HIGH_S004	1.0
+Gold standard	family	Completeness (recall)	CAMI_HIGH_S004	1.0
+Gold standard	family	True positives	CAMI_HIGH_S004	88.0
+Gold standard	superkingdom	F1 score	CAMI_HIGH_S004	1.0
+Gold standard	superkingdom	False negatives	CAMI_HIGH_S004	0.0
+Gold standard	superkingdom	False positives	CAMI_HIGH_S004	0.0
+Gold standard	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
+Gold standard	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
+Gold standard	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
+Gold standard	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
+Gold standard	superkingdom	True positives	CAMI_HIGH_S004	2.0
 Gold standard	class	L1 norm error	CAMI_HIGH_S004	0.0
 Gold standard	family	L1 norm error	CAMI_HIGH_S004	0.0
 Gold standard	genus	L1 norm error	CAMI_HIGH_S004	0.0
@@ -97,46 +97,30 @@ Gold standard	strain	L1 norm error	CAMI_HIGH_S004	0.0
 Gold standard	superkingdom	L1 norm error	CAMI_HIGH_S004	0.0
 Gold standard	na	Weighted UniFrac error	CAMI_HIGH_S004	0.0
 Gold standard	na	Unweighted UniFrac error	CAMI_HIGH_S004	0.0
-Metalign	class	Bray-Curtis distance	CAMI_HIGH_S004	0.0879996031549163
-Metalign	family	Bray-Curtis distance	CAMI_HIGH_S004	0.15604815133242841
-Metalign	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.23488858546624425
+Metalign	class	Bray-Curtis distance	CAMI_HIGH_S004	0.08799960315491628
+Metalign	family	Bray-Curtis distance	CAMI_HIGH_S004	0.15604815133242847
+Metalign	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.23488858546624417
 Metalign	order	Bray-Curtis distance	CAMI_HIGH_S004	0.3507504072448612
 Metalign	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.038745454556367666
-Metalign	species	Bray-Curtis distance	CAMI_HIGH_S004	0.8846152655747673
-Metalign	strain	Bray-Curtis distance	CAMI_HIGH_S004	0.9650391048826853
-Metalign	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.015624707477114759
-Metalign	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.12020909536508136
-Metalign	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.08671253287647568
-Metalign	phylum	Shannon diversity	CAMI_HIGH_S004	1.2303435881732059
-Metalign	phylum	Shannon equitability	CAMI_HIGH_S004	0.49512668344228244
-Metalign	class	Shannon diversity	CAMI_HIGH_S004	2.103147890934734
-Metalign	class	Shannon equitability	CAMI_HIGH_S004	0.6533796285915593
+Metalign	species	Bray-Curtis distance	CAMI_HIGH_S004	0.8846152655747674
+Metalign	strain	Bray-Curtis distance	CAMI_HIGH_S004	0.9650391048826852
+Metalign	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.015624707477114757
+Metalign	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.12020909536508137
+Metalign	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.08671253287647569
+Metalign	phylum	Shannon diversity	CAMI_HIGH_S004	1.230343588173206
+Metalign	phylum	Shannon equitability	CAMI_HIGH_S004	0.49512668344228256
+Metalign	class	Shannon diversity	CAMI_HIGH_S004	2.1031478909347334
+Metalign	class	Shannon equitability	CAMI_HIGH_S004	0.6533796285915592
 Metalign	order	Shannon diversity	CAMI_HIGH_S004	2.969683982706961
 Metalign	order	Shannon equitability	CAMI_HIGH_S004	0.7479762313119335
-Metalign	family	Shannon diversity	CAMI_HIGH_S004	3.614318068827233
-Metalign	family	Shannon equitability	CAMI_HIGH_S004	0.7900647900623566
-Metalign	genus	Shannon diversity	CAMI_HIGH_S004	4.403845670743979
-Metalign	genus	Shannon equitability	CAMI_HIGH_S004	0.8335559060100709
-Metalign	species	Shannon diversity	CAMI_HIGH_S004	6.203159854275957
-Metalign	species	Shannon equitability	CAMI_HIGH_S004	0.9271119534847618
+Metalign	family	Shannon diversity	CAMI_HIGH_S004	3.6143180688272327
+Metalign	family	Shannon equitability	CAMI_HIGH_S004	0.7900647900623565
+Metalign	genus	Shannon diversity	CAMI_HIGH_S004	4.403845670743982
+Metalign	genus	Shannon equitability	CAMI_HIGH_S004	0.8335559060100715
+Metalign	species	Shannon diversity	CAMI_HIGH_S004	6.203159854275961
+Metalign	species	Shannon equitability	CAMI_HIGH_S004	0.9271119534847625
 Metalign	strain	Shannon diversity	CAMI_HIGH_S004	6.203159854275953
 Metalign	strain	Shannon equitability	CAMI_HIGH_S004	0.9271119534847613
-Metalign	class	F1 score	CAMI_HIGH_S004	0.8695652173913043
-Metalign	class	False negatives	CAMI_HIGH_S004	1.0
-Metalign	class	False positives	CAMI_HIGH_S004	5.0
-Metalign	class	Jaccard index	CAMI_HIGH_S004	0.7692307692307693
-Metalign	class	Taxon counts	CAMI_HIGH_S004	25.0
-Metalign	class	Purity (precision)	CAMI_HIGH_S004	0.8
-Metalign	class	Completeness (recall)	CAMI_HIGH_S004	0.9523809523809523
-Metalign	class	True positives	CAMI_HIGH_S004	20.0
-Metalign	family	F1 score	CAMI_HIGH_S004	0.8648648648648649
-Metalign	family	False negatives	CAMI_HIGH_S004	8.0
-Metalign	family	False positives	CAMI_HIGH_S004	17.0
-Metalign	family	Jaccard index	CAMI_HIGH_S004	0.7619047619047619
-Metalign	family	Taxon counts	CAMI_HIGH_S004	97.0
-Metalign	family	Purity (precision)	CAMI_HIGH_S004	0.8247422680412371
-Metalign	family	Completeness (recall)	CAMI_HIGH_S004	0.9090909090909091
-Metalign	family	True positives	CAMI_HIGH_S004	80.0
 Metalign	order	F1 score	CAMI_HIGH_S004	0.7956989247311829
 Metalign	order	False negatives	CAMI_HIGH_S004	3.0
 Metalign	order	False positives	CAMI_HIGH_S004	16.0
@@ -145,22 +129,6 @@ Metalign	order	Taxon counts	CAMI_HIGH_S004	53.0
 Metalign	order	Purity (precision)	CAMI_HIGH_S004	0.6981132075471698
 Metalign	order	Completeness (recall)	CAMI_HIGH_S004	0.925
 Metalign	order	True positives	CAMI_HIGH_S004	37.0
-Metalign	species	F1 score	CAMI_HIGH_S004	0.29770992366412213
-Metalign	species	False negatives	CAMI_HIGH_S004	87.0
-Metalign	species	False positives	CAMI_HIGH_S004	649.0
-Metalign	species	Jaccard index	CAMI_HIGH_S004	0.17488789237668162
-Metalign	species	Taxon counts	CAMI_HIGH_S004	805.0
-Metalign	species	Purity (precision)	CAMI_HIGH_S004	0.1937888198757764
-Metalign	species	Completeness (recall)	CAMI_HIGH_S004	0.6419753086419753
-Metalign	species	True positives	CAMI_HIGH_S004	156.0
-Metalign	phylum	F1 score	CAMI_HIGH_S004	0.9166666666666666
-Metalign	phylum	False negatives	CAMI_HIGH_S004	1.0
-Metalign	phylum	False positives	CAMI_HIGH_S004	1.0
-Metalign	phylum	Jaccard index	CAMI_HIGH_S004	0.8461538461538461
-Metalign	phylum	Taxon counts	CAMI_HIGH_S004	12.0
-Metalign	phylum	Purity (precision)	CAMI_HIGH_S004	0.9166666666666666
-Metalign	phylum	Completeness (recall)	CAMI_HIGH_S004	0.9166666666666666
-Metalign	phylum	True positives	CAMI_HIGH_S004	11.0
 Metalign	strain	F1 score	CAMI_HIGH_S004	0.06279936136242682
 Metalign	strain	False negatives	CAMI_HIGH_S004	1015.0
 Metalign	strain	False positives	CAMI_HIGH_S004	746.0
@@ -169,14 +137,30 @@ Metalign	strain	Taxon counts	CAMI_HIGH_S004	805.0
 Metalign	strain	Purity (precision)	CAMI_HIGH_S004	0.07329192546583851
 Metalign	strain	Completeness (recall)	CAMI_HIGH_S004	0.05493482309124767
 Metalign	strain	True positives	CAMI_HIGH_S004	59.0
-Metalign	superkingdom	F1 score	CAMI_HIGH_S004	0.6666666666666666
-Metalign	superkingdom	False negatives	CAMI_HIGH_S004	0.0
-Metalign	superkingdom	False positives	CAMI_HIGH_S004	2.0
-Metalign	superkingdom	Jaccard index	CAMI_HIGH_S004	0.5
-Metalign	superkingdom	Taxon counts	CAMI_HIGH_S004	4.0
-Metalign	superkingdom	Purity (precision)	CAMI_HIGH_S004	0.5
-Metalign	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
-Metalign	superkingdom	True positives	CAMI_HIGH_S004	2.0
+Metalign	phylum	F1 score	CAMI_HIGH_S004	0.9166666666666666
+Metalign	phylum	False negatives	CAMI_HIGH_S004	1.0
+Metalign	phylum	False positives	CAMI_HIGH_S004	1.0
+Metalign	phylum	Jaccard index	CAMI_HIGH_S004	0.8461538461538461
+Metalign	phylum	Taxon counts	CAMI_HIGH_S004	12.0
+Metalign	phylum	Purity (precision)	CAMI_HIGH_S004	0.9166666666666666
+Metalign	phylum	Completeness (recall)	CAMI_HIGH_S004	0.9166666666666666
+Metalign	phylum	True positives	CAMI_HIGH_S004	11.0
+Metalign	class	F1 score	CAMI_HIGH_S004	0.8695652173913043
+Metalign	class	False negatives	CAMI_HIGH_S004	1.0
+Metalign	class	False positives	CAMI_HIGH_S004	5.0
+Metalign	class	Jaccard index	CAMI_HIGH_S004	0.7692307692307693
+Metalign	class	Taxon counts	CAMI_HIGH_S004	25.0
+Metalign	class	Purity (precision)	CAMI_HIGH_S004	0.8
+Metalign	class	Completeness (recall)	CAMI_HIGH_S004	0.9523809523809523
+Metalign	class	True positives	CAMI_HIGH_S004	20.0
+Metalign	species	F1 score	CAMI_HIGH_S004	0.29770992366412213
+Metalign	species	False negatives	CAMI_HIGH_S004	87.0
+Metalign	species	False positives	CAMI_HIGH_S004	649.0
+Metalign	species	Jaccard index	CAMI_HIGH_S004	0.17488789237668162
+Metalign	species	Taxon counts	CAMI_HIGH_S004	805.0
+Metalign	species	Purity (precision)	CAMI_HIGH_S004	0.1937888198757764
+Metalign	species	Completeness (recall)	CAMI_HIGH_S004	0.6419753086419753
+Metalign	species	True positives	CAMI_HIGH_S004	156.0
 Metalign	genus	F1 score	CAMI_HIGH_S004	0.8542199488491048
 Metalign	genus	False negatives	CAMI_HIGH_S004	27.0
 Metalign	genus	False positives	CAMI_HIGH_S004	30.0
@@ -185,53 +169,53 @@ Metalign	genus	Taxon counts	CAMI_HIGH_S004	197.0
 Metalign	genus	Purity (precision)	CAMI_HIGH_S004	0.8477157360406091
 Metalign	genus	Completeness (recall)	CAMI_HIGH_S004	0.8608247422680413
 Metalign	genus	True positives	CAMI_HIGH_S004	167.0
+Metalign	family	F1 score	CAMI_HIGH_S004	0.8648648648648649
+Metalign	family	False negatives	CAMI_HIGH_S004	8.0
+Metalign	family	False positives	CAMI_HIGH_S004	17.0
+Metalign	family	Jaccard index	CAMI_HIGH_S004	0.7619047619047619
+Metalign	family	Taxon counts	CAMI_HIGH_S004	97.0
+Metalign	family	Purity (precision)	CAMI_HIGH_S004	0.8247422680412371
+Metalign	family	Completeness (recall)	CAMI_HIGH_S004	0.9090909090909091
+Metalign	family	True positives	CAMI_HIGH_S004	80.0
+Metalign	superkingdom	F1 score	CAMI_HIGH_S004	0.6666666666666666
+Metalign	superkingdom	False negatives	CAMI_HIGH_S004	0.0
+Metalign	superkingdom	False positives	CAMI_HIGH_S004	2.0
+Metalign	superkingdom	Jaccard index	CAMI_HIGH_S004	0.5
+Metalign	superkingdom	Taxon counts	CAMI_HIGH_S004	4.0
+Metalign	superkingdom	Purity (precision)	CAMI_HIGH_S004	0.5
+Metalign	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
+Metalign	superkingdom	True positives	CAMI_HIGH_S004	2.0
 Metalign	class	L1 norm error	CAMI_HIGH_S004	0.17599920630983257
-Metalign	family	L1 norm error	CAMI_HIGH_S004	0.31209630266485705
-Metalign	genus	L1 norm error	CAMI_HIGH_S004	0.4697771709324885
+Metalign	family	L1 norm error	CAMI_HIGH_S004	0.31209630266485694
+Metalign	genus	L1 norm error	CAMI_HIGH_S004	0.46977717093248855
 Metalign	order	L1 norm error	CAMI_HIGH_S004	0.7015008144897223
 Metalign	phylum	L1 norm error	CAMI_HIGH_S004	0.07749090911273533
-Metalign	species	L1 norm error	CAMI_HIGH_S004	1.7692305311495344
+Metalign	species	L1 norm error	CAMI_HIGH_S004	1.769230531149535
 Metalign	strain	L1 norm error	CAMI_HIGH_S004	1.9300782097653724
-Metalign	superkingdom	L1 norm error	CAMI_HIGH_S004	0.031249414954229518
+Metalign	superkingdom	L1 norm error	CAMI_HIGH_S004	0.031249414954229515
 Metalign	na	Weighted UniFrac error	CAMI_HIGH_S004	8.618228073686728
 Metalign	na	Unweighted UniFrac error	CAMI_HIGH_S004	8632.013160399756
 Bracken+Kraken2	class	Bray-Curtis distance	CAMI_HIGH_S004	0.1595574185801669
-Bracken+Kraken2	family	Bray-Curtis distance	CAMI_HIGH_S004	0.284822460948802
-Bracken+Kraken2	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.5124121303103708
+Bracken+Kraken2	family	Bray-Curtis distance	CAMI_HIGH_S004	0.2848224609488019
+Bracken+Kraken2	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.5124121303103709
 Bracken+Kraken2	order	Bray-Curtis distance	CAMI_HIGH_S004	0.43886246743389595
 Bracken+Kraken2	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.11414858663252553
 Bracken+Kraken2	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9862146293121783
 Bracken+Kraken2	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.005697987147987183
 Bracken+Kraken2	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.10139439372516573
 Bracken+Kraken2	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.07314059450061981
-Bracken+Kraken2	phylum	Shannon diversity	CAMI_HIGH_S004	1.162717895646106
-Bracken+Kraken2	phylum	Shannon equitability	CAMI_HIGH_S004	0.38812476866189183
-Bracken+Kraken2	class	Shannon diversity	CAMI_HIGH_S004	1.9358568465642891
-Bracken+Kraken2	class	Shannon equitability	CAMI_HIGH_S004	0.5284084269769056
-Bracken+Kraken2	order	Shannon diversity	CAMI_HIGH_S004	2.992842563300446
-Bracken+Kraken2	order	Shannon equitability	CAMI_HIGH_S004	0.6527510995930186
-Bracken+Kraken2	family	Shannon diversity	CAMI_HIGH_S004	3.733280782191074
-Bracken+Kraken2	family	Shannon equitability	CAMI_HIGH_S004	0.7100873168721729
-Bracken+Kraken2	genus	Shannon diversity	CAMI_HIGH_S004	4.71897451579053
-Bracken+Kraken2	genus	Shannon equitability	CAMI_HIGH_S004	0.7638422149300587
-Bracken+Kraken2	species	Shannon diversity	CAMI_HIGH_S004	6.253071928445583
-Bracken+Kraken2	species	Shannon equitability	CAMI_HIGH_S004	0.857165671033658
-Bracken+Kraken2	class	F1 score	CAMI_HIGH_S004	0.7000000000000001
-Bracken+Kraken2	class	False negatives	CAMI_HIGH_S004	0.0
-Bracken+Kraken2	class	False positives	CAMI_HIGH_S004	18.0
-Bracken+Kraken2	class	Jaccard index	CAMI_HIGH_S004	0.5384615384615384
-Bracken+Kraken2	class	Taxon counts	CAMI_HIGH_S004	39.0
-Bracken+Kraken2	class	Purity (precision)	CAMI_HIGH_S004	0.5384615384615384
-Bracken+Kraken2	class	Completeness (recall)	CAMI_HIGH_S004	1.0
-Bracken+Kraken2	class	True positives	CAMI_HIGH_S004	21.0
-Bracken+Kraken2	family	F1 score	CAMI_HIGH_S004	0.5642857142857143
-Bracken+Kraken2	family	False negatives	CAMI_HIGH_S004	9.0
-Bracken+Kraken2	family	False positives	CAMI_HIGH_S004	113.0
-Bracken+Kraken2	family	Jaccard index	CAMI_HIGH_S004	0.39303482587064675
-Bracken+Kraken2	family	Taxon counts	CAMI_HIGH_S004	192.0
-Bracken+Kraken2	family	Purity (precision)	CAMI_HIGH_S004	0.4114583333333333
-Bracken+Kraken2	family	Completeness (recall)	CAMI_HIGH_S004	0.8977272727272727
-Bracken+Kraken2	family	True positives	CAMI_HIGH_S004	79.0
+Bracken+Kraken2	phylum	Shannon diversity	CAMI_HIGH_S004	1.1627178956461062
+Bracken+Kraken2	phylum	Shannon equitability	CAMI_HIGH_S004	0.3881247686618919
+Bracken+Kraken2	class	Shannon diversity	CAMI_HIGH_S004	1.9358568465642887
+Bracken+Kraken2	class	Shannon equitability	CAMI_HIGH_S004	0.5284084269769055
+Bracken+Kraken2	order	Shannon diversity	CAMI_HIGH_S004	2.992842563300447
+Bracken+Kraken2	order	Shannon equitability	CAMI_HIGH_S004	0.6527510995930188
+Bracken+Kraken2	family	Shannon diversity	CAMI_HIGH_S004	3.7332807821910743
+Bracken+Kraken2	family	Shannon equitability	CAMI_HIGH_S004	0.710087316872173
+Bracken+Kraken2	genus	Shannon diversity	CAMI_HIGH_S004	4.718974515790526
+Bracken+Kraken2	genus	Shannon equitability	CAMI_HIGH_S004	0.7638422149300581
+Bracken+Kraken2	species	Shannon diversity	CAMI_HIGH_S004	6.253071928445562
+Bracken+Kraken2	species	Shannon equitability	CAMI_HIGH_S004	0.857165671033655
 Bracken+Kraken2	order	F1 score	CAMI_HIGH_S004	0.5797101449275363
 Bracken+Kraken2	order	False negatives	CAMI_HIGH_S004	0.0
 Bracken+Kraken2	order	False positives	CAMI_HIGH_S004	58.0
@@ -240,14 +224,13 @@ Bracken+Kraken2	order	Taxon counts	CAMI_HIGH_S004	98.0
 Bracken+Kraken2	order	Purity (precision)	CAMI_HIGH_S004	0.40816326530612246
 Bracken+Kraken2	order	Completeness (recall)	CAMI_HIGH_S004	1.0
 Bracken+Kraken2	order	True positives	CAMI_HIGH_S004	40.0
-Bracken+Kraken2	species	F1 score	CAMI_HIGH_S004	0.018648018648018648
-Bracken+Kraken2	species	False negatives	CAMI_HIGH_S004	227.0
-Bracken+Kraken2	species	False positives	CAMI_HIGH_S004	1457.0
-Bracken+Kraken2	species	Jaccard index	CAMI_HIGH_S004	0.009411764705882352
-Bracken+Kraken2	species	Taxon counts	CAMI_HIGH_S004	1473.0
-Bracken+Kraken2	species	Purity (precision)	CAMI_HIGH_S004	0.010862186014935505
-Bracken+Kraken2	species	Completeness (recall)	CAMI_HIGH_S004	0.06584362139917696
-Bracken+Kraken2	species	True positives	CAMI_HIGH_S004	16.0
+Bracken+Kraken2	strain	False negatives	CAMI_HIGH_S004	1074.0
+Bracken+Kraken2	strain	False positives	CAMI_HIGH_S004	0.0
+Bracken+Kraken2	strain	Jaccard index	CAMI_HIGH_S004	0.0
+Bracken+Kraken2	strain	Taxon counts	CAMI_HIGH_S004	0.0
+Bracken+Kraken2	strain	Purity (precision)	CAMI_HIGH_S004	0.0
+Bracken+Kraken2	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
+Bracken+Kraken2	strain	True positives	CAMI_HIGH_S004	0.0
 Bracken+Kraken2	phylum	F1 score	CAMI_HIGH_S004	0.6874999999999999
 Bracken+Kraken2	phylum	False negatives	CAMI_HIGH_S004	1.0
 Bracken+Kraken2	phylum	False positives	CAMI_HIGH_S004	9.0
@@ -256,21 +239,22 @@ Bracken+Kraken2	phylum	Taxon counts	CAMI_HIGH_S004	20.0
 Bracken+Kraken2	phylum	Purity (precision)	CAMI_HIGH_S004	0.55
 Bracken+Kraken2	phylum	Completeness (recall)	CAMI_HIGH_S004	0.9166666666666666
 Bracken+Kraken2	phylum	True positives	CAMI_HIGH_S004	11.0
-Bracken+Kraken2	strain	False negatives	CAMI_HIGH_S004	1074.0
-Bracken+Kraken2	strain	False positives	CAMI_HIGH_S004	0.0
-Bracken+Kraken2	strain	Jaccard index	CAMI_HIGH_S004	0.0
-Bracken+Kraken2	strain	Taxon counts	CAMI_HIGH_S004	0.0
-Bracken+Kraken2	strain	Purity (precision)	CAMI_HIGH_S004	0.0
-Bracken+Kraken2	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
-Bracken+Kraken2	strain	True positives	CAMI_HIGH_S004	0.0
-Bracken+Kraken2	superkingdom	F1 score	CAMI_HIGH_S004	0.6666666666666666
-Bracken+Kraken2	superkingdom	False negatives	CAMI_HIGH_S004	0.0
-Bracken+Kraken2	superkingdom	False positives	CAMI_HIGH_S004	2.0
-Bracken+Kraken2	superkingdom	Jaccard index	CAMI_HIGH_S004	0.5
-Bracken+Kraken2	superkingdom	Taxon counts	CAMI_HIGH_S004	4.0
-Bracken+Kraken2	superkingdom	Purity (precision)	CAMI_HIGH_S004	0.5
-Bracken+Kraken2	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
-Bracken+Kraken2	superkingdom	True positives	CAMI_HIGH_S004	2.0
+Bracken+Kraken2	class	F1 score	CAMI_HIGH_S004	0.7000000000000001
+Bracken+Kraken2	class	False negatives	CAMI_HIGH_S004	0.0
+Bracken+Kraken2	class	False positives	CAMI_HIGH_S004	18.0
+Bracken+Kraken2	class	Jaccard index	CAMI_HIGH_S004	0.5384615384615384
+Bracken+Kraken2	class	Taxon counts	CAMI_HIGH_S004	39.0
+Bracken+Kraken2	class	Purity (precision)	CAMI_HIGH_S004	0.5384615384615384
+Bracken+Kraken2	class	Completeness (recall)	CAMI_HIGH_S004	1.0
+Bracken+Kraken2	class	True positives	CAMI_HIGH_S004	21.0
+Bracken+Kraken2	species	F1 score	CAMI_HIGH_S004	0.018648018648018648
+Bracken+Kraken2	species	False negatives	CAMI_HIGH_S004	227.0
+Bracken+Kraken2	species	False positives	CAMI_HIGH_S004	1457.0
+Bracken+Kraken2	species	Jaccard index	CAMI_HIGH_S004	0.009411764705882352
+Bracken+Kraken2	species	Taxon counts	CAMI_HIGH_S004	1473.0
+Bracken+Kraken2	species	Purity (precision)	CAMI_HIGH_S004	0.010862186014935505
+Bracken+Kraken2	species	Completeness (recall)	CAMI_HIGH_S004	0.06584362139917696
+Bracken+Kraken2	species	True positives	CAMI_HIGH_S004	16.0
 Bracken+Kraken2	genus	F1 score	CAMI_HIGH_S004	0.3431952662721893
 Bracken+Kraken2	genus	False negatives	CAMI_HIGH_S004	78.0
 Bracken+Kraken2	genus	False positives	CAMI_HIGH_S004	366.0
@@ -279,52 +263,52 @@ Bracken+Kraken2	genus	Taxon counts	CAMI_HIGH_S004	482.0
 Bracken+Kraken2	genus	Purity (precision)	CAMI_HIGH_S004	0.24066390041493776
 Bracken+Kraken2	genus	Completeness (recall)	CAMI_HIGH_S004	0.5979381443298969
 Bracken+Kraken2	genus	True positives	CAMI_HIGH_S004	116.0
+Bracken+Kraken2	family	F1 score	CAMI_HIGH_S004	0.5642857142857143
+Bracken+Kraken2	family	False negatives	CAMI_HIGH_S004	9.0
+Bracken+Kraken2	family	False positives	CAMI_HIGH_S004	113.0
+Bracken+Kraken2	family	Jaccard index	CAMI_HIGH_S004	0.39303482587064675
+Bracken+Kraken2	family	Taxon counts	CAMI_HIGH_S004	192.0
+Bracken+Kraken2	family	Purity (precision)	CAMI_HIGH_S004	0.4114583333333333
+Bracken+Kraken2	family	Completeness (recall)	CAMI_HIGH_S004	0.8977272727272727
+Bracken+Kraken2	family	True positives	CAMI_HIGH_S004	79.0
+Bracken+Kraken2	superkingdom	F1 score	CAMI_HIGH_S004	0.6666666666666666
+Bracken+Kraken2	superkingdom	False negatives	CAMI_HIGH_S004	0.0
+Bracken+Kraken2	superkingdom	False positives	CAMI_HIGH_S004	2.0
+Bracken+Kraken2	superkingdom	Jaccard index	CAMI_HIGH_S004	0.5
+Bracken+Kraken2	superkingdom	Taxon counts	CAMI_HIGH_S004	4.0
+Bracken+Kraken2	superkingdom	Purity (precision)	CAMI_HIGH_S004	0.5
+Bracken+Kraken2	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
+Bracken+Kraken2	superkingdom	True positives	CAMI_HIGH_S004	2.0
 Bracken+Kraken2	class	L1 norm error	CAMI_HIGH_S004	0.3191148371603338
-Bracken+Kraken2	family	L1 norm error	CAMI_HIGH_S004	0.5696449218976036
-Bracken+Kraken2	genus	L1 norm error	CAMI_HIGH_S004	1.02482426062074
-Bracken+Kraken2	order	L1 norm error	CAMI_HIGH_S004	0.8777249348677914
-Bracken+Kraken2	phylum	L1 norm error	CAMI_HIGH_S004	0.228297173265051
-Bracken+Kraken2	species	L1 norm error	CAMI_HIGH_S004	1.9724292586243348
+Bracken+Kraken2	family	L1 norm error	CAMI_HIGH_S004	0.5696449218976037
+Bracken+Kraken2	genus	L1 norm error	CAMI_HIGH_S004	1.0248242606207416
+Bracken+Kraken2	order	L1 norm error	CAMI_HIGH_S004	0.8777249348677908
+Bracken+Kraken2	phylum	L1 norm error	CAMI_HIGH_S004	0.22829717326505106
+Bracken+Kraken2	species	L1 norm error	CAMI_HIGH_S004	1.9724292586243433
 Bracken+Kraken2	superkingdom	L1 norm error	CAMI_HIGH_S004	0.011395974295974366
-Bracken+Kraken2	na	Weighted UniFrac error	CAMI_HIGH_S004	8.361623901932859
-Bracken+Kraken2	na	Unweighted UniFrac error	CAMI_HIGH_S004	13449.692393579104
+Bracken+Kraken2	na	Weighted UniFrac error	CAMI_HIGH_S004	8.361623901932862
+Bracken+Kraken2	na	Unweighted UniFrac error	CAMI_HIGH_S004	13449.692393579102
 CLARK	class	Bray-Curtis distance	CAMI_HIGH_S004	0.15780229396649817
-CLARK	family	Bray-Curtis distance	CAMI_HIGH_S004	0.2950964123367499
+CLARK	family	Bray-Curtis distance	CAMI_HIGH_S004	0.2950964123367498
 CLARK	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.5064698137263693
-CLARK	order	Bray-Curtis distance	CAMI_HIGH_S004	0.4515003974349645
+CLARK	order	Bray-Curtis distance	CAMI_HIGH_S004	0.45150039743496456
 CLARK	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.10931793834776841
-CLARK	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9855983942307676
+CLARK	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9855983942307673
 CLARK	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.013327577279581304
-CLARK	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.12367682128517729
-CLARK	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.11257549415828536
+CLARK	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.12367682128517728
+CLARK	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.11257549415828534
 CLARK	phylum	Shannon diversity	CAMI_HIGH_S004	1.121316437313425
 CLARK	phylum	Shannon equitability	CAMI_HIGH_S004	0.5762426584073236
 CLARK	class	Shannon diversity	CAMI_HIGH_S004	1.922338571211752
 CLARK	class	Shannon equitability	CAMI_HIGH_S004	0.6933370808991925
 CLARK	order	Shannon diversity	CAMI_HIGH_S004	2.8631634324294897
 CLARK	order	Shannon equitability	CAMI_HIGH_S004	0.7566120383520226
-CLARK	family	Shannon diversity	CAMI_HIGH_S004	3.5174699165953154
-CLARK	family	Shannon equitability	CAMI_HIGH_S004	0.7917501765317739
-CLARK	genus	Shannon diversity	CAMI_HIGH_S004	4.278768216741653
-CLARK	genus	Shannon equitability	CAMI_HIGH_S004	0.8038249474471626
-CLARK	species	Shannon diversity	CAMI_HIGH_S004	5.1936858809359645
-CLARK	species	Shannon equitability	CAMI_HIGH_S004	0.8712768375517338
-CLARK	class	F1 score	CAMI_HIGH_S004	0.7027027027027026
-CLARK	class	False negatives	CAMI_HIGH_S004	8.0
-CLARK	class	False positives	CAMI_HIGH_S004	3.0
-CLARK	class	Jaccard index	CAMI_HIGH_S004	0.5416666666666666
-CLARK	class	Taxon counts	CAMI_HIGH_S004	16.0
-CLARK	class	Purity (precision)	CAMI_HIGH_S004	0.8125
-CLARK	class	Completeness (recall)	CAMI_HIGH_S004	0.6190476190476191
-CLARK	class	True positives	CAMI_HIGH_S004	13.0
-CLARK	family	F1 score	CAMI_HIGH_S004	0.6589595375722542
-CLARK	family	False negatives	CAMI_HIGH_S004	31.0
-CLARK	family	False positives	CAMI_HIGH_S004	28.0
-CLARK	family	Jaccard index	CAMI_HIGH_S004	0.49137931034482757
-CLARK	family	Taxon counts	CAMI_HIGH_S004	85.0
-CLARK	family	Purity (precision)	CAMI_HIGH_S004	0.6705882352941176
-CLARK	family	Completeness (recall)	CAMI_HIGH_S004	0.6477272727272727
-CLARK	family	True positives	CAMI_HIGH_S004	57.0
+CLARK	family	Shannon diversity	CAMI_HIGH_S004	3.5174699165953145
+CLARK	family	Shannon equitability	CAMI_HIGH_S004	0.7917501765317737
+CLARK	genus	Shannon diversity	CAMI_HIGH_S004	4.2787682167416525
+CLARK	genus	Shannon equitability	CAMI_HIGH_S004	0.8038249474471625
+CLARK	species	Shannon diversity	CAMI_HIGH_S004	5.193685880935965
+CLARK	species	Shannon equitability	CAMI_HIGH_S004	0.8712768375517339
 CLARK	order	F1 score	CAMI_HIGH_S004	0.6666666666666666
 CLARK	order	False negatives	CAMI_HIGH_S004	12.0
 CLARK	order	False positives	CAMI_HIGH_S004	16.0
@@ -333,14 +317,13 @@ CLARK	order	Taxon counts	CAMI_HIGH_S004	44.0
 CLARK	order	Purity (precision)	CAMI_HIGH_S004	0.6363636363636364
 CLARK	order	Completeness (recall)	CAMI_HIGH_S004	0.7
 CLARK	order	True positives	CAMI_HIGH_S004	28.0
-CLARK	species	F1 score	CAMI_HIGH_S004	0.044374009508716325
-CLARK	species	False negatives	CAMI_HIGH_S004	229.0
-CLARK	species	False positives	CAMI_HIGH_S004	374.0
-CLARK	species	Jaccard index	CAMI_HIGH_S004	0.022690437601296597
-CLARK	species	Taxon counts	CAMI_HIGH_S004	388.0
-CLARK	species	Purity (precision)	CAMI_HIGH_S004	0.03608247422680412
-CLARK	species	Completeness (recall)	CAMI_HIGH_S004	0.05761316872427984
-CLARK	species	True positives	CAMI_HIGH_S004	14.0
+CLARK	strain	False negatives	CAMI_HIGH_S004	1074.0
+CLARK	strain	False positives	CAMI_HIGH_S004	0.0
+CLARK	strain	Jaccard index	CAMI_HIGH_S004	0.0
+CLARK	strain	Taxon counts	CAMI_HIGH_S004	0.0
+CLARK	strain	Purity (precision)	CAMI_HIGH_S004	0.0
+CLARK	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
+CLARK	strain	True positives	CAMI_HIGH_S004	0.0
 CLARK	phylum	F1 score	CAMI_HIGH_S004	0.5263157894736842
 CLARK	phylum	False negatives	CAMI_HIGH_S004	7.0
 CLARK	phylum	False positives	CAMI_HIGH_S004	2.0
@@ -349,21 +332,22 @@ CLARK	phylum	Taxon counts	CAMI_HIGH_S004	7.0
 CLARK	phylum	Purity (precision)	CAMI_HIGH_S004	0.7142857142857143
 CLARK	phylum	Completeness (recall)	CAMI_HIGH_S004	0.4166666666666667
 CLARK	phylum	True positives	CAMI_HIGH_S004	5.0
-CLARK	strain	False negatives	CAMI_HIGH_S004	1074.0
-CLARK	strain	False positives	CAMI_HIGH_S004	0.0
-CLARK	strain	Jaccard index	CAMI_HIGH_S004	0.0
-CLARK	strain	Taxon counts	CAMI_HIGH_S004	0.0
-CLARK	strain	Purity (precision)	CAMI_HIGH_S004	0.0
-CLARK	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
-CLARK	strain	True positives	CAMI_HIGH_S004	0.0
-CLARK	superkingdom	F1 score	CAMI_HIGH_S004	0.8
-CLARK	superkingdom	False negatives	CAMI_HIGH_S004	0.0
-CLARK	superkingdom	False positives	CAMI_HIGH_S004	1.0
-CLARK	superkingdom	Jaccard index	CAMI_HIGH_S004	0.6666666666666666
-CLARK	superkingdom	Taxon counts	CAMI_HIGH_S004	3.0
-CLARK	superkingdom	Purity (precision)	CAMI_HIGH_S004	0.6666666666666666
-CLARK	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
-CLARK	superkingdom	True positives	CAMI_HIGH_S004	2.0
+CLARK	class	F1 score	CAMI_HIGH_S004	0.7027027027027026
+CLARK	class	False negatives	CAMI_HIGH_S004	8.0
+CLARK	class	False positives	CAMI_HIGH_S004	3.0
+CLARK	class	Jaccard index	CAMI_HIGH_S004	0.5416666666666666
+CLARK	class	Taxon counts	CAMI_HIGH_S004	16.0
+CLARK	class	Purity (precision)	CAMI_HIGH_S004	0.8125
+CLARK	class	Completeness (recall)	CAMI_HIGH_S004	0.6190476190476191
+CLARK	class	True positives	CAMI_HIGH_S004	13.0
+CLARK	species	F1 score	CAMI_HIGH_S004	0.044374009508716325
+CLARK	species	False negatives	CAMI_HIGH_S004	229.0
+CLARK	species	False positives	CAMI_HIGH_S004	374.0
+CLARK	species	Jaccard index	CAMI_HIGH_S004	0.022690437601296597
+CLARK	species	Taxon counts	CAMI_HIGH_S004	388.0
+CLARK	species	Purity (precision)	CAMI_HIGH_S004	0.03608247422680412
+CLARK	species	Completeness (recall)	CAMI_HIGH_S004	0.05761316872427984
+CLARK	species	True positives	CAMI_HIGH_S004	14.0
 CLARK	genus	F1 score	CAMI_HIGH_S004	0.4761904761904762
 CLARK	genus	False negatives	CAMI_HIGH_S004	99.0
 CLARK	genus	False positives	CAMI_HIGH_S004	110.0
@@ -372,52 +356,52 @@ CLARK	genus	Taxon counts	CAMI_HIGH_S004	205.0
 CLARK	genus	Purity (precision)	CAMI_HIGH_S004	0.4634146341463415
 CLARK	genus	Completeness (recall)	CAMI_HIGH_S004	0.4896907216494845
 CLARK	genus	True positives	CAMI_HIGH_S004	95.0
+CLARK	family	F1 score	CAMI_HIGH_S004	0.6589595375722542
+CLARK	family	False negatives	CAMI_HIGH_S004	31.0
+CLARK	family	False positives	CAMI_HIGH_S004	28.0
+CLARK	family	Jaccard index	CAMI_HIGH_S004	0.49137931034482757
+CLARK	family	Taxon counts	CAMI_HIGH_S004	85.0
+CLARK	family	Purity (precision)	CAMI_HIGH_S004	0.6705882352941176
+CLARK	family	Completeness (recall)	CAMI_HIGH_S004	0.6477272727272727
+CLARK	family	True positives	CAMI_HIGH_S004	57.0
+CLARK	superkingdom	F1 score	CAMI_HIGH_S004	0.8
+CLARK	superkingdom	False negatives	CAMI_HIGH_S004	0.0
+CLARK	superkingdom	False positives	CAMI_HIGH_S004	1.0
+CLARK	superkingdom	Jaccard index	CAMI_HIGH_S004	0.6666666666666666
+CLARK	superkingdom	Taxon counts	CAMI_HIGH_S004	3.0
+CLARK	superkingdom	Purity (precision)	CAMI_HIGH_S004	0.6666666666666666
+CLARK	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
+CLARK	superkingdom	True positives	CAMI_HIGH_S004	2.0
 CLARK	class	L1 norm error	CAMI_HIGH_S004	0.3156045879329963
-CLARK	family	L1 norm error	CAMI_HIGH_S004	0.5901928246734994
-CLARK	genus	L1 norm error	CAMI_HIGH_S004	1.0129396274527385
-CLARK	order	L1 norm error	CAMI_HIGH_S004	0.903000794869929
+CLARK	family	L1 norm error	CAMI_HIGH_S004	0.5901928246734995
+CLARK	genus	L1 norm error	CAMI_HIGH_S004	1.0129396274527387
+CLARK	order	L1 norm error	CAMI_HIGH_S004	0.9030007948699291
 CLARK	phylum	L1 norm error	CAMI_HIGH_S004	0.21863587669553677
-CLARK	species	L1 norm error	CAMI_HIGH_S004	1.9711967884615351
+CLARK	species	L1 norm error	CAMI_HIGH_S004	1.9711967884615365
 CLARK	superkingdom	L1 norm error	CAMI_HIGH_S004	0.026655154559162612
-CLARK	na	Weighted UniFrac error	CAMI_HIGH_S004	8.443743514637454
-CLARK	na	Unweighted UniFrac error	CAMI_HIGH_S004	9326.679252166923
+CLARK	na	Weighted UniFrac error	CAMI_HIGH_S004	8.443743514637447
+CLARK	na	Unweighted UniFrac error	CAMI_HIGH_S004	9326.679252166925
 GOTTCHA	class	Bray-Curtis distance	CAMI_HIGH_S004	0.6924249597516925
 GOTTCHA	family	Bray-Curtis distance	CAMI_HIGH_S004	0.7703498369009787
 GOTTCHA	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.8786963605934144
-GOTTCHA	order	Bray-Curtis distance	CAMI_HIGH_S004	0.6227002257505141
-GOTTCHA	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.34681822309262705
+GOTTCHA	order	Bray-Curtis distance	CAMI_HIGH_S004	0.6227002257505143
+GOTTCHA	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.346818223092627
 GOTTCHA	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9956127540695165
 GOTTCHA	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.141795586739407
 GOTTCHA	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.4306868214568969
 GOTTCHA	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.6213497414920955
-GOTTCHA	phylum	Shannon diversity	CAMI_HIGH_S004	0.8551560568495621
-GOTTCHA	phylum	Shannon equitability	CAMI_HIGH_S004	0.5313383326208784
-GOTTCHA	class	Shannon diversity	CAMI_HIGH_S004	1.4381825727404651
-GOTTCHA	class	Shannon equitability	CAMI_HIGH_S004	0.5310767769944246
-GOTTCHA	order	Shannon diversity	CAMI_HIGH_S004	2.146672517849942
-GOTTCHA	order	Shannon equitability	CAMI_HIGH_S004	0.6311519964774492
+GOTTCHA	phylum	Shannon diversity	CAMI_HIGH_S004	0.8551560568495622
+GOTTCHA	phylum	Shannon equitability	CAMI_HIGH_S004	0.5313383326208785
+GOTTCHA	class	Shannon diversity	CAMI_HIGH_S004	1.4381825727404656
+GOTTCHA	class	Shannon equitability	CAMI_HIGH_S004	0.5310767769944248
+GOTTCHA	order	Shannon diversity	CAMI_HIGH_S004	2.146672517849943
+GOTTCHA	order	Shannon equitability	CAMI_HIGH_S004	0.6311519964774495
 GOTTCHA	family	Shannon diversity	CAMI_HIGH_S004	1.9041334428910126
 GOTTCHA	family	Shannon equitability	CAMI_HIGH_S004	0.4892655099762489
-GOTTCHA	genus	Shannon diversity	CAMI_HIGH_S004	2.075914938203869
-GOTTCHA	genus	Shannon equitability	CAMI_HIGH_S004	0.48540495807549283
-GOTTCHA	species	Shannon diversity	CAMI_HIGH_S004	2.0325623143779814
-GOTTCHA	species	Shannon equitability	CAMI_HIGH_S004	0.4413652986294299
-GOTTCHA	class	F1 score	CAMI_HIGH_S004	0.6666666666666666
-GOTTCHA	class	False negatives	CAMI_HIGH_S004	9.0
-GOTTCHA	class	False positives	CAMI_HIGH_S004	3.0
-GOTTCHA	class	Jaccard index	CAMI_HIGH_S004	0.5
-GOTTCHA	class	Taxon counts	CAMI_HIGH_S004	15.0
-GOTTCHA	class	Purity (precision)	CAMI_HIGH_S004	0.8
-GOTTCHA	class	Completeness (recall)	CAMI_HIGH_S004	0.5714285714285714
-GOTTCHA	class	True positives	CAMI_HIGH_S004	12.0
-GOTTCHA	family	F1 score	CAMI_HIGH_S004	0.5985401459854014
-GOTTCHA	family	False negatives	CAMI_HIGH_S004	47.0
-GOTTCHA	family	False positives	CAMI_HIGH_S004	8.0
-GOTTCHA	family	Jaccard index	CAMI_HIGH_S004	0.4270833333333333
-GOTTCHA	family	Taxon counts	CAMI_HIGH_S004	49.0
-GOTTCHA	family	Purity (precision)	CAMI_HIGH_S004	0.8367346938775511
-GOTTCHA	family	Completeness (recall)	CAMI_HIGH_S004	0.4659090909090909
-GOTTCHA	family	True positives	CAMI_HIGH_S004	41.0
+GOTTCHA	genus	Shannon diversity	CAMI_HIGH_S004	2.0759149382038684
+GOTTCHA	genus	Shannon equitability	CAMI_HIGH_S004	0.4854049580754927
+GOTTCHA	species	Shannon diversity	CAMI_HIGH_S004	2.032562314377982
+GOTTCHA	species	Shannon equitability	CAMI_HIGH_S004	0.44136529862943
 GOTTCHA	order	F1 score	CAMI_HIGH_S004	0.6571428571428571
 GOTTCHA	order	False negatives	CAMI_HIGH_S004	17.0
 GOTTCHA	order	False positives	CAMI_HIGH_S004	7.0
@@ -426,14 +410,13 @@ GOTTCHA	order	Taxon counts	CAMI_HIGH_S004	30.0
 GOTTCHA	order	Purity (precision)	CAMI_HIGH_S004	0.7666666666666667
 GOTTCHA	order	Completeness (recall)	CAMI_HIGH_S004	0.575
 GOTTCHA	order	True positives	CAMI_HIGH_S004	23.0
-GOTTCHA	species	F1 score	CAMI_HIGH_S004	0.011661807580174927
-GOTTCHA	species	False negatives	CAMI_HIGH_S004	241.0
-GOTTCHA	species	False positives	CAMI_HIGH_S004	98.0
-GOTTCHA	species	Jaccard index	CAMI_HIGH_S004	0.005865102639296188
-GOTTCHA	species	Taxon counts	CAMI_HIGH_S004	100.0
-GOTTCHA	species	Purity (precision)	CAMI_HIGH_S004	0.02
-GOTTCHA	species	Completeness (recall)	CAMI_HIGH_S004	0.00823045267489712
-GOTTCHA	species	True positives	CAMI_HIGH_S004	2.0
+GOTTCHA	strain	False negatives	CAMI_HIGH_S004	1074.0
+GOTTCHA	strain	False positives	CAMI_HIGH_S004	0.0
+GOTTCHA	strain	Jaccard index	CAMI_HIGH_S004	0.0
+GOTTCHA	strain	Taxon counts	CAMI_HIGH_S004	0.0
+GOTTCHA	strain	Purity (precision)	CAMI_HIGH_S004	0.0
+GOTTCHA	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
+GOTTCHA	strain	True positives	CAMI_HIGH_S004	0.0
 GOTTCHA	phylum	F1 score	CAMI_HIGH_S004	0.5882352941176471
 GOTTCHA	phylum	False negatives	CAMI_HIGH_S004	7.0
 GOTTCHA	phylum	False positives	CAMI_HIGH_S004	0.0
@@ -442,21 +425,22 @@ GOTTCHA	phylum	Taxon counts	CAMI_HIGH_S004	5.0
 GOTTCHA	phylum	Purity (precision)	CAMI_HIGH_S004	1.0
 GOTTCHA	phylum	Completeness (recall)	CAMI_HIGH_S004	0.4166666666666667
 GOTTCHA	phylum	True positives	CAMI_HIGH_S004	5.0
-GOTTCHA	strain	False negatives	CAMI_HIGH_S004	1074.0
-GOTTCHA	strain	False positives	CAMI_HIGH_S004	0.0
-GOTTCHA	strain	Jaccard index	CAMI_HIGH_S004	0.0
-GOTTCHA	strain	Taxon counts	CAMI_HIGH_S004	0.0
-GOTTCHA	strain	Purity (precision)	CAMI_HIGH_S004	0.0
-GOTTCHA	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
-GOTTCHA	strain	True positives	CAMI_HIGH_S004	0.0
-GOTTCHA	superkingdom	F1 score	CAMI_HIGH_S004	1.0
-GOTTCHA	superkingdom	False negatives	CAMI_HIGH_S004	0.0
-GOTTCHA	superkingdom	False positives	CAMI_HIGH_S004	0.0
-GOTTCHA	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
-GOTTCHA	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
-GOTTCHA	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
-GOTTCHA	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
-GOTTCHA	superkingdom	True positives	CAMI_HIGH_S004	2.0
+GOTTCHA	class	F1 score	CAMI_HIGH_S004	0.6666666666666666
+GOTTCHA	class	False negatives	CAMI_HIGH_S004	9.0
+GOTTCHA	class	False positives	CAMI_HIGH_S004	3.0
+GOTTCHA	class	Jaccard index	CAMI_HIGH_S004	0.5
+GOTTCHA	class	Taxon counts	CAMI_HIGH_S004	15.0
+GOTTCHA	class	Purity (precision)	CAMI_HIGH_S004	0.8
+GOTTCHA	class	Completeness (recall)	CAMI_HIGH_S004	0.5714285714285714
+GOTTCHA	class	True positives	CAMI_HIGH_S004	12.0
+GOTTCHA	species	F1 score	CAMI_HIGH_S004	0.011661807580174927
+GOTTCHA	species	False negatives	CAMI_HIGH_S004	241.0
+GOTTCHA	species	False positives	CAMI_HIGH_S004	98.0
+GOTTCHA	species	Jaccard index	CAMI_HIGH_S004	0.005865102639296188
+GOTTCHA	species	Taxon counts	CAMI_HIGH_S004	100.0
+GOTTCHA	species	Purity (precision)	CAMI_HIGH_S004	0.02
+GOTTCHA	species	Completeness (recall)	CAMI_HIGH_S004	0.00823045267489712
+GOTTCHA	species	True positives	CAMI_HIGH_S004	2.0
 GOTTCHA	genus	F1 score	CAMI_HIGH_S004	0.3533834586466165
 GOTTCHA	genus	False negatives	CAMI_HIGH_S004	147.0
 GOTTCHA	genus	False positives	CAMI_HIGH_S004	25.0
@@ -465,21 +449,37 @@ GOTTCHA	genus	Taxon counts	CAMI_HIGH_S004	72.0
 GOTTCHA	genus	Purity (precision)	CAMI_HIGH_S004	0.6527777777777778
 GOTTCHA	genus	Completeness (recall)	CAMI_HIGH_S004	0.2422680412371134
 GOTTCHA	genus	True positives	CAMI_HIGH_S004	47.0
-GOTTCHA	class	L1 norm error	CAMI_HIGH_S004	1.384849919503385
+GOTTCHA	family	F1 score	CAMI_HIGH_S004	0.5985401459854014
+GOTTCHA	family	False negatives	CAMI_HIGH_S004	47.0
+GOTTCHA	family	False positives	CAMI_HIGH_S004	8.0
+GOTTCHA	family	Jaccard index	CAMI_HIGH_S004	0.4270833333333333
+GOTTCHA	family	Taxon counts	CAMI_HIGH_S004	49.0
+GOTTCHA	family	Purity (precision)	CAMI_HIGH_S004	0.8367346938775511
+GOTTCHA	family	Completeness (recall)	CAMI_HIGH_S004	0.4659090909090909
+GOTTCHA	family	True positives	CAMI_HIGH_S004	41.0
+GOTTCHA	superkingdom	F1 score	CAMI_HIGH_S004	1.0
+GOTTCHA	superkingdom	False negatives	CAMI_HIGH_S004	0.0
+GOTTCHA	superkingdom	False positives	CAMI_HIGH_S004	0.0
+GOTTCHA	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
+GOTTCHA	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
+GOTTCHA	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
+GOTTCHA	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
+GOTTCHA	superkingdom	True positives	CAMI_HIGH_S004	2.0
+GOTTCHA	class	L1 norm error	CAMI_HIGH_S004	1.3848499195033848
 GOTTCHA	family	L1 norm error	CAMI_HIGH_S004	1.5406996738019574
-GOTTCHA	genus	L1 norm error	CAMI_HIGH_S004	1.7573927211868279
-GOTTCHA	order	L1 norm error	CAMI_HIGH_S004	1.2454004515010277
-GOTTCHA	phylum	L1 norm error	CAMI_HIGH_S004	0.6936364461852541
-GOTTCHA	species	L1 norm error	CAMI_HIGH_S004	1.9912255081390333
+GOTTCHA	genus	L1 norm error	CAMI_HIGH_S004	1.7573927211868285
+GOTTCHA	order	L1 norm error	CAMI_HIGH_S004	1.2454004515010282
+GOTTCHA	phylum	L1 norm error	CAMI_HIGH_S004	0.693636446185254
+GOTTCHA	species	L1 norm error	CAMI_HIGH_S004	1.9912255081390347
 GOTTCHA	superkingdom	L1 norm error	CAMI_HIGH_S004	0.283591173478814
-GOTTCHA	na	Weighted UniFrac error	CAMI_HIGH_S004	11.202815887568619
-GOTTCHA	na	Unweighted UniFrac error	CAMI_HIGH_S004	11117.632975016926
+GOTTCHA	na	Weighted UniFrac error	CAMI_HIGH_S004	11.20281588756861
+GOTTCHA	na	Unweighted UniFrac error	CAMI_HIGH_S004	11117.632975016928
 MEGAN+DIAMOND	class	Bray-Curtis distance	CAMI_HIGH_S004	0.16018235107147008
-MEGAN+DIAMOND	family	Bray-Curtis distance	CAMI_HIGH_S004	0.1608850521306942
-MEGAN+DIAMOND	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.2542711184488381
-MEGAN+DIAMOND	order	Bray-Curtis distance	CAMI_HIGH_S004	0.3321059571522697
+MEGAN+DIAMOND	family	Bray-Curtis distance	CAMI_HIGH_S004	0.16088505213069415
+MEGAN+DIAMOND	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.25427111844883815
+MEGAN+DIAMOND	order	Bray-Curtis distance	CAMI_HIGH_S004	0.33210595715226965
 MEGAN+DIAMOND	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.09215787533188896
-MEGAN+DIAMOND	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9186374921878471
+MEGAN+DIAMOND	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9186374921878467
 MEGAN+DIAMOND	strain	Bray-Curtis distance	CAMI_HIGH_S004	1.0
 MEGAN+DIAMOND	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.006915212852012805
 MEGAN+DIAMOND	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.03635465211978363
@@ -488,32 +488,16 @@ MEGAN+DIAMOND	phylum	Shannon diversity	CAMI_HIGH_S004	1.2989947457617108
 MEGAN+DIAMOND	phylum	Shannon equitability	CAMI_HIGH_S004	0.5911979863872324
 MEGAN+DIAMOND	class	Shannon diversity	CAMI_HIGH_S004	2.206186511899039
 MEGAN+DIAMOND	class	Shannon equitability	CAMI_HIGH_S004	0.7364431499353334
-MEGAN+DIAMOND	order	Shannon diversity	CAMI_HIGH_S004	3.0609595470526534
-MEGAN+DIAMOND	order	Shannon equitability	CAMI_HIGH_S004	0.7865110186456108
+MEGAN+DIAMOND	order	Shannon diversity	CAMI_HIGH_S004	3.0609595470526525
+MEGAN+DIAMOND	order	Shannon equitability	CAMI_HIGH_S004	0.7865110186456106
 MEGAN+DIAMOND	family	Shannon diversity	CAMI_HIGH_S004	3.7471914502008663
 MEGAN+DIAMOND	family	Shannon equitability	CAMI_HIGH_S004	0.8390659526890937
 MEGAN+DIAMOND	genus	Shannon diversity	CAMI_HIGH_S004	4.426091728222266
 MEGAN+DIAMOND	genus	Shannon equitability	CAMI_HIGH_S004	0.875371154531394
-MEGAN+DIAMOND	species	Shannon diversity	CAMI_HIGH_S004	4.6142193590964204
-MEGAN+DIAMOND	species	Shannon equitability	CAMI_HIGH_S004	0.9449941718406458
-MEGAN+DIAMOND	strain	Shannon diversity	CAMI_HIGH_S004	3.346187535431958
-MEGAN+DIAMOND	strain	Shannon equitability	CAMI_HIGH_S004	0.8312783062244293
-MEGAN+DIAMOND	class	F1 score	CAMI_HIGH_S004	0.8292682926829269
-MEGAN+DIAMOND	class	False negatives	CAMI_HIGH_S004	4.0
-MEGAN+DIAMOND	class	False positives	CAMI_HIGH_S004	3.0
-MEGAN+DIAMOND	class	Jaccard index	CAMI_HIGH_S004	0.7083333333333334
-MEGAN+DIAMOND	class	Taxon counts	CAMI_HIGH_S004	20.0
-MEGAN+DIAMOND	class	Purity (precision)	CAMI_HIGH_S004	0.85
-MEGAN+DIAMOND	class	Completeness (recall)	CAMI_HIGH_S004	0.8095238095238095
-MEGAN+DIAMOND	class	True positives	CAMI_HIGH_S004	17.0
-MEGAN+DIAMOND	family	F1 score	CAMI_HIGH_S004	0.8457142857142856
-MEGAN+DIAMOND	family	False negatives	CAMI_HIGH_S004	14.0
-MEGAN+DIAMOND	family	False positives	CAMI_HIGH_S004	13.0
-MEGAN+DIAMOND	family	Jaccard index	CAMI_HIGH_S004	0.7326732673267327
-MEGAN+DIAMOND	family	Taxon counts	CAMI_HIGH_S004	87.0
-MEGAN+DIAMOND	family	Purity (precision)	CAMI_HIGH_S004	0.8505747126436781
-MEGAN+DIAMOND	family	Completeness (recall)	CAMI_HIGH_S004	0.8409090909090909
-MEGAN+DIAMOND	family	True positives	CAMI_HIGH_S004	74.0
+MEGAN+DIAMOND	species	Shannon diversity	CAMI_HIGH_S004	4.614219359096425
+MEGAN+DIAMOND	species	Shannon equitability	CAMI_HIGH_S004	0.9449941718406467
+MEGAN+DIAMOND	strain	Shannon diversity	CAMI_HIGH_S004	3.346187535431959
+MEGAN+DIAMOND	strain	Shannon equitability	CAMI_HIGH_S004	0.8312783062244296
 MEGAN+DIAMOND	order	F1 score	CAMI_HIGH_S004	0.7640449438202247
 MEGAN+DIAMOND	order	False negatives	CAMI_HIGH_S004	6.0
 MEGAN+DIAMOND	order	False positives	CAMI_HIGH_S004	15.0
@@ -522,14 +506,13 @@ MEGAN+DIAMOND	order	Taxon counts	CAMI_HIGH_S004	49.0
 MEGAN+DIAMOND	order	Purity (precision)	CAMI_HIGH_S004	0.6938775510204082
 MEGAN+DIAMOND	order	Completeness (recall)	CAMI_HIGH_S004	0.85
 MEGAN+DIAMOND	order	True positives	CAMI_HIGH_S004	34.0
-MEGAN+DIAMOND	species	F1 score	CAMI_HIGH_S004	0.4266666666666667
-MEGAN+DIAMOND	species	False negatives	CAMI_HIGH_S004	163.0
-MEGAN+DIAMOND	species	False positives	CAMI_HIGH_S004	52.0
-MEGAN+DIAMOND	species	Jaccard index	CAMI_HIGH_S004	0.2711864406779661
-MEGAN+DIAMOND	species	Taxon counts	CAMI_HIGH_S004	132.0
-MEGAN+DIAMOND	species	Purity (precision)	CAMI_HIGH_S004	0.6060606060606061
-MEGAN+DIAMOND	species	Completeness (recall)	CAMI_HIGH_S004	0.3292181069958848
-MEGAN+DIAMOND	species	True positives	CAMI_HIGH_S004	80.0
+MEGAN+DIAMOND	strain	False negatives	CAMI_HIGH_S004	1074.0
+MEGAN+DIAMOND	strain	False positives	CAMI_HIGH_S004	56.0
+MEGAN+DIAMOND	strain	Jaccard index	CAMI_HIGH_S004	0.0
+MEGAN+DIAMOND	strain	Taxon counts	CAMI_HIGH_S004	56.0
+MEGAN+DIAMOND	strain	Purity (precision)	CAMI_HIGH_S004	0.0
+MEGAN+DIAMOND	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
+MEGAN+DIAMOND	strain	True positives	CAMI_HIGH_S004	0.0
 MEGAN+DIAMOND	phylum	F1 score	CAMI_HIGH_S004	0.8571428571428571
 MEGAN+DIAMOND	phylum	False negatives	CAMI_HIGH_S004	3.0
 MEGAN+DIAMOND	phylum	False positives	CAMI_HIGH_S004	0.0
@@ -538,21 +521,22 @@ MEGAN+DIAMOND	phylum	Taxon counts	CAMI_HIGH_S004	9.0
 MEGAN+DIAMOND	phylum	Purity (precision)	CAMI_HIGH_S004	1.0
 MEGAN+DIAMOND	phylum	Completeness (recall)	CAMI_HIGH_S004	0.75
 MEGAN+DIAMOND	phylum	True positives	CAMI_HIGH_S004	9.0
-MEGAN+DIAMOND	strain	False negatives	CAMI_HIGH_S004	1074.0
-MEGAN+DIAMOND	strain	False positives	CAMI_HIGH_S004	56.0
-MEGAN+DIAMOND	strain	Jaccard index	CAMI_HIGH_S004	0.0
-MEGAN+DIAMOND	strain	Taxon counts	CAMI_HIGH_S004	56.0
-MEGAN+DIAMOND	strain	Purity (precision)	CAMI_HIGH_S004	0.0
-MEGAN+DIAMOND	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
-MEGAN+DIAMOND	strain	True positives	CAMI_HIGH_S004	0.0
-MEGAN+DIAMOND	superkingdom	F1 score	CAMI_HIGH_S004	1.0
-MEGAN+DIAMOND	superkingdom	False negatives	CAMI_HIGH_S004	0.0
-MEGAN+DIAMOND	superkingdom	False positives	CAMI_HIGH_S004	0.0
-MEGAN+DIAMOND	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
-MEGAN+DIAMOND	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
-MEGAN+DIAMOND	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
-MEGAN+DIAMOND	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
-MEGAN+DIAMOND	superkingdom	True positives	CAMI_HIGH_S004	2.0
+MEGAN+DIAMOND	class	F1 score	CAMI_HIGH_S004	0.8292682926829269
+MEGAN+DIAMOND	class	False negatives	CAMI_HIGH_S004	4.0
+MEGAN+DIAMOND	class	False positives	CAMI_HIGH_S004	3.0
+MEGAN+DIAMOND	class	Jaccard index	CAMI_HIGH_S004	0.7083333333333334
+MEGAN+DIAMOND	class	Taxon counts	CAMI_HIGH_S004	20.0
+MEGAN+DIAMOND	class	Purity (precision)	CAMI_HIGH_S004	0.85
+MEGAN+DIAMOND	class	Completeness (recall)	CAMI_HIGH_S004	0.8095238095238095
+MEGAN+DIAMOND	class	True positives	CAMI_HIGH_S004	17.0
+MEGAN+DIAMOND	species	F1 score	CAMI_HIGH_S004	0.4266666666666667
+MEGAN+DIAMOND	species	False negatives	CAMI_HIGH_S004	163.0
+MEGAN+DIAMOND	species	False positives	CAMI_HIGH_S004	52.0
+MEGAN+DIAMOND	species	Jaccard index	CAMI_HIGH_S004	0.2711864406779661
+MEGAN+DIAMOND	species	Taxon counts	CAMI_HIGH_S004	132.0
+MEGAN+DIAMOND	species	Purity (precision)	CAMI_HIGH_S004	0.6060606060606061
+MEGAN+DIAMOND	species	Completeness (recall)	CAMI_HIGH_S004	0.3292181069958848
+MEGAN+DIAMOND	species	True positives	CAMI_HIGH_S004	80.0
 MEGAN+DIAMOND	genus	F1 score	CAMI_HIGH_S004	0.8148148148148148
 MEGAN+DIAMOND	genus	False negatives	CAMI_HIGH_S004	51.0
 MEGAN+DIAMOND	genus	False positives	CAMI_HIGH_S004	14.0
@@ -561,53 +545,150 @@ MEGAN+DIAMOND	genus	Taxon counts	CAMI_HIGH_S004	157.0
 MEGAN+DIAMOND	genus	Purity (precision)	CAMI_HIGH_S004	0.910828025477707
 MEGAN+DIAMOND	genus	Completeness (recall)	CAMI_HIGH_S004	0.7371134020618557
 MEGAN+DIAMOND	genus	True positives	CAMI_HIGH_S004	143.0
+MEGAN+DIAMOND	family	F1 score	CAMI_HIGH_S004	0.8457142857142856
+MEGAN+DIAMOND	family	False negatives	CAMI_HIGH_S004	14.0
+MEGAN+DIAMOND	family	False positives	CAMI_HIGH_S004	13.0
+MEGAN+DIAMOND	family	Jaccard index	CAMI_HIGH_S004	0.7326732673267327
+MEGAN+DIAMOND	family	Taxon counts	CAMI_HIGH_S004	87.0
+MEGAN+DIAMOND	family	Purity (precision)	CAMI_HIGH_S004	0.8505747126436781
+MEGAN+DIAMOND	family	Completeness (recall)	CAMI_HIGH_S004	0.8409090909090909
+MEGAN+DIAMOND	family	True positives	CAMI_HIGH_S004	74.0
+MEGAN+DIAMOND	superkingdom	F1 score	CAMI_HIGH_S004	1.0
+MEGAN+DIAMOND	superkingdom	False negatives	CAMI_HIGH_S004	0.0
+MEGAN+DIAMOND	superkingdom	False positives	CAMI_HIGH_S004	0.0
+MEGAN+DIAMOND	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
+MEGAN+DIAMOND	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
+MEGAN+DIAMOND	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
+MEGAN+DIAMOND	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
+MEGAN+DIAMOND	superkingdom	True positives	CAMI_HIGH_S004	2.0
 MEGAN+DIAMOND	class	L1 norm error	CAMI_HIGH_S004	0.3203647021429402
-MEGAN+DIAMOND	family	L1 norm error	CAMI_HIGH_S004	0.3217701042613885
-MEGAN+DIAMOND	genus	L1 norm error	CAMI_HIGH_S004	0.5085422368976764
-MEGAN+DIAMOND	order	L1 norm error	CAMI_HIGH_S004	0.6642119143045392
-MEGAN+DIAMOND	phylum	L1 norm error	CAMI_HIGH_S004	0.1843157506637779
-MEGAN+DIAMOND	species	L1 norm error	CAMI_HIGH_S004	1.8372749843756944
-MEGAN+DIAMOND	strain	L1 norm error	CAMI_HIGH_S004	2.0000000000000036
+MEGAN+DIAMOND	family	L1 norm error	CAMI_HIGH_S004	0.3217701042613883
+MEGAN+DIAMOND	genus	L1 norm error	CAMI_HIGH_S004	0.5085422368976762
+MEGAN+DIAMOND	order	L1 norm error	CAMI_HIGH_S004	0.6642119143045396
+MEGAN+DIAMOND	phylum	L1 norm error	CAMI_HIGH_S004	0.18431575066377792
+MEGAN+DIAMOND	species	L1 norm error	CAMI_HIGH_S004	1.8372749843756935
+MEGAN+DIAMOND	strain	L1 norm error	CAMI_HIGH_S004	2.0000000000000013
 MEGAN+DIAMOND	superkingdom	L1 norm error	CAMI_HIGH_S004	0.01383042570402561
-MEGAN+DIAMOND	na	Weighted UniFrac error	CAMI_HIGH_S004	10.162211120422223
-MEGAN+DIAMOND	na	Unweighted UniFrac error	CAMI_HIGH_S004	10183.447254720024
-MetaPhlAn2	class	Bray-Curtis distance	CAMI_HIGH_S004	0.45967950153772497
-MetaPhlAn2	family	Bray-Curtis distance	CAMI_HIGH_S004	0.5982090175144095
+MEGAN+DIAMOND	na	Weighted UniFrac error	CAMI_HIGH_S004	10.162211120422212
+MEGAN+DIAMOND	na	Unweighted UniFrac error	CAMI_HIGH_S004	10183.447254720026
+MetaBinG2	class	Bray-Curtis distance	CAMI_HIGH_S004	0.3705692208340316
+MetaBinG2	family	Bray-Curtis distance	CAMI_HIGH_S004	0.7857097478146646
+MetaBinG2	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.8795469164410376
+MetaBinG2	order	Bray-Curtis distance	CAMI_HIGH_S004	0.8228842292592751
+MetaBinG2	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.17130669035192994
+MetaBinG2	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9974079019715654
+MetaBinG2	strain	Bray-Curtis distance	CAMI_HIGH_S004	1.0
+MetaBinG2	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.012852012852012838
+MetaBinG2	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.0
+MetaBinG2	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.0
+MetaBinG2	phylum	Shannon diversity	CAMI_HIGH_S004	1.0507133299665412
+MetaBinG2	phylum	Shannon equitability	CAMI_HIGH_S004	0.7579294552693291
+MetaBinG2	class	Shannon diversity	CAMI_HIGH_S004	1.456053145218375
+MetaBinG2	class	Shannon equitability	CAMI_HIGH_S004	0.7482632977299848
+MetaBinG2	order	Shannon diversity	CAMI_HIGH_S004	1.4560531452183751
+MetaBinG2	order	Shannon equitability	CAMI_HIGH_S004	0.7482632977299849
+MetaBinG2	family	Shannon diversity	CAMI_HIGH_S004	1.2930814283113201
+MetaBinG2	family	Shannon equitability	CAMI_HIGH_S004	0.664512402558297
+MetaBinG2	genus	Shannon diversity	CAMI_HIGH_S004	1.7184799100557477
+MetaBinG2	genus	Shannon equitability	CAMI_HIGH_S004	0.7821139121514504
+MetaBinG2	species	Shannon diversity	CAMI_HIGH_S004	1.7184799100557475
+MetaBinG2	species	Shannon equitability	CAMI_HIGH_S004	0.7821139121514503
+MetaBinG2	strain	Shannon diversity	CAMI_HIGH_S004	1.7035232957558775
+MetaBinG2	strain	Shannon equitability	CAMI_HIGH_S004	0.8192215369419426
+MetaBinG2	order	F1 score	CAMI_HIGH_S004	0.1702127659574468
+MetaBinG2	order	False negatives	CAMI_HIGH_S004	36.0
+MetaBinG2	order	False positives	CAMI_HIGH_S004	3.0
+MetaBinG2	order	Jaccard index	CAMI_HIGH_S004	0.09302325581395349
+MetaBinG2	order	Taxon counts	CAMI_HIGH_S004	7.0
+MetaBinG2	order	Purity (precision)	CAMI_HIGH_S004	0.5714285714285714
+MetaBinG2	order	Completeness (recall)	CAMI_HIGH_S004	0.1
+MetaBinG2	order	True positives	CAMI_HIGH_S004	4.0
+MetaBinG2	strain	False negatives	CAMI_HIGH_S004	1074.0
+MetaBinG2	strain	False positives	CAMI_HIGH_S004	8.0
+MetaBinG2	strain	Jaccard index	CAMI_HIGH_S004	0.0
+MetaBinG2	strain	Taxon counts	CAMI_HIGH_S004	8.0
+MetaBinG2	strain	Purity (precision)	CAMI_HIGH_S004	0.0
+MetaBinG2	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
+MetaBinG2	strain	True positives	CAMI_HIGH_S004	0.0
+MetaBinG2	phylum	F1 score	CAMI_HIGH_S004	0.5
+MetaBinG2	phylum	False negatives	CAMI_HIGH_S004	8.0
+MetaBinG2	phylum	False positives	CAMI_HIGH_S004	0.0
+MetaBinG2	phylum	Jaccard index	CAMI_HIGH_S004	0.3333333333333333
+MetaBinG2	phylum	Taxon counts	CAMI_HIGH_S004	4.0
+MetaBinG2	phylum	Purity (precision)	CAMI_HIGH_S004	1.0
+MetaBinG2	phylum	Completeness (recall)	CAMI_HIGH_S004	0.3333333333333333
+MetaBinG2	phylum	True positives	CAMI_HIGH_S004	4.0
+MetaBinG2	class	F1 score	CAMI_HIGH_S004	0.35714285714285715
+MetaBinG2	class	False negatives	CAMI_HIGH_S004	16.0
+MetaBinG2	class	False positives	CAMI_HIGH_S004	2.0
+MetaBinG2	class	Jaccard index	CAMI_HIGH_S004	0.21739130434782608
+MetaBinG2	class	Taxon counts	CAMI_HIGH_S004	7.0
+MetaBinG2	class	Purity (precision)	CAMI_HIGH_S004	0.7142857142857143
+MetaBinG2	class	Completeness (recall)	CAMI_HIGH_S004	0.23809523809523808
+MetaBinG2	class	True positives	CAMI_HIGH_S004	5.0
+MetaBinG2	species	F1 score	CAMI_HIGH_S004	0.007936507936507938
+MetaBinG2	species	False negatives	CAMI_HIGH_S004	242.0
+MetaBinG2	species	False positives	CAMI_HIGH_S004	8.0
+MetaBinG2	species	Jaccard index	CAMI_HIGH_S004	0.00398406374501992
+MetaBinG2	species	Taxon counts	CAMI_HIGH_S004	9.0
+MetaBinG2	species	Purity (precision)	CAMI_HIGH_S004	0.1111111111111111
+MetaBinG2	species	Completeness (recall)	CAMI_HIGH_S004	0.00411522633744856
+MetaBinG2	species	True positives	CAMI_HIGH_S004	1.0
+MetaBinG2	genus	F1 score	CAMI_HIGH_S004	0.06896551724137931
+MetaBinG2	genus	False negatives	CAMI_HIGH_S004	187.0
+MetaBinG2	genus	False positives	CAMI_HIGH_S004	2.0
+MetaBinG2	genus	Jaccard index	CAMI_HIGH_S004	0.03571428571428571
+MetaBinG2	genus	Taxon counts	CAMI_HIGH_S004	9.0
+MetaBinG2	genus	Purity (precision)	CAMI_HIGH_S004	0.7777777777777778
+MetaBinG2	genus	Completeness (recall)	CAMI_HIGH_S004	0.03608247422680412
+MetaBinG2	genus	True positives	CAMI_HIGH_S004	7.0
+MetaBinG2	family	F1 score	CAMI_HIGH_S004	0.1263157894736842
+MetaBinG2	family	False negatives	CAMI_HIGH_S004	82.0
+MetaBinG2	family	False positives	CAMI_HIGH_S004	1.0
+MetaBinG2	family	Jaccard index	CAMI_HIGH_S004	0.06741573033707865
+MetaBinG2	family	Taxon counts	CAMI_HIGH_S004	7.0
+MetaBinG2	family	Purity (precision)	CAMI_HIGH_S004	0.8571428571428571
+MetaBinG2	family	Completeness (recall)	CAMI_HIGH_S004	0.06818181818181818
+MetaBinG2	family	True positives	CAMI_HIGH_S004	6.0
+MetaBinG2	superkingdom	F1 score	CAMI_HIGH_S004	0.6666666666666666
+MetaBinG2	superkingdom	False negatives	CAMI_HIGH_S004	1.0
+MetaBinG2	superkingdom	False positives	CAMI_HIGH_S004	0.0
+MetaBinG2	superkingdom	Jaccard index	CAMI_HIGH_S004	0.5
+MetaBinG2	superkingdom	Taxon counts	CAMI_HIGH_S004	1.0
+MetaBinG2	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
+MetaBinG2	superkingdom	Completeness (recall)	CAMI_HIGH_S004	0.5
+MetaBinG2	superkingdom	True positives	CAMI_HIGH_S004	1.0
+MetaBinG2	class	L1 norm error	CAMI_HIGH_S004	0.7411384416680632
+MetaBinG2	family	L1 norm error	CAMI_HIGH_S004	1.5714194956293286
+MetaBinG2	genus	L1 norm error	CAMI_HIGH_S004	1.7590938328820758
+MetaBinG2	order	L1 norm error	CAMI_HIGH_S004	1.64576845851855
+MetaBinG2	phylum	L1 norm error	CAMI_HIGH_S004	0.3426133807038599
+MetaBinG2	species	L1 norm error	CAMI_HIGH_S004	1.9948158039431307
+MetaBinG2	strain	L1 norm error	CAMI_HIGH_S004	2.000000000000002
+MetaBinG2	superkingdom	L1 norm error	CAMI_HIGH_S004	0.025704025704025676
+MetaBinG2	na	Weighted UniFrac error	CAMI_HIGH_S004	11.756104685778103
+MetaBinG2	na	Unweighted UniFrac error	CAMI_HIGH_S004	11644.369838545434
+MetaPhlAn2	class	Bray-Curtis distance	CAMI_HIGH_S004	0.4596795015377249
+MetaPhlAn2	family	Bray-Curtis distance	CAMI_HIGH_S004	0.5982090175144094
 MetaPhlAn2	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.7463108278716066
-MetaPhlAn2	order	Bray-Curtis distance	CAMI_HIGH_S004	0.46148703260762275
-MetaPhlAn2	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.22142281992133572
-MetaPhlAn2	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9853615333563286
+MetaPhlAn2	order	Bray-Curtis distance	CAMI_HIGH_S004	0.4614870326076227
+MetaPhlAn2	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.22142281992133575
+MetaPhlAn2	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9853615333563287
 MetaPhlAn2	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.08174148714798717
 MetaPhlAn2	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.3130386134139046
 MetaPhlAn2	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.45161925517899754
 MetaPhlAn2	phylum	Shannon diversity	CAMI_HIGH_S004	1.1147006590829416
 MetaPhlAn2	phylum	Shannon equitability	CAMI_HIGH_S004	0.6926024610648557
-MetaPhlAn2	class	Shannon diversity	CAMI_HIGH_S004	1.9318765656777246
-MetaPhlAn2	class	Shannon equitability	CAMI_HIGH_S004	0.7531831223325408
-MetaPhlAn2	order	Shannon diversity	CAMI_HIGH_S004	2.5423186020042263
-MetaPhlAn2	order	Shannon equitability	CAMI_HIGH_S004	0.7713727060424498
-MetaPhlAn2	family	Shannon diversity	CAMI_HIGH_S004	2.9970217457575266
-MetaPhlAn2	family	Shannon equitability	CAMI_HIGH_S004	0.7661053479488732
-MetaPhlAn2	genus	Shannon diversity	CAMI_HIGH_S004	3.1331553116127395
-MetaPhlAn2	genus	Shannon equitability	CAMI_HIGH_S004	0.7425404882586826
-MetaPhlAn2	species	Shannon diversity	CAMI_HIGH_S004	2.3852000119075303
-MetaPhlAn2	species	Shannon equitability	CAMI_HIGH_S004	0.6557095577048659
-MetaPhlAn2	class	F1 score	CAMI_HIGH_S004	0.7647058823529412
-MetaPhlAn2	class	False negatives	CAMI_HIGH_S004	8.0
-MetaPhlAn2	class	False positives	CAMI_HIGH_S004	0.0
-MetaPhlAn2	class	Jaccard index	CAMI_HIGH_S004	0.6190476190476191
-MetaPhlAn2	class	Taxon counts	CAMI_HIGH_S004	13.0
-MetaPhlAn2	class	Purity (precision)	CAMI_HIGH_S004	1.0
-MetaPhlAn2	class	Completeness (recall)	CAMI_HIGH_S004	0.6190476190476191
-MetaPhlAn2	class	True positives	CAMI_HIGH_S004	13.0
-MetaPhlAn2	family	F1 score	CAMI_HIGH_S004	0.7101449275362319
-MetaPhlAn2	family	False negatives	CAMI_HIGH_S004	39.0
-MetaPhlAn2	family	False positives	CAMI_HIGH_S004	1.0
-MetaPhlAn2	family	Jaccard index	CAMI_HIGH_S004	0.550561797752809
-MetaPhlAn2	family	Taxon counts	CAMI_HIGH_S004	50.0
-MetaPhlAn2	family	Purity (precision)	CAMI_HIGH_S004	0.98
-MetaPhlAn2	family	Completeness (recall)	CAMI_HIGH_S004	0.5568181818181818
-MetaPhlAn2	family	True positives	CAMI_HIGH_S004	49.0
+MetaPhlAn2	class	Shannon diversity	CAMI_HIGH_S004	1.9318765656777244
+MetaPhlAn2	class	Shannon equitability	CAMI_HIGH_S004	0.7531831223325407
+MetaPhlAn2	order	Shannon diversity	CAMI_HIGH_S004	2.5423186020042254
+MetaPhlAn2	order	Shannon equitability	CAMI_HIGH_S004	0.7713727060424496
+MetaPhlAn2	family	Shannon diversity	CAMI_HIGH_S004	2.9970217457575257
+MetaPhlAn2	family	Shannon equitability	CAMI_HIGH_S004	0.766105347948873
+MetaPhlAn2	genus	Shannon diversity	CAMI_HIGH_S004	3.1331553116127404
+MetaPhlAn2	genus	Shannon equitability	CAMI_HIGH_S004	0.7425404882586828
+MetaPhlAn2	species	Shannon diversity	CAMI_HIGH_S004	2.385200011907531
+MetaPhlAn2	species	Shannon equitability	CAMI_HIGH_S004	0.6557095577048662
 MetaPhlAn2	order	F1 score	CAMI_HIGH_S004	0.8059701492537313
 MetaPhlAn2	order	False negatives	CAMI_HIGH_S004	13.0
 MetaPhlAn2	order	False positives	CAMI_HIGH_S004	0.0
@@ -616,14 +697,13 @@ MetaPhlAn2	order	Taxon counts	CAMI_HIGH_S004	27.0
 MetaPhlAn2	order	Purity (precision)	CAMI_HIGH_S004	1.0
 MetaPhlAn2	order	Completeness (recall)	CAMI_HIGH_S004	0.675
 MetaPhlAn2	order	True positives	CAMI_HIGH_S004	27.0
-MetaPhlAn2	species	F1 score	CAMI_HIGH_S004	0.028469750889679714
-MetaPhlAn2	species	False negatives	CAMI_HIGH_S004	239.0
-MetaPhlAn2	species	False positives	CAMI_HIGH_S004	34.0
-MetaPhlAn2	species	Jaccard index	CAMI_HIGH_S004	0.01444043321299639
-MetaPhlAn2	species	Taxon counts	CAMI_HIGH_S004	38.0
-MetaPhlAn2	species	Purity (precision)	CAMI_HIGH_S004	0.10526315789473684
-MetaPhlAn2	species	Completeness (recall)	CAMI_HIGH_S004	0.01646090534979424
-MetaPhlAn2	species	True positives	CAMI_HIGH_S004	4.0
+MetaPhlAn2	strain	False negatives	CAMI_HIGH_S004	1074.0
+MetaPhlAn2	strain	False positives	CAMI_HIGH_S004	0.0
+MetaPhlAn2	strain	Jaccard index	CAMI_HIGH_S004	0.0
+MetaPhlAn2	strain	Taxon counts	CAMI_HIGH_S004	0.0
+MetaPhlAn2	strain	Purity (precision)	CAMI_HIGH_S004	0.0
+MetaPhlAn2	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
+MetaPhlAn2	strain	True positives	CAMI_HIGH_S004	0.0
 MetaPhlAn2	phylum	F1 score	CAMI_HIGH_S004	0.5882352941176471
 MetaPhlAn2	phylum	False negatives	CAMI_HIGH_S004	7.0
 MetaPhlAn2	phylum	False positives	CAMI_HIGH_S004	0.0
@@ -632,21 +712,22 @@ MetaPhlAn2	phylum	Taxon counts	CAMI_HIGH_S004	5.0
 MetaPhlAn2	phylum	Purity (precision)	CAMI_HIGH_S004	1.0
 MetaPhlAn2	phylum	Completeness (recall)	CAMI_HIGH_S004	0.4166666666666667
 MetaPhlAn2	phylum	True positives	CAMI_HIGH_S004	5.0
-MetaPhlAn2	strain	False negatives	CAMI_HIGH_S004	1074.0
-MetaPhlAn2	strain	False positives	CAMI_HIGH_S004	0.0
-MetaPhlAn2	strain	Jaccard index	CAMI_HIGH_S004	0.0
-MetaPhlAn2	strain	Taxon counts	CAMI_HIGH_S004	0.0
-MetaPhlAn2	strain	Purity (precision)	CAMI_HIGH_S004	0.0
-MetaPhlAn2	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
-MetaPhlAn2	strain	True positives	CAMI_HIGH_S004	0.0
-MetaPhlAn2	superkingdom	F1 score	CAMI_HIGH_S004	1.0
-MetaPhlAn2	superkingdom	False negatives	CAMI_HIGH_S004	0.0
-MetaPhlAn2	superkingdom	False positives	CAMI_HIGH_S004	0.0
-MetaPhlAn2	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
-MetaPhlAn2	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
-MetaPhlAn2	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
-MetaPhlAn2	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
-MetaPhlAn2	superkingdom	True positives	CAMI_HIGH_S004	2.0
+MetaPhlAn2	class	F1 score	CAMI_HIGH_S004	0.7647058823529412
+MetaPhlAn2	class	False negatives	CAMI_HIGH_S004	8.0
+MetaPhlAn2	class	False positives	CAMI_HIGH_S004	0.0
+MetaPhlAn2	class	Jaccard index	CAMI_HIGH_S004	0.6190476190476191
+MetaPhlAn2	class	Taxon counts	CAMI_HIGH_S004	13.0
+MetaPhlAn2	class	Purity (precision)	CAMI_HIGH_S004	1.0
+MetaPhlAn2	class	Completeness (recall)	CAMI_HIGH_S004	0.6190476190476191
+MetaPhlAn2	class	True positives	CAMI_HIGH_S004	13.0
+MetaPhlAn2	species	F1 score	CAMI_HIGH_S004	0.028469750889679714
+MetaPhlAn2	species	False negatives	CAMI_HIGH_S004	239.0
+MetaPhlAn2	species	False positives	CAMI_HIGH_S004	34.0
+MetaPhlAn2	species	Jaccard index	CAMI_HIGH_S004	0.01444043321299639
+MetaPhlAn2	species	Taxon counts	CAMI_HIGH_S004	38.0
+MetaPhlAn2	species	Purity (precision)	CAMI_HIGH_S004	0.10526315789473684
+MetaPhlAn2	species	Completeness (recall)	CAMI_HIGH_S004	0.01646090534979424
+MetaPhlAn2	species	True positives	CAMI_HIGH_S004	4.0
 MetaPhlAn2	genus	F1 score	CAMI_HIGH_S004	0.3893129770992367
 MetaPhlAn2	genus	False negatives	CAMI_HIGH_S004	143.0
 MetaPhlAn2	genus	False positives	CAMI_HIGH_S004	17.0
@@ -655,52 +736,52 @@ MetaPhlAn2	genus	Taxon counts	CAMI_HIGH_S004	68.0
 MetaPhlAn2	genus	Purity (precision)	CAMI_HIGH_S004	0.75
 MetaPhlAn2	genus	Completeness (recall)	CAMI_HIGH_S004	0.26288659793814434
 MetaPhlAn2	genus	True positives	CAMI_HIGH_S004	51.0
-MetaPhlAn2	class	L1 norm error	CAMI_HIGH_S004	0.9193590030754497
-MetaPhlAn2	family	L1 norm error	CAMI_HIGH_S004	1.1964180350288192
-MetaPhlAn2	genus	L1 norm error	CAMI_HIGH_S004	1.4926216557432122
-MetaPhlAn2	order	L1 norm error	CAMI_HIGH_S004	0.9229740652152446
-MetaPhlAn2	phylum	L1 norm error	CAMI_HIGH_S004	0.44284563984267145
-MetaPhlAn2	species	L1 norm error	CAMI_HIGH_S004	1.9707230667126572
+MetaPhlAn2	family	F1 score	CAMI_HIGH_S004	0.7101449275362319
+MetaPhlAn2	family	False negatives	CAMI_HIGH_S004	39.0
+MetaPhlAn2	family	False positives	CAMI_HIGH_S004	1.0
+MetaPhlAn2	family	Jaccard index	CAMI_HIGH_S004	0.550561797752809
+MetaPhlAn2	family	Taxon counts	CAMI_HIGH_S004	50.0
+MetaPhlAn2	family	Purity (precision)	CAMI_HIGH_S004	0.98
+MetaPhlAn2	family	Completeness (recall)	CAMI_HIGH_S004	0.5568181818181818
+MetaPhlAn2	family	True positives	CAMI_HIGH_S004	49.0
+MetaPhlAn2	superkingdom	F1 score	CAMI_HIGH_S004	1.0
+MetaPhlAn2	superkingdom	False negatives	CAMI_HIGH_S004	0.0
+MetaPhlAn2	superkingdom	False positives	CAMI_HIGH_S004	0.0
+MetaPhlAn2	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
+MetaPhlAn2	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
+MetaPhlAn2	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
+MetaPhlAn2	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
+MetaPhlAn2	superkingdom	True positives	CAMI_HIGH_S004	2.0
+MetaPhlAn2	class	L1 norm error	CAMI_HIGH_S004	0.9193590030754499
+MetaPhlAn2	family	L1 norm error	CAMI_HIGH_S004	1.1964180350288185
+MetaPhlAn2	genus	L1 norm error	CAMI_HIGH_S004	1.492621655743212
+MetaPhlAn2	order	L1 norm error	CAMI_HIGH_S004	0.9229740652152452
+MetaPhlAn2	phylum	L1 norm error	CAMI_HIGH_S004	0.4428456398426715
+MetaPhlAn2	species	L1 norm error	CAMI_HIGH_S004	1.9707230667126574
 MetaPhlAn2	superkingdom	L1 norm error	CAMI_HIGH_S004	0.16348297429597433
-MetaPhlAn2	na	Weighted UniFrac error	CAMI_HIGH_S004	9.684196442674741
-MetaPhlAn2	na	Unweighted UniFrac error	CAMI_HIGH_S004	11115.885025257836
+MetaPhlAn2	na	Weighted UniFrac error	CAMI_HIGH_S004	9.68419644267473
+MetaPhlAn2	na	Unweighted UniFrac error	CAMI_HIGH_S004	11115.885025257838
 mOTUs2	class	Bray-Curtis distance	CAMI_HIGH_S004	0.048995741253172104
-mOTUs2	family	Bray-Curtis distance	CAMI_HIGH_S004	0.13724927924194633
-mOTUs2	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.1983910019863895
+mOTUs2	family	Bray-Curtis distance	CAMI_HIGH_S004	0.13724927924194635
+mOTUs2	genus	Bray-Curtis distance	CAMI_HIGH_S004	0.19839100198638954
 mOTUs2	order	Bray-Curtis distance	CAMI_HIGH_S004	0.31405957350245617
 mOTUs2	phylum	Bray-Curtis distance	CAMI_HIGH_S004	0.03234689426468809
-mOTUs2	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9109689596186679
+mOTUs2	species	Bray-Curtis distance	CAMI_HIGH_S004	0.9109689596186681
 mOTUs2	superkingdom	Bray-Curtis distance	CAMI_HIGH_S004	0.002647186251104463
 mOTUs2	superkingdom	Shannon diversity	CAMI_HIGH_S004	0.056940632424614494
 mOTUs2	superkingdom	Shannon equitability	CAMI_HIGH_S004	0.08214796802407265
-mOTUs2	phylum	Shannon diversity	CAMI_HIGH_S004	1.2876944729696451
-mOTUs2	phylum	Shannon equitability	CAMI_HIGH_S004	0.5370103054863156
+mOTUs2	phylum	Shannon diversity	CAMI_HIGH_S004	1.2876944729696453
+mOTUs2	phylum	Shannon equitability	CAMI_HIGH_S004	0.5370103054863157
 mOTUs2	class	Shannon diversity	CAMI_HIGH_S004	2.0981753155422607
 mOTUs2	class	Shannon equitability	CAMI_HIGH_S004	0.6691689319288068
-mOTUs2	order	Shannon diversity	CAMI_HIGH_S004	2.9396509705854674
-mOTUs2	order	Shannon equitability	CAMI_HIGH_S004	0.7514401031145627
-mOTUs2	family	Shannon diversity	CAMI_HIGH_S004	3.647900399685184
-mOTUs2	family	Shannon equitability	CAMI_HIGH_S004	0.8106788213150014
-mOTUs2	genus	Shannon diversity	CAMI_HIGH_S004	4.4489425906822655
-mOTUs2	genus	Shannon equitability	CAMI_HIGH_S004	0.858573606462487
-mOTUs2	species	Shannon diversity	CAMI_HIGH_S004	5.211175575691648
-mOTUs2	species	Shannon equitability	CAMI_HIGH_S004	0.9202210741132609
-mOTUs2	class	F1 score	CAMI_HIGH_S004	0.909090909090909
-mOTUs2	class	False negatives	CAMI_HIGH_S004	1.0
-mOTUs2	class	False positives	CAMI_HIGH_S004	3.0
-mOTUs2	class	Jaccard index	CAMI_HIGH_S004	0.8333333333333334
-mOTUs2	class	Taxon counts	CAMI_HIGH_S004	23.0
-mOTUs2	class	Purity (precision)	CAMI_HIGH_S004	0.8695652173913043
-mOTUs2	class	Completeness (recall)	CAMI_HIGH_S004	0.9523809523809523
-mOTUs2	class	True positives	CAMI_HIGH_S004	20.0
-mOTUs2	family	F1 score	CAMI_HIGH_S004	0.8651685393258427
-mOTUs2	family	False negatives	CAMI_HIGH_S004	11.0
-mOTUs2	family	False positives	CAMI_HIGH_S004	13.0
-mOTUs2	family	Jaccard index	CAMI_HIGH_S004	0.7623762376237624
-mOTUs2	family	Taxon counts	CAMI_HIGH_S004	90.0
-mOTUs2	family	Purity (precision)	CAMI_HIGH_S004	0.8555555555555555
-mOTUs2	family	Completeness (recall)	CAMI_HIGH_S004	0.875
-mOTUs2	family	True positives	CAMI_HIGH_S004	77.0
+mOTUs2	order	Shannon diversity	CAMI_HIGH_S004	2.939650970585466
+mOTUs2	order	Shannon equitability	CAMI_HIGH_S004	0.7514401031145623
+mOTUs2	family	Shannon diversity	CAMI_HIGH_S004	3.647900399685185
+mOTUs2	family	Shannon equitability	CAMI_HIGH_S004	0.8106788213150016
+mOTUs2	genus	Shannon diversity	CAMI_HIGH_S004	4.448942590682264
+mOTUs2	genus	Shannon equitability	CAMI_HIGH_S004	0.8585736064624867
+mOTUs2	species	Shannon diversity	CAMI_HIGH_S004	5.211175575691655
+mOTUs2	species	Shannon equitability	CAMI_HIGH_S004	0.9202210741132621
 mOTUs2	order	F1 score	CAMI_HIGH_S004	0.7999999999999999
 mOTUs2	order	False negatives	CAMI_HIGH_S004	4.0
 mOTUs2	order	False positives	CAMI_HIGH_S004	14.0
@@ -709,14 +790,13 @@ mOTUs2	order	Taxon counts	CAMI_HIGH_S004	50.0
 mOTUs2	order	Purity (precision)	CAMI_HIGH_S004	0.72
 mOTUs2	order	Completeness (recall)	CAMI_HIGH_S004	0.9
 mOTUs2	order	True positives	CAMI_HIGH_S004	36.0
-mOTUs2	species	F1 score	CAMI_HIGH_S004	0.45574387947269307
-mOTUs2	species	False negatives	CAMI_HIGH_S004	122.0
-mOTUs2	species	False positives	CAMI_HIGH_S004	167.0
-mOTUs2	species	Jaccard index	CAMI_HIGH_S004	0.2951219512195122
-mOTUs2	species	Taxon counts	CAMI_HIGH_S004	288.0
-mOTUs2	species	Purity (precision)	CAMI_HIGH_S004	0.4201388888888889
-mOTUs2	species	Completeness (recall)	CAMI_HIGH_S004	0.49794238683127573
-mOTUs2	species	True positives	CAMI_HIGH_S004	121.0
+mOTUs2	strain	False negatives	CAMI_HIGH_S004	1074.0
+mOTUs2	strain	False positives	CAMI_HIGH_S004	0.0
+mOTUs2	strain	Jaccard index	CAMI_HIGH_S004	0.0
+mOTUs2	strain	Taxon counts	CAMI_HIGH_S004	0.0
+mOTUs2	strain	Purity (precision)	CAMI_HIGH_S004	0.0
+mOTUs2	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
+mOTUs2	strain	True positives	CAMI_HIGH_S004	0.0
 mOTUs2	phylum	F1 score	CAMI_HIGH_S004	0.9565217391304348
 mOTUs2	phylum	False negatives	CAMI_HIGH_S004	1.0
 mOTUs2	phylum	False positives	CAMI_HIGH_S004	0.0
@@ -725,21 +805,22 @@ mOTUs2	phylum	Taxon counts	CAMI_HIGH_S004	11.0
 mOTUs2	phylum	Purity (precision)	CAMI_HIGH_S004	1.0
 mOTUs2	phylum	Completeness (recall)	CAMI_HIGH_S004	0.9166666666666666
 mOTUs2	phylum	True positives	CAMI_HIGH_S004	11.0
-mOTUs2	strain	False negatives	CAMI_HIGH_S004	1074.0
-mOTUs2	strain	False positives	CAMI_HIGH_S004	0.0
-mOTUs2	strain	Jaccard index	CAMI_HIGH_S004	0.0
-mOTUs2	strain	Taxon counts	CAMI_HIGH_S004	0.0
-mOTUs2	strain	Purity (precision)	CAMI_HIGH_S004	0.0
-mOTUs2	strain	Completeness (recall)	CAMI_HIGH_S004	0.0
-mOTUs2	strain	True positives	CAMI_HIGH_S004	0.0
-mOTUs2	superkingdom	F1 score	CAMI_HIGH_S004	1.0
-mOTUs2	superkingdom	False negatives	CAMI_HIGH_S004	0.0
-mOTUs2	superkingdom	False positives	CAMI_HIGH_S004	0.0
-mOTUs2	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
-mOTUs2	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
-mOTUs2	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
-mOTUs2	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
-mOTUs2	superkingdom	True positives	CAMI_HIGH_S004	2.0
+mOTUs2	class	F1 score	CAMI_HIGH_S004	0.909090909090909
+mOTUs2	class	False negatives	CAMI_HIGH_S004	1.0
+mOTUs2	class	False positives	CAMI_HIGH_S004	3.0
+mOTUs2	class	Jaccard index	CAMI_HIGH_S004	0.8333333333333334
+mOTUs2	class	Taxon counts	CAMI_HIGH_S004	23.0
+mOTUs2	class	Purity (precision)	CAMI_HIGH_S004	0.8695652173913043
+mOTUs2	class	Completeness (recall)	CAMI_HIGH_S004	0.9523809523809523
+mOTUs2	class	True positives	CAMI_HIGH_S004	20.0
+mOTUs2	species	F1 score	CAMI_HIGH_S004	0.45574387947269307
+mOTUs2	species	False negatives	CAMI_HIGH_S004	122.0
+mOTUs2	species	False positives	CAMI_HIGH_S004	167.0
+mOTUs2	species	Jaccard index	CAMI_HIGH_S004	0.2951219512195122
+mOTUs2	species	Taxon counts	CAMI_HIGH_S004	288.0
+mOTUs2	species	Purity (precision)	CAMI_HIGH_S004	0.4201388888888889
+mOTUs2	species	Completeness (recall)	CAMI_HIGH_S004	0.49794238683127573
+mOTUs2	species	True positives	CAMI_HIGH_S004	121.0
 mOTUs2	genus	F1 score	CAMI_HIGH_S004	0.8387096774193549
 mOTUs2	genus	False negatives	CAMI_HIGH_S004	38.0
 mOTUs2	genus	False positives	CAMI_HIGH_S004	22.0
@@ -748,12 +829,28 @@ mOTUs2	genus	Taxon counts	CAMI_HIGH_S004	178.0
 mOTUs2	genus	Purity (precision)	CAMI_HIGH_S004	0.8764044943820225
 mOTUs2	genus	Completeness (recall)	CAMI_HIGH_S004	0.8041237113402062
 mOTUs2	genus	True positives	CAMI_HIGH_S004	156.0
-mOTUs2	class	L1 norm error	CAMI_HIGH_S004	0.09799148250634421
-mOTUs2	family	L1 norm error	CAMI_HIGH_S004	0.2744985584838928
-mOTUs2	genus	L1 norm error	CAMI_HIGH_S004	0.3967820039727791
+mOTUs2	family	F1 score	CAMI_HIGH_S004	0.8651685393258427
+mOTUs2	family	False negatives	CAMI_HIGH_S004	11.0
+mOTUs2	family	False positives	CAMI_HIGH_S004	13.0
+mOTUs2	family	Jaccard index	CAMI_HIGH_S004	0.7623762376237624
+mOTUs2	family	Taxon counts	CAMI_HIGH_S004	90.0
+mOTUs2	family	Purity (precision)	CAMI_HIGH_S004	0.8555555555555555
+mOTUs2	family	Completeness (recall)	CAMI_HIGH_S004	0.875
+mOTUs2	family	True positives	CAMI_HIGH_S004	77.0
+mOTUs2	superkingdom	F1 score	CAMI_HIGH_S004	1.0
+mOTUs2	superkingdom	False negatives	CAMI_HIGH_S004	0.0
+mOTUs2	superkingdom	False positives	CAMI_HIGH_S004	0.0
+mOTUs2	superkingdom	Jaccard index	CAMI_HIGH_S004	1.0
+mOTUs2	superkingdom	Taxon counts	CAMI_HIGH_S004	2.0
+mOTUs2	superkingdom	Purity (precision)	CAMI_HIGH_S004	1.0
+mOTUs2	superkingdom	Completeness (recall)	CAMI_HIGH_S004	1.0
+mOTUs2	superkingdom	True positives	CAMI_HIGH_S004	2.0
+mOTUs2	class	L1 norm error	CAMI_HIGH_S004	0.0979914825063442
+mOTUs2	family	L1 norm error	CAMI_HIGH_S004	0.27449855848389276
+mOTUs2	genus	L1 norm error	CAMI_HIGH_S004	0.3967820039727792
 mOTUs2	order	L1 norm error	CAMI_HIGH_S004	0.6281191470049123
 mOTUs2	phylum	L1 norm error	CAMI_HIGH_S004	0.06469378852937618
-mOTUs2	species	L1 norm error	CAMI_HIGH_S004	1.8219379192373344
+mOTUs2	species	L1 norm error	CAMI_HIGH_S004	1.8219379192373364
 mOTUs2	superkingdom	L1 norm error	CAMI_HIGH_S004	0.005294372502208926
-mOTUs2	na	Weighted UniFrac error	CAMI_HIGH_S004	7.687453810474469
-mOTUs2	na	Unweighted UniFrac error	CAMI_HIGH_S004	9839.38489909068
+mOTUs2	na	Weighted UniFrac error	CAMI_HIGH_S004	7.687453810474472
+mOTUs2	na	Unweighted UniFrac error	CAMI_HIGH_S004	9839.384899090679

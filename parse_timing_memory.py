@@ -45,6 +45,9 @@ gottcha_data = get_total_runtime_and_max_mem(gottcha_timing_files)
 megan_timing_files = glob.glob('cami_timing/timing_*megan*.txt')
 megan_data = get_total_runtime_and_max_mem(megan_timing_files)
 #
+metabing2_timing_files = glob.glob('cami_timing/timing_metabing2_*.txt')
+metabing2_data = get_total_runtime_and_max_mem(metabing2_timing_files)
+#
 metaphlan2_timing_files = glob.glob('cami_timing/timing_metaphlan_*.txt')
 metaphlan2_data = get_total_runtime_and_max_mem(metaphlan2_timing_files)
 #
@@ -60,6 +63,7 @@ with(open(outname, 'w')) as outfile:
 	outfile.write('CLARK\t' + '\t'.join(clark_data) + '\n')
 	outfile.write('GOTTCHA\t' + '\t'.join(gottcha_data) + '\n')
 	outfile.write('MEGAN+DIAMOND\t' + '\t'.join(megan_data) + '\n')
+	outfile.write('MetaBinG2\t' + '\t'.join(metabing2_data) + '\n')
 	outfile.write('MetaPhlAn2\t' + '\t'.join(metaphlan2_data) + '\n')
 	outfile.write('mOTUS2\t' + '\t'.join(motus2_data) + '\n')
 
@@ -84,6 +88,10 @@ megan_peabody = get_total_runtime_and_max_mem(glob.glob('peabody_timing/*megan*'
 megan_tara_small = get_total_runtime_and_max_mem(glob.glob('tara_timing/*megan*'))
 megan_tara_large = ['', '', '']  # timed out after a week
 #
+metabing2_peabody = get_total_runtime_and_max_mem(['peabody_timing/timing_metabing2_gpu_fasta_version.txt'])
+metabing2_tara_small = get_total_runtime_and_max_mem(['tara_timing/timing_metabing2_gpu_ERR598952_interleaved.txt'])
+metabing2_tara_large = get_total_runtime_and_max_mem(['tara_timing/timing_metabing2_gpu_ERR598957_interleaved.txt'])
+#
 metaphlan2_peabody = get_total_runtime_and_max_mem(['peabody_timing/timing_metaphlan_fastq_version.txt'])
 metaphlan2_tara_small = get_total_runtime_and_max_mem(['tara_timing/timing_metaphlan_ERR598952_interleaved.txt'])
 metaphlan2_tara_large = get_total_runtime_and_max_mem(['tara_timing/timing_metaphlan_ERR598957_interleaved.txt'])
@@ -100,6 +108,7 @@ kraken2_wallclocks = [kraken2_peabody[0], kraken2_tara_small[0], kraken2_tara_la
 clark_wallclocks = [clark_peabody[0], clark_tara_small[0], clark_tara_large[0]]
 gottcha_wallclocks = [gottcha_peabody[0], gottcha_tara_small[0], gottcha_tara_large[0]]
 megan_wallclocks = [megan_peabody[0], megan_tara_small[0], megan_tara_large[0]]
+metabing2_wallclocks = [metabing2_peabody[0], metabing2_tara_small[0], metabing2_tara_large[0]]
 metaphlan2_wallclocks = [metaphlan2_peabody[0], metaphlan2_tara_small[0], metaphlan2_tara_large[0]]
 motus2_wallclocks = [motus2_peabody[0], motus2_tara_small[0], motus2_tara_large[0]]
 with(open(outname, 'w')) as outfile:
@@ -109,5 +118,6 @@ with(open(outname, 'w')) as outfile:
 	outfile.write('CLARK\t' + '\t'.join(clark_wallclocks) + '\n')
 	outfile.write('GOTTCHA\t' + '\t'.join(gottcha_wallclocks) + '\n')
 	outfile.write('MEGAN+DIAMOND\t' + '\t'.join(megan_wallclocks) + '\n')
+	outfile.write('MetaBinG2\t' + '\t'.join(metabing2_wallclocks) + '\n')
 	outfile.write('MetaPhlAn2\t' + '\t'.join(metaphlan2_wallclocks) + '\n')
 	outfile.write('mOTUs2\t' + '\t'.join(motus2_wallclocks) + '\n')
