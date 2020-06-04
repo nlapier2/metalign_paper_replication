@@ -1,0 +1,59 @@
+#!/bin/bash
+
+cd /data/dmk333/Software/Kraken2_Mohammed/kraken2/kraken2_dir
+
+./kraken2 --threads 40 --db Kraken_Nathan --report /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S001__insert_270.txt   /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S001__insert_270.fq
+
+./kraken2 --threads 40 --db Kraken_Nathan --report /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S002__insert_270.txt  /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S002__insert_270.fq 
+
+./kraken2 --threads 40 --db Kraken_Nathan --report /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S003__insert_270.txt   /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S003__insert_270.fq
+
+./kraken2 --threads 40 --db Kraken_Nathan --report /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S004__insert_270.txt   /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S004__insert_270.fq
+
+./kraken2 --threads 40 --db Kraken_Nathan --report /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S005__insert_270.txt /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S005__insert_270.fq
+
+./kraken2 --threads 40 --db Kraken_Nathan --report /data/dmk333/Software/Kraken2_Mohammed/CAMI_low/RL_S001__insert_270.txt /data/dmk333/Software/Kraken2_Mohammed/CAMI_low/RL_S001__insert_270.fq
+
+./kraken2 --threads 40 --db Kraken_Nathan --report /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S001__insert_270.txt /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S001__insert_270.fq
+
+./kraken2 --threads 40 --db Kraken_Nathan --report /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S002__insert_270.txt /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S002__insert_270.fq
+
+ 
+
+cd ../../Bracken/
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S001__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S001__insert_270.bracken -r 150 -l S
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S002__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S002__insert_270.bracken -r 150 -l S
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S003__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S003__insert_270.bracken -r 150 -l S
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S004__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S004__insert_270.bracken -r 150 -l S
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S005__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S005__insert_270.bracken -r 150 -l S
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_low/RL_S001__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_low/RL_S001__insert_270.bracken -r 150 -l S
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S001__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S001__insert_270.bracken -r 150 -l S
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S002__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S002__insert_270.bracken -r 150 -l S
+
+ 
+
+ 
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S001__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S001__insert_270_G.bracken -r 150 -l G
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S002__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S002__insert_270_G.bracken -r 150 -l G
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S003__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S003__insert_270_G.bracken -r 150 -l G
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S004__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S004__insert_270_G.bracken -r 150 -l G
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S005__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_high/RH_S005__insert_270_G.bracken -r 150 -l G
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_low/RL_S001__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_low/RL_S001__insert_270_G.bracken -r 150 -l G
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S001__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S001__insert_270_G.bracken -r 150 -l G
+
+./bracken -d ../kraken2/kraken2_dir/Kraken_Nathan -i /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S002__insert_270.txt -o /data/dmk333/Software/Kraken2_Mohammed/CAMI_medium/RM2_S002__insert_270_G.bracken -r 150 -l G

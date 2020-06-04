@@ -1,0 +1,4 @@
+tool	sample	Weighted UniFrac error	Unweighted UniFrac error	L1 norm error	Completeness (recall)	Purity (precision)	F1 score	True positives	False positives	False negatives	Taxon counts	Jaccard index	Shannon diversity	Shannon equitability	Bray-Curtis distance
+Metalign	CAMI_HIGH_S004	8.618228073686744	8632.013160399756	1.9300782097653726	0.05493482309124767	0.07329192546583851	0.06279936136242682	59.0	746.0	1015.0	805.0	0.03241758241758242	6.203159854275957	0.9271119534847618	0.9650391048826853
+Bracken_custom	CAMI_HIGH_S004	7.579511269989885	8109.377753627447	na	0.0	0.0	na	0.0	0.0	1074.0	0.0	0.0	na	na	na
+Bracken_original	CAMI_HIGH_S004	8.361623901932848	13449.69239357909	na	0.0	0.0	na	0.0	0.0	1074.0	0.0	0.0	na	na	na

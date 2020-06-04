@@ -121,3 +121,67 @@ with(open(outname, 'w')) as outfile:
 	outfile.write('MetaBinG2\t' + '\t'.join(metabing2_wallclocks) + '\n')
 	outfile.write('MetaPhlAn2\t' + '\t'.join(metaphlan2_wallclocks) + '\n')
 	outfile.write('mOTUs2\t' + '\t'.join(motus2_wallclocks) + '\n')
+
+# write in a tabbed format that can easily be read by pandas in the plotting script
+outname = 'plot_inputs/real_data_cpu_time.txt'
+metalign_cpu = [metalign_peabody[1], metalign_tara_small[1], metalign_tara_large[1]]
+kraken2_cpu = [kraken2_peabody[1], kraken2_tara_small[1], kraken2_tara_large[1]]
+clark_cpu = [clark_peabody[1], clark_tara_small[1], clark_tara_large[1]]
+gottcha_cpu = [gottcha_peabody[1], gottcha_tara_small[1], gottcha_tara_large[1]]
+megan_cpu = [megan_peabody[1], megan_tara_small[1], megan_tara_large[1]]
+metabing2_cpu = [metabing2_peabody[1], metabing2_tara_small[1], metabing2_tara_large[1]]
+metaphlan2_cpu = [metaphlan2_peabody[1], metaphlan2_tara_small[1], metaphlan2_tara_large[1]]
+motus2_cpu = [motus2_peabody[1], motus2_tara_small[1], motus2_tara_large[1]]
+with(open(outname, 'w')) as outfile:
+	outfile.write('\t0.1\t11\t98\n')
+	outfile.write('Metalign\t' + '\t'.join(metalign_cpu) + '\n')
+	outfile.write('Kraken2\t' + '\t'.join(kraken2_cpu) + '\n')
+	outfile.write('CLARK\t' + '\t'.join(clark_cpu) + '\n')
+	outfile.write('GOTTCHA\t' + '\t'.join(gottcha_cpu) + '\n')
+	outfile.write('MEGAN+DIAMOND\t' + '\t'.join(megan_cpu) + '\n')
+	outfile.write('MetaBinG2\t' + '\t'.join(metabing2_cpu) + '\n')
+	outfile.write('MetaPhlAn2\t' + '\t'.join(metaphlan2_cpu) + '\n')
+	outfile.write('mOTUs2\t' + '\t'.join(motus2_cpu) + '\n')
+
+# write in a tabbed format that can easily be read by pandas in the plotting script
+outname = 'plot_inputs/real_data_memory.txt'
+metalign_mem = [metalign_peabody[2], metalign_tara_small[2], metalign_tara_large[2]]
+kraken2_mem = [kraken2_peabody[2], kraken2_tara_small[2], kraken2_tara_large[2]]
+clark_mem = [clark_peabody[2], clark_tara_small[2], clark_tara_large[2]]
+gottcha_mem = [gottcha_peabody[2], gottcha_tara_small[2], gottcha_tara_large[2]]
+megan_mem = [megan_peabody[2], megan_tara_small[2], megan_tara_large[2]]
+metabing2_mem = [metabing2_peabody[2], metabing2_tara_small[2], metabing2_tara_large[2]]
+metaphlan2_mem = [metaphlan2_peabody[2], metaphlan2_tara_small[2], metaphlan2_tara_large[2]]
+motus2_mem = [motus2_peabody[2], motus2_tara_small[2], motus2_tara_large[2]]
+with(open(outname, 'w')) as outfile:
+	outfile.write('\t0.1\t11\t98\n')
+	outfile.write('Metalign\t' + '\t'.join(metalign_mem) + '\n')
+	outfile.write('Kraken2\t' + '\t'.join(kraken2_mem) + '\n')
+	outfile.write('CLARK\t' + '\t'.join(clark_mem) + '\n')
+	outfile.write('GOTTCHA\t' + '\t'.join(gottcha_mem) + '\n')
+	outfile.write('MEGAN+DIAMOND\t' + '\t'.join(megan_mem) + '\n')
+	outfile.write('MetaBinG2\t' + '\t'.join(metabing2_mem) + '\n')
+	outfile.write('MetaPhlAn2\t' + '\t'.join(metaphlan2_mem) + '\n')
+	outfile.write('mOTUs2\t' + '\t'.join(motus2_mem) + '\n')
+
+# get custom kraken2 timing and memory info
+# [str(sum(wall_times)), str(sum(cpu_times)), str(max(memory_usages))]
+with(open('cami_timing/custom_kraken2_all_timing.txt', 'r')) as infile:
+	splits = infile.readline().strip().split()
+	user_time = float(splits[0].split('user')[0])
+	sys_time = float(splits[1].split('system')[0])
+	cpu_time = (user_time + sys_time) / 3600.0
+	elapsed = splits[2].split('elapsed')[0]
+	elapsed_mins, elapsed_secs = [float(i) for i in elapsed.split(':')]
+	wall_time = ((elapsed_mins * 60.0) + elapsed_secs) / 3600.0
+	max_mem = float(splits[-1].split('maxresident')[0]) / 1000.0 / 1000.0
+	custom_data = [str(wall_time), str(cpu_time), str(max_mem)]
+
+# write timing and memory info for custom kraken2 experiment
+# write in a tabbed format that can easily be read by pandas in the plotting script
+outname = 'plot_inputs/custom_timing_memory.txt'
+with(open(outname, 'w')) as outfile:
+	outfile.write('\tWallclock time\tCPU time\tMax Memory Usage (GB)\n')
+	outfile.write('Metalign\t' + '\t'.join(metalign_data) + '\n')
+	outfile.write('Kraken2_original\t' + '\t'.join(kraken2_data) + '\n')
+	outfile.write('Kraken2_custom\t' + '\t'.join(custom_data) + '\n')

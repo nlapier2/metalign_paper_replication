@@ -1,0 +1,4 @@
+	Wallclock time	CPU time	Max Memory Usage (GB)
+Metalign	12.803	46.5228944444	40.368536
+Kraken2_original	1.52005833333	5.13390555556	43.698348
+Kraken2_custom	0.583775	7.32674166667	325.230676
