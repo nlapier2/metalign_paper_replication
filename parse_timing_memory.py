@@ -185,3 +185,38 @@ with(open(outname, 'w')) as outfile:
 	outfile.write('Metalign\t' + '\t'.join(metalign_data) + '\n')
 	outfile.write('Kraken2_original\t' + '\t'.join(kraken2_data) + '\n')
 	outfile.write('Kraken2_custom\t' + '\t'.join(custom_data) + '\n')
+#
+
+# Metalign / MEGAN+DIAMOND Multithreading time scaling experiment
+metalign_4threads = get_total_runtime_and_max_mem(['cami_timing/timing_metalign_5mil_reads_4threads_RL_S001.txt'])
+metalign_8threads = get_total_runtime_and_max_mem(['cami_timing/timing_metalign_5mil_reads_8threads_RL_S001.txt'])
+metalign_16threads = get_total_runtime_and_max_mem(['cami_timing/timing_metalign_5mil_reads_16threads_RL_S001.txt'])
+metalign_32threads = get_total_runtime_and_max_mem(['cami_timing/timing_metalign_5mil_reads_32threads_RL_S001.txt'])
+#
+megan_4threads = get_total_runtime_and_max_mem(['cami_timing/timing_diamond_5mil_reads_4threads_RL_S001.txt',
+													'cami_timing/timing_meganize_5mil_reads_4threads_RL_S001.txt'])
+megan_8threads = get_total_runtime_and_max_mem(['cami_timing/timing_diamond_5mil_reads_8threads_RL_S001.txt',
+													'cami_timing/timing_meganize_5mil_reads_8threads_RL_S001.txt'])
+megan_16threads = get_total_runtime_and_max_mem(['cami_timing/timing_diamond_5mil_reads_16threads_RL_S001.txt',
+													'cami_timing/timing_meganize_5mil_reads_16threads_RL_S001.txt'])
+megan_32threads = get_total_runtime_and_max_mem(['cami_timing/timing_diamond_5mil_reads_32threads_RL_S001.txt',
+													'cami_timing/timing_meganize_5mil_reads_32threads_RL_S001.txt'])
+#
+
+# write in a tabbed format that can easily be read by pandas in the plotting script
+outname = 'plot_inputs/thread_scaling_wallclock_time.txt'
+metalign_thread_wallclocks = [metalign_4threads[0], metalign_8threads[0], metalign_16threads[0], metalign_32threads[0]]
+megan_thread_wallclocks = [megan_4threads[0], megan_8threads[0], megan_16threads[0], megan_32threads[0]]
+with(open(outname, 'w')) as outfile:
+	outfile.write('\t4\t8\t16\t32\n')
+	outfile.write('Metalign\t' + '\t'.join(metalign_thread_wallclocks) + '\n')
+	outfile.write('MEGAN+DIAMOND\t' + '\t'.join(megan_thread_wallclocks) + '\n')
+
+# write in a tabbed format that can easily be read by pandas in the plotting script
+outname = 'plot_inputs/thread_scaling_cpu_time.txt'
+metalign_thread_cpu = [metalign_4threads[1], metalign_8threads[1], metalign_16threads[1], metalign_32threads[1]]
+megan_thread_cpu = [megan_4threads[1], megan_8threads[1], megan_16threads[1], megan_32threads[1]]
+with(open(outname, 'w')) as outfile:
+	outfile.write('\t4\t8\t16\t32\n')
+	outfile.write('Metalign\t' + '\t'.join(metalign_thread_cpu) + '\n')
+	outfile.write('MEGAN+DIAMOND\t' + '\t'.join(megan_thread_cpu) + '\n')

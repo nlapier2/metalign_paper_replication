@@ -1,0 +1,60 @@
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Java version: 11
+Functional classifications to use: EGGNOG, INTERPRO2GO, SEED
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Loading eggnog.map:    30,875
+Loading eggnog.tre:    30,986
+Loading interpro2go.map:    13,501
+Loading interpro2go.tre:    29,204
+Loading seed.map:    13,662
+Loading seed.tre:    21,085
+Meganizing: timing/results/diamond_5mil_reads_32threads_RL_S001.daa
+Meganizing init
+Annotating DAA file using FAST mode (accession database and first accession per line)
+Annotating references
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (85.5s)
+Writing
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (6.5s)
+100% (0.1s)
+Binning reads Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm for binning: Taxonomy
+Using Best-Hit algorithm for binning: SEED
+Using Best-Hit algorithm for binning: EGGNOG
+Using Best-Hit algorithm for binning: INTERPRO2GO
+Binning reads...
+100% (0.8s)
+Binning reads Analyzing alignments
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (675.9s)
+Total reads:        8,864,023
+With hits:           8,864,023 
+Alignments:        153,579,399
+Assig. Taxonomy:     8,768,415
+Assig. SEED:         1,856,013
+Assig. EGGNOG:       2,247,681
+Assig. INTERPRO2GO:  4,308,431
+MinSupport set to: 4432
+100% (0.0s)
+Binning reads Applying min-support & disabled filter to Taxonomy...
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (0.3s)
+Min-supp. changes:       4,023
+100% (113.2s)
+Binning reads Writing classification tables
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (8.5s)
+Binning reads Syncing
+100% (0.1s)
+Class. Taxonomy:           113
+Class. SEED:             3,963
+Class. EGGNOG:           4,702
+Class. INTERPRO2GO:      7,729
+Total time:  903s
+Peak memory: 15.7 of 33.6G
+time result
+cmd:daa-meganizer -i timing/results/diamond_5mil_reads_32threads_RL_S001.daa -mdb /local2/nlapier2/metalign/tools/MEGAN6/megan-map-Oct2019.db --threads 32
+real 907.14s
+user 4896.99s 
+sys  368.67s 
+memory:37396464KB 
+cpu 580%

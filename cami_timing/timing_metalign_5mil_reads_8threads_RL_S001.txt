@@ -1,0 +1,89 @@
+*****************
+
+********** Used parameters: **********
+No. of input files           : 1
+Output file name             : /local2/nlapier2/metalign/Metalign/data/4b5erimr/reads_60mers
+No. of working directories   : 1
+Input format                 : FASTQ
+
+k-mer length                 : 60
+Max. k-mer length            : 256
+Signature length             : 9
+Min. count threshold         : 2
+Max. count threshold         : 1000000000
+Max. counter value           : 3
+Both strands                 : true
+RAM only mode                : false
+
+******* Stage 1 configuration: *******
+
+No. of bins                  : 512
+Bin part size                : 65536
+Input buffer size            : 16777216
+
+No. of readers               : 1
+No. of splitters             : 7
+
+Max. mem. size               : 12000MB
+Max. mem. per storer         :  6128MB
+Max. mem. for single package :    23MB
+
+Max. mem. for PMM (bin parts):  9428MB
+Max. mem. for PMM (FASTQ)    :  1751MB
+Max. mem. for PMM (reads)    :     7MB
+Max. mem. for PMM (b. reader):   805MB
+
+Stage 1: 0%Stage 1: 8%Stage 1: 16%Stage 1: 25%Stage 1: 33%Stage 1: 41%Stage 1: 50%Stage 1: 58%Stage 1: 66%Stage 1: 75%Stage 1: 83%Stage 1: 91%Stage 1: 100%
+
+******* Stage 2 configuration: *******
+No. of threads               : 8
+
+Max. mem. for 2nd stage      : 11995MB
+
+Stage 2: 0%Stage 2: 1%Stage 2: 2%Stage 2: 3%Stage 2: 4%Stage 2: 5%Stage 2: 6%Stage 2: 7%Stage 2: 8%Stage 2: 9%Stage 2: 10%Stage 2: 11%Stage 2: 12%Stage 2: 13%Stage 2: 14%Stage 2: 15%Stage 2: 16%Stage 2: 17%Stage 2: 18%Stage 2: 19%Stage 2: 20%Stage 2: 21%Stage 2: 22%Stage 2: 23%Stage 2: 24%Stage 2: 25%Stage 2: 26%Stage 2: 27%Stage 2: 28%Stage 2: 29%Stage 2: 30%Stage 2: 31%Stage 2: 32%Stage 2: 33%Stage 2: 34%Stage 2: 35%Stage 2: 36%Stage 2: 37%Stage 2: 38%Stage 2: 39%Stage 2: 40%Stage 2: 41%Stage 2: 42%Stage 2: 43%Stage 2: 44%Stage 2: 45%Stage 2: 46%Stage 2: 47%Stage 2: 48%Stage 2: 49%Stage 2: 50%Stage 2: 51%Stage 2: 52%Stage 2: 53%Stage 2: 54%Stage 2: 55%Stage 2: 56%Stage 2: 57%Stage 2: 58%Stage 2: 59%Stage 2: 60%Stage 2: 61%Stage 2: 62%Stage 2: 63%Stage 2: 64%Stage 2: 65%Stage 2: 66%Stage 2: 67%Stage 2: 68%Stage 2: 69%Stage 2: 70%Stage 2: 71%Stage 2: 72%Stage 2: 73%Stage 2: 74%Stage 2: 75%Stage 2: 76%Stage 2: 77%Stage 2: 78%Stage 2: 79%Stage 2: 80%Stage 2: 81%Stage 2: 82%Stage 2: 83%Stage 2: 84%Stage 2: 85%Stage 2: 86%Stage 2: 87%Stage 2: 88%Stage 2: 89%Stage 2: 90%Stage 2: 91%Stage 2: 92%Stage 2: 93%Stage 2: 94%Stage 2: 95%Stage 2: 96%Stage 2: 97%Stage 2: 98%Stage 2: 99%Stage 2: 100%
+in1: 0% in1: 0% in2: 0% in1: 0% in2: 3% in1: 4% in2: 3% in1: 7% in2: 3% in1: 7% in2: 9% in1: 10% in2: 9% in1: 11% in2: 9% in1: 11% in2: 16% in1: 14% in2: 16% in1: 18% in2: 16% in1: 19% in2: 16% in1: 19% in2: 22% in1: 22% in2: 22% in1: 23% in2: 22% in1: 26% in2: 22% in1: 29% in2: 22% in1: 29% in2: 29% in1: 32% in2: 29% in1: 32% in2: 30% in1: 34% in2: 30% in1: 34% in2: 31% in1: 37% in2: 31% in1: 37% in2: 33% in1: 40% in2: 33% in1: 40% in2: 40% in1: 43% in2: 40% in1: 45% in2: 40% in1: 48% in2: 40% in1: 48% in2: 47% in1: 51% in2: 47% in1: 51% in2: 53% in1: 54% in2: 53% in1: 56% in2: 53% in1: 59% in2: 53% in1: 59% in2: 59% in1: 61% in2: 59% in1: 64% in2: 59% in1: 64% in2: 60% in1: 64% in2: 64% in1: 67% in2: 64% in1: 67% in2: 70% in1: 70% in2: 70% in1: 70% in2: 76% in1: 73% in2: 76% in1: 76% in2: 76% in1: 76% in2: 83% in1: 79% in2: 83% in1: 82% in2: 83% in1: 85% in2: 83% in1: 85% in2: 87% in1: 88% in2: 87% in1: 88% in2: 91% in1: 90% in2: 91% in1: 90% in2: 94% in1: 93% in2: 94% in1: 93% in2: 97% in1: 94% in2: 97% in1: 98% in2: 97% in1: 98% in2: 99% in1: 99% in2: 99% in1: 99% in2: 100% [M::mm_idx_gen::11.953*1.78] collected minimizers
+[M::mm_idx_gen::12.981*2.24] sorted minimizers
+[M::main::12.990*2.23] loaded/built the index for 16115 target sequence(s)
+[M::mm_mapopt_update::12.990*2.23] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 16115
+[M::mm_idx_stat::13.435*2.19] distinct minimizers: 27553675 (73.98% are singletons); average occurrences: 3.145; average spacing: 6.023
+[M::worker_pipeline::27.204*4.26] mapped 333334 sequences
+[M::worker_pipeline::37.063*3.93] mapped 333334 sequences
+[M::worker_pipeline::46.886*3.76] mapped 333334 sequences
+[M::worker_pipeline::57.039*3.60] mapped 333334 sequences
+[M::worker_pipeline::66.822*3.52] mapped 333334 sequences
+[M::worker_pipeline::76.739*3.45] mapped 333334 sequences
+[M::worker_pipeline::86.754*3.38] mapped 333334 sequences
+[M::worker_pipeline::96.552*3.34] mapped 333334 sequences
+[M::worker_pipeline::106.658*3.30] mapped 333334 sequences
+[M::worker_pipeline::116.658*3.26] mapped 333334 sequences
+[M::worker_pipeline::126.507*3.23] mapped 333334 sequences
+[M::worker_pipeline::136.618*3.21] mapped 333334 sequences
+[M::worker_pipeline::146.598*3.19] mapped 333334 sequences
+[M::worker_pipeline::156.875*3.17] mapped 333334 sequences
+[M::worker_pipeline::166.872*3.15] mapped 333334 sequences
+[M::worker_pipeline::176.631*3.15] mapped 333334 sequences
+[M::worker_pipeline::186.494*3.14] mapped 333334 sequences
+[M::worker_pipeline::196.781*3.12] mapped 333334 sequences
+[M::worker_pipeline::206.428*3.12] mapped 333334 sequences
+[M::worker_pipeline::216.464*3.11] mapped 333334 sequences
+[M::worker_pipeline::226.407*3.10] mapped 333334 sequences
+[M::worker_pipeline::236.363*3.09] mapped 333334 sequences
+[M::worker_pipeline::246.726*3.07] mapped 333334 sequences
+[M::worker_pipeline::256.478*3.07] mapped 333334 sequences
+[M::worker_pipeline::266.243*3.07] mapped 333334 sequences
+[M::worker_pipeline::276.006*3.06] mapped 333334 sequences
+[M::worker_pipeline::286.081*3.05] mapped 333334 sequences
+[M::worker_pipeline::295.785*3.05] mapped 333334 sequences
+[M::worker_pipeline::306.453*2.95] mapped 333334 sequences
+[M::worker_pipeline::316.394*2.87] mapped 333314 sequences
+[M::main] Version: 2.17-r941
+[M::main] CMD: minimap2 -ax sr -t 8 -2 -n1 --secondary=yes /local2/nlapier2/metalign/Metalign/data/4b5erimr/cmashed_db.fna challenge_low/5mil_reads_RL_S001__insert_270.fq
+[M::main] Real time: 316.659 sec; CPU: 908.852 sec; Peak RSS: 4.288 GB
+time result
+cmd:metalign.py challenge_low/5mil_reads_RL_S001__insert_270.fq /local2/nlapier2/metalign/Metalign/data/ --threads 8 --output timing/results/metalign_5mil_reads_8threads_RL_S001.tsv
+real 1082.74s
+user 2118.20s 
+sys  371.00s 
+memory:38623644KB 
+cpu 229%
